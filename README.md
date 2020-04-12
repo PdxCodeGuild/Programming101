@@ -7,7 +7,7 @@ While we don't expect you to complete all the advance versions of the labs, we e
 
 | Unit | Concepts | Labs | Videos |
 | ---- |----------| -----| ------|
-| [Unit 00]() | Intro to the terminal, installing python, installing VS Code | Labs []()
+| [Unit 00](/units/unit-0.md) | Intro to the terminal, installing python, installing VS Code | Labs []()
 | [Unit 01]() | Terminal review, comments, print(), Dateype: Strings, concatentate| Lab [](), [](| [video]()
 | [Unit 02]() | Variables, fstrings, input(), Random module, Integers, Operators | Lab [](, []() | [video]()
 | [Unit 03]() | conditional statements (if/else), logic statements | Lab [](), []() | []() 
