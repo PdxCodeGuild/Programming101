@@ -1,7 +1,7 @@
 # Lab 01 (completed) <a id="top"></a>
 
 - [Back to Lab 01](lab01.md)
-- [Back to Unit 01](../units/unit-1.md)
+- [Back to Unit 00](../units/unit-0.md)
 - [Back to Syllabus](../README.md)
 
 After opening the program, mac users will see something like this:
