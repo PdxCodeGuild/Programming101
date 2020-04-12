@@ -18,7 +18,7 @@ Note: folder names are case sensitive!
 
 ### Takeaways
 - You should be comfortable with navigating to the _pdxcode_ folder upon starting terminal.
-- You should following commands:
+- You should be familar with following commands:
 
 | Action | Windows | Mac/Linux |
 | ------ | ------- | --------- |
