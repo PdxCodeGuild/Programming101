@@ -21,7 +21,7 @@ Note: folder names are case sensitive!
 - You should following commands:
 
 | Action | Windows | Mac/Linux |
-| ---- |----------| -----| ------|
+| ------ | ------- | --------- |
 | current directory | cd | pwd |
 | show contents of current directory | dir | ls |
 | move to child directory | cd folder-name | cd folder-name |
