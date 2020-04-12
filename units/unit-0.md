@@ -5,7 +5,7 @@
 
 **Lesson**
 
-Please go through [Appendix A: Command Line Crash Course by Zed A. Shaw](https://learnrubythehardway.org/book/appendixa.html)
+Please go through <a href="https://learnrubythehardway.org/book/appendixa.html" target="_blank">Appendix A: Command Line Crash Course</a>  by Zed A. Shaw.
 
 **Homework**
 
