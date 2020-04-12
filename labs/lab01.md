@@ -15,6 +15,8 @@ Note: folder names are case sensitive!
 2. Create a new folder called _pdxcode_.
 3. Navigate into _pdxcode_.
 4. Minimize your terminal and check your Desktop. Is there a folder called _pdxcode_?
+    - If yes, congrats! You have completed Lab 01.
+    - If no, are you in the Desktop folder? Make sure the **"D"** in Desktop is capitalized. Start over, and try again.
 
 ### Takeaways
 - You should be comfortable with navigating to the _pdxcode_ folder upon starting terminal.
