@@ -1,5 +1,5 @@
 # <a id="top"></a>Unit 01
-[Back to Syllabus](https://github.com/PdxCodeGuild/IntroToProgramming#top)
+[Back to Syllabus](https://github.com/PdxCodeGuild/Programming101#top)
 
 ## Table of Contents
 - [Comments](#comments)
