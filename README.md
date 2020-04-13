@@ -9,12 +9,12 @@ While we don't expect you to complete all the advance versions of the labs, we e
 
 | Unit | Concepts | Labs | Videos |
 | ---- |----------| -----| ------|
-| [Unit 00](/units/unit-0.md) | Intro to the terminal, installing python, installing VS Code | Labs [1](/labs/lab01.md)
-| [Unit 01](/units/unit-1.md) | Terminal review, comments, print(), Dateype: Strings, concatentate| Lab [](), [](| [video]()
-| [Unit 02](/units/unit-2.md) | Variables, fstrings, input(), Random module, Integers, Operators | Lab [](, []() | [video]()
-| [Unit 03](/units/unit-3.md) | conditional statements (if/else), logic statements | Lab [](), []() | []() 
-| [Unit 04](/units/unit-4.md) | Lists, random.choice(), Loops: for each, for x in range(), break, continue | Lab [](), []() | [video]()
-| [Unit 05](/units/unit-5.md) | String Module, Loops: while, else | Lab []() | [video]()
+| [Unit 00](/units/unit-0.md) | Intro to the terminal, installing python, installing VS Code | | [coming soon]()
+| [Unit 01](/units/unit-1.md) | Terminal review, comments, print(), Dateype: Strings, concatentate| | [coming soon]()
+| [Unit 02](/units/unit-2.md) | Variables, fstrings, input(), Random module, Integers, Operators |  | [coming soon]()
+| [Unit 03](/units/unit-3.md) | conditional statements (if/else), logic statements |  | [coming soon]()
+| [Unit 04](/units/unit-4.md) | Lists, random.choice(), Loops: for each, for x in range(), break, continue |  | [coming soon]()
+| [Unit 05](/units/unit-5.md) | String Module, Loops: while, else | | [coming soon]()
 
 ## Quick Links
 Below is a list of helpful links.
