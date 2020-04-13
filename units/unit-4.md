@@ -1,4 +1,57 @@
 # <a id="top"></a>Unit 04
 [Back to Syllabus](https://github.com/PdxCodeGuild/Programming101#top)
 
+## Table of Contents
+- [Datatype: Lists](#lists)
+- [Modules](#modules)
+- [for each](#each)
+- [for x in range()](#range)
+- [break](#break)
+- [continue](#continue)
+
+
+## <a id="lists"></a>Lists
+- [List Overview](https://www.w3schools.com/python/python_lists.asp)
+- [List Methods](https://www.w3schools.com/python/python_ref_list.asp)
+
+A list is a collection which is ordered and changeable. In Python lists are written with square brackets.
+
+```python
+fruits = [] # empty list
+fruits = ["apple", "banana", "cherry"] # initialized list with three items
+print(fruits) #outcome: ["apple", "banana", "cherry"]
+
+# print the item at this index position
+print(fruits[0]) #outcome: "apple"
+print(fruits[1]) #outcome: "banana"
+print(fruits[2]) #outcome: "cherry"
+
+# for each item in the fruit list, print the item and its index
+for fruit in fruits:
+  print(f"{fruit} has an index of {fruits.index(fruit)}")
+```
+
+## <a id="modules"></a>Modules
+Modules are sources of code; similar to a library. It is a file containing a set of functions you want to include in your application. (For a list of all modules, you can check out the offical [Python docs](https://docs.python.org/3/py-modindex.html)). For this lesson, we will be looking at the [random module](https://pynative.com/python-random-module/). And specifically, we will be looking at the choice() function of the random module: [random.choice()](https://www.w3schools.com/python/ref_random_choice.asp). Please see the example below:
+
+```python
+# include the random module in our file
+import random
+
+# a list of fruits
+fruits = ["apple", "banana", "cherry"]
+
+# randomly choose a fruit and save it to a variable, chosen_fruit
+# choice() is a function inside the random module. we use it by writing random.choice()
+# the list in which you want the program to choose from, needs to go inside the parenthesis of choice()
+chosen_fruit = random.choice(fruits)
+
+# print the value of variable chosen_fruit
+print(chosen_fruit)
+```
+Let's practice random.choice() in the next lab.
+
+### Lab 03: [Magic 8 Ball](https://github.com/PdxCodeGuild/IntroToProgramming/blob/master/labs/lab03-magic_8_ball.md)
+
+
 [Back to top](#top)
