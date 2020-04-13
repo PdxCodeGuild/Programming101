@@ -1,4 +1,4 @@
-# Intro to Programming <a id="top"></a>
+# <a id="top"></a>Programming 101
 
 <!-- **Distance Learners**: Please read [this document](https://github.com/PdxCodeGuild/IntroToProgramming/blob/master/documentation/distance.md) before starting class. -->
 
