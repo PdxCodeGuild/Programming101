@@ -1,4 +1,4 @@
-# <a id="top">Unit 02
+# <a id="top"></a>Unit 02
 [Back to Syllabus](https://github.com/PdxCodeGuild/Programming101#top)
 
 ## Table of Contents
