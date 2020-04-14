@@ -19,7 +19,7 @@ letters = string.ascii_letters
 print(letters)
 # outcome: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
 ```
-### Lab 08: [Password Generator](https://github.com/PdxCodeGuild/IntroToProgramming/blob/master/labs/lab08-password_generator.md)
+#### Lab 08: [Password Generator](https://github.com/PdxCodeGuild/IntroToProgramming/blob/master/labs/lab08-password_generator.md)
 
 ## <a id="while"></a>Loops: while
 Do something while statement is true.

@@ -9,7 +9,6 @@
 - [break](#break)
 - [continue](#continue)
 
-
 ## <a id="lists"></a>Lists
 - [List Overview](https://www.w3schools.com/python/python_lists.asp)
 - [List Methods](https://www.w3schools.com/python/python_ref_list.asp)
