@@ -64,8 +64,10 @@ students = ["Al", "Anthony", "Lisa"]
 # studentS is the list variable we created a bove
 for student in students: # for each item in the list, do this:
   print(f"Hello {student}")
- 
- # outcome: each item of the list on a new line
+```
+
+Outcome: each item of the list printed on a new line
+```
 Hello Al
 Hello Anthony
 Hello Lisa
