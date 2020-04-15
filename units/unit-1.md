@@ -7,7 +7,7 @@
 - [Datatype: Strings](#strings)
 - [String Concatenation](#concatenating)
 
-### <a id="comments"></a>Comments
+## <a id="comments"></a>Comments
 
 ```python
 # this is a comment
@@ -19,7 +19,7 @@ Comments are one of the most useful tools in programming.  Comments can be used 
 - explain code
 - exclude certain lines of code while testing
 
-#### Organize Code
+### Organize Code
 If you're anything like me, you love, LOVE to organize. From my closet to my kitchen, no item is left unturned. So imagine how excited I was to find that there was a method to organizing your code! Check out the example below. You might not understand every single line of code. Don't worry about that for now.
 
 ```python
@@ -39,7 +39,7 @@ result = dice1 + dice2
 print(f"You rolled {result}!")
 ```
 
-#### Explain Code
+### Explain Code
 
 Now the example above is well organized but it could be better! I could use comments to explain what each line is doing. Check out the same example below but with comments explaining the code.
 
@@ -65,8 +65,9 @@ result = dice1 + dice2
 # print the value of the variable result
 print(f"You rolled {result}!")
 ```
+Don't the comments make it easier to understand the code? Moving foward, you should add comments to explain your code!
 
-#### Exclude code while testing
+### Exclude code while testing
 Below are two print() statements. We use print() when we want to print a message to the screen.
 
 Because there is a hash symbol at the beginning of the second line, _"Hello Pluto!"_ will not run and we will not see it printed to the screen!
@@ -76,18 +77,25 @@ print("Hello World!")
 # print("Hello Pluto!")
 ```
 
-- Complete <a href="https://shop.learncodethehardway.org/paid/python3/ex2.html">Exercise 2 of Learn Python the Hard Way</a>.
+#### Assignment
+Complete <a href="https://shop.learncodethehardway.org/paid/python3/ex2.html">Exercise 2 of Learn Python the Hard Way</a>.
 
 
-### <a id="print"></a>print()
-- [Quick overview](https://www.w3schools.com/python/ref_func_print.asp)
-- Complete [Exercise 5](https://learnpythonthehardway.org/python3/ex5.html) of Learn Python the Hard Way
+## <a id="print"></a>print()
 
-### <a id="strings"></a>Datatype: Strings
+```python
+print("Hello! Welcome to my really cool app!")
+```
+
+print() is a built-in function in Python. What that means is that it does all the work for you! As long as you have the correct syntax, anything you write in the parenthesis will display on the screen!
+
+Complete <a href="https://learnpythonthehardway.org/python3/ex5.html">Exercise 5 of Learn Python the Hard Way</a>. You can check out other built-in functions <a href="https://www.w3schools.com/python/python_ref_functions.asp">here</a>.
+
+## <a id="strings"></a>Datatype: Strings
 - [Quick overview](https://www.w3schools.com/python/python_strings.asp)
 - Complete [Exercise 6](https://learnpythonthehardway.org/python3/ex6.html) of Learn Python the Hard Way
 
-### <a id="strings"></a>String Concatenation
+## <a id="strings"></a>String Concatenation
 To concatenate, or combine, two strings you can use the + operator.
 
 Example 1:
