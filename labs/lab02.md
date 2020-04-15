@@ -27,10 +27,16 @@ py hello.py
 ```
 #### Result
 
+```bash
+Hello World!
+```
+
 ### Concatenating
+
 1. On a new line, concatenate two strings:
 
 ```python
+print("Hello World!")
 print("Hello" + "Mercury!")
 ```
 
@@ -44,13 +50,35 @@ python3 hello.py
 ```bash
 py hello.py
 ```
+
 #### Result
+
+```bash
+Hello World!
+HelloMercury!
+```
 
 Do you notice that there is no space in between `Hello` and `Mercury`?
 
 Edit your code to include a white space:
 ```python
+print("Hello World!")
 print("Hello " + "Mercury!")
 ```
 
 #### Result
+
+```bash
+Hello World!
+Hello Mercury!
+```
+
+### comments
+Now let's go back and add comments to explain the code.
+
+```python
+# saying hello to the world
+print("Hello World!")
+# saying hellow to Mercury
+print("Hello " + "Mercury!")
+```
