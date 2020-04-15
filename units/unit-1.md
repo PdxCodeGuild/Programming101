@@ -8,8 +8,75 @@
 - [String Concatenation](#concatenating)
 
 ### <a id="comments"></a>Comments
-- [Quick overview](https://www.w3schools.com/python/python_comments.asp)
-- Complete [Exercise 2](https://shop.learncodethehardway.org/paid/python3/ex2.html) of Learn Python the Hard Way
+
+```python
+# this is a comment
+```
+
+Comments are one of the most useful tools in programming.  Comments can be used to:
+
+- organize code
+- explain code
+- exclude certain lines of code while testing
+
+#### Organize Code
+If you're anything like me, you love, LOVE to organize. From my closet to my kitchen, no item is left unturned. So imagine how excited I was to find that there was a method to organizing your code! Check out the example below. You might not understand every single line of code. Don't worry about that for now.
+
+```python
+# filename: roll_the_dice.py
+# author: lisa of PDX Code Guild
+
+# Modules (modules are libraries we can borrow methods from)
+import random
+
+# Logic
+dice1 = random.randint(1,6)
+dice2 = random.randint(1,6)
+
+result = dice1 + dice2
+
+# Result
+print(f"You rolled {result}!")
+```
+
+#### Explain Code
+
+Now the example above is well organized but it could be better! I could use comments to explain what each line is doing. Check out the same example below but with comments explaining the code.
+
+```python
+# filename: roll_the_dice.py
+# author: lisa of PDX Code Guild
+
+# Modules
+# import random so we can use the randint function which chooses a random number between two integers
+import random
+
+# Logic
+# randomly choose a number between 1 and 6
+# then save it to dice1
+dice1 = random.randint(1,6)
+# do the same as above but save the second number to dice2
+dice2 = random.randint(1,6)
+
+# add the value of dice1 and dice2 together; save to a new variable called result
+result = dice1 + dice2
+
+# Result
+# print the value of the variable result
+print(f"You rolled {result}!")
+```
+
+#### Exclude code while testing
+Below are two print() statements. We use print() when we want to print a message to the screen.
+
+Because there is a hash symbol at the beginning of the second line, _"Hello Pluto!"_ will not run and we will not see it printed to the screen!
+
+```python
+print("Hello World!")
+# print("Hello Pluto!")
+```
+
+- Complete <a href="https://shop.learncodethehardway.org/paid/python3/ex2.html">Exercise 2 of Learn Python the Hard Way</a>.
 
 
 ### <a id="print"></a>print()
