@@ -109,6 +109,18 @@ There are many different datatypes in Python. The first one we will explore are 
 
 Triple quoted strings may **span multiple lines**. All associated whitespace will be included in the string literal.
 
+Some examples of Strings:
+
+```python
+# String: Hello Mars!
+print("Hello Mars!")
+
+# String: Bucky is my favorite dog!
+dog_name = "Bucky"
+print(f"{dog_name} is my favorite dog!")
+# dog_name is variable where it's dataype is a String.
+```
+
 #### Assignment
 Complete <a href="https://learnpythonthehardway.org/python3/ex6.html" target="_blank">Exercise 6 of Learn Python the Hard Way</a>
 
@@ -133,6 +145,7 @@ c = a + " " + b
 print(c) # outcome: "Hello World"
 ```
 
+To practice everythin you learned in Unit 1, please complete Lab 01.
 #### Lab 01: [Hello](https://github.com/PdxCodeGuild/IntroToProgramming/blob/master/labs/lab01-hello.md)
 
 [Back to top](#top)
