@@ -19,8 +19,10 @@ Comments are one of the most useful tools in programming.  Comments can be used 
 - explain code
 - exclude certain lines of code while testing
 
-### Organize Code
-If you're anything like me, you love, LOVE to organize. From my closet to my kitchen, no item is left unturned. So imagine how excited I was to find that there was a method to organizing your code! Check out the example below. You might not understand every single line of code. Don't worry about that for now.
+### Organizing Code
+If you're anything like me, you love, LOVE to organize. From my closet to my kitchen, no item is left unturned. So imagine how excited I was to find that there was a method to organizing your code! Check out the example below.
+
+_You might not understand every single line of code. Don't worry about that for now._
 
 ```python
 # filename: roll_the_dice.py
@@ -80,6 +82,9 @@ print("Hello World!")
 #### Assignment
 Complete <a href="https://shop.learncodethehardway.org/paid/python3/ex2.html" target="_blank">Exercise 2 of Learn Python the Hard Way</a>.
 
+#### Quiz
+Complete this short <a href="https://forms.gle/UkKbHrbnS2ttCSSNA" target="_blank">quiz</a> to test your knowledge.
+
 [Back to top](#top)
 
 ## <a id="print"></a>print()
@@ -120,6 +125,7 @@ dog_name = "Bucky"
 print(f"{dog_name} is my favorite dog!")
 # dog_name is variable where it's dataype is a String.
 ```
+We only use fstrings (format string) when we are embedding the value of a variable in a string when priting. We will learn more about this in <a href="https://github.com/PdxCodeGuild/Programming101/blob/master/units/unit-2.md" target="_blank">Unit 2</a>,
 
 #### Assignment
 Complete <a href="https://learnpythonthehardway.org/python3/ex6.html" target="_blank">Exercise 6 of Learn Python the Hard Way</a>
