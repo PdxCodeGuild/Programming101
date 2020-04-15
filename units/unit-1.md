@@ -78,8 +78,9 @@ print("Hello World!")
 ```
 
 #### Assignment
-Complete <a href="https://shop.learncodethehardway.org/paid/python3/ex2.html">Exercise 2 of Learn Python the Hard Way</a>.
+Complete <a href="https://shop.learncodethehardway.org/paid/python3/ex2.html" target="_blank">Exercise 2 of Learn Python the Hard Way</a>.
 
+[Back to top](#top)
 
 ## <a id="print"></a>print()
 
@@ -89,14 +90,32 @@ print("Hello! Welcome to my really cool app!")
 
 print() is a built-in function in Python. What that means is that it does all the work for you! As long as you have the correct syntax, anything you write in the parenthesis will display on the screen!
 
-Complete <a href="https://learnpythonthehardway.org/python3/ex5.html">Exercise 5 of Learn Python the Hard Way</a>. You can check out other built-in functions <a href="https://www.w3schools.com/python/python_ref_functions.asp">here</a>.
+#### Assignment
+Complete <a href="https://learnpythonthehardway.org/python3/ex5.html" target="_blank">Exercise 5 of Learn Python the Hard Way</a>. You can check out other built-in functions <a href="https://www.w3schools.com/python/python_ref_functions.asp" target="_blank">here</a>.
 
 ## <a id="strings"></a>Datatype: Strings
-- [Quick overview](https://www.w3schools.com/python/python_strings.asp)
-- Complete [Exercise 6](https://learnpythonthehardway.org/python3/ex6.html) of Learn Python the Hard Way
+There are many different datatypes in Python. The first one we will explore are Strings. String literals represent textual data.
+
+```python
+# Single quotes:
+'allows embedded "double" quotes'
+
+# Double quotes:
+"allows embedded 'single' quotes".
+
+#Triple quoted:
+'''Three single quotes''', """Three double quotes"""
+```
+
+Triple quoted strings may **span multiple lines**. All associated whitespace will be included in the string literal.
+
+#### Assignment
+Complete <a href="https://learnpythonthehardway.org/python3/ex6.html" target="_blank">Exercise 6 of Learn Python the Hard Way</a>
+
+[Back to top](#top)
 
 ## <a id="strings"></a>String Concatenation
-To concatenate, or combine, two strings you can use the + operator.
+To concatenate, or combine, two strings you can use the **+** operator.
 
 Example 1:
 ```python
