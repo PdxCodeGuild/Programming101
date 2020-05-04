@@ -11,7 +11,7 @@ While we don't expect you to complete all the advance versions of the labs, we e
 | ---- |----------| -----| ------|
 | [Unit 00](/units/unit-0.md) | Intro to the terminal, installing python, installing VS Code | | <ul><li>coming soon</li><li>coming soon</li><li>coming soon</li></ul>
 | [Unit 01](/units/unit-1.md) | Terminal review, comments, print(), Datatype: Strings, concatentate| | <ul> <li><a href="https://youtu.be/YKRYs8QDWZQ" target="_blank">comments</a></li> <li><a href="https://youtu.be/KmSPjRxr4GA" target="_blank">print()</a></li> </ul>
-| [Unit 02](/units/unit-2.md) | Variables, fstrings, input(), Random module, Integers, Operators |  | <ul><li><a target="_blank" href="https://youtu.be/ft0vAxHnkGw">variables</a></li></ul>
+| [Unit 02](/units/unit-2.md) | Variables, fstrings, input(), Random module, Integers, Operators |  | <ul> <li><a target="_blank" href="https://youtu.be/ft0vAxHnkGw">variables</a></li> <li><a target="_blank" href="https://youtu.be/xfYXx2zBYJo">type()</a></li> </ul>
 | [Unit 03](/units/unit-3.md) | conditional statements (if/else), logic statements |  | [coming soon]()
 | [Unit 04](/units/unit-4.md) | Lists, random.choice(), Loops: for each, for x in range(), break, continue |  | [coming soon]()
 | [Unit 05](/units/unit-5.md) | String Module, Loops: while, else | | [coming soon]()
