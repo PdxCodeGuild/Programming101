@@ -9,7 +9,7 @@ While we don't expect you to complete all the advance versions of the labs, we e
 
 | Unit | Concepts | Labs | Videos |
 | ---- |----------| -----| ------|
-| [Unit 00](/units/unit-0.md) | Intro to the terminal, installing python, installing VS Code | | <ul><li>coming soon</li><li>coming soon</li><li>coming soon</li></ul>
+| [Unit 00](/units/unit-0.md) | Intro to the terminal, installing python, installing VS Code | | <ul><li>coming soon</li><li>coming soon</li><li>coming soon</li><li>[print()](https://youtu.be/KmSPjRxr4GA){:target="_blank"}</li></ul>
 | [Unit 01](/units/unit-1.md) | Terminal review, comments, print(), Datatype: Strings, concatentate| | <ul> <li><a href="https://youtu.be/YKRYs8QDWZQ" target="_blank">comments</a></li> <li><a target="_blank" href="https://youtu.be/ft0vAxHnkGw">variables</a></li> </ul>
 | [Unit 02](/units/unit-2.md) | Variables, fstrings, input(), Random module, Integers, Operators |  | [coming soon]()
 | [Unit 03](/units/unit-3.md) | conditional statements (if/else), logic statements |  | [coming soon]()
