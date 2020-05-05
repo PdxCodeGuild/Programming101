@@ -1,7 +1,5 @@
 # <a id="top"></a>Programming 101
 
-<!-- **Distance Learners**: Please read [this document](https://github.com/PdxCodeGuild/IntroToProgramming/blob/master/documentation/distance.md) before starting class. -->
-
 Welcome to Programming 101. This five day course will help build your programming fundamentals.
 
 ## Syllabus Overview
