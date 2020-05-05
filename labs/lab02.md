@@ -1,4 +1,4 @@
-# Lab 1: Hello!
+# Lab 2: Hello!
 - [Back to Unit 01](../units/unit-1.md)
 - [Back to Syllabus](https://github.com/PdxCodeGuild/IntroToProgramming#top)
 
