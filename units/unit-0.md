@@ -9,7 +9,7 @@ Please go through <a href="https://learnrubythehardway.org/book/appendixa.html" 
 
 ### Homework
 
-[Lab 1: Creating a folder on the Desktop](../labs/lab01.md)
+[Lab 1: Creating a folder on the Desktop](../labs/lab01_pdxfolder.md)
 
 ## Installing Python
 
