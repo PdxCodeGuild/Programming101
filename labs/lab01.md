@@ -2,7 +2,6 @@
 
 ### Quick Links
 
-- [Back to Unit 00](../units/unit-0.md)
 - [Back to Syllabus](../README.md)
 
 ### Lab
