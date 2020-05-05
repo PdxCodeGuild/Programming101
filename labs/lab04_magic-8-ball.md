@@ -1,7 +1,10 @@
 # Lab 04: Magic 8 Ball
 
-## Instructions
+### Quick Links
+- [Back to Unit 2](https://github.com/PdxCodeGuild/Programming101/blob/master/units/unit-2.md)
+- [Back to Syllabus](https://github.com/PdxCodeGuild/Programming101)
 
+## Instructions
 Let's write a program to simulate the classic "[Magic Eight Ball](https://en.wikipedia.org/wiki/Magic_8-Ball)"
 
 1. Print a welcome screen to the user.

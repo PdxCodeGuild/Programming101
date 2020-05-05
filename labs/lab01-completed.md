@@ -1,8 +1,8 @@
 # Lab 01 (completed) <a id="top"></a>
 
-- [Back to Lab 01](lab01.md)
-- [Back to Unit 00](../units/unit-0.md)
-- [Back to Syllabus](../README.md)
+### Quick Links
+- [Back to Unit 01](https://github.com/PdxCodeGuild/Programming101/blob/master/units/unit-1.md)
+- [Back to Syllabus](https://github.com/PdxCodeGuild/Programming101)
 
 After opening the program, mac users will see something like this:
 

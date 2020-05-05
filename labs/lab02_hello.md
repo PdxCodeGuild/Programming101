@@ -1,6 +1,8 @@
 # Lab 2: Hello!
-- [Back to Unit 01](../units/unit-1.md)
-- [Back to Syllabus](https://github.com/PdxCodeGuild/IntroToProgramming#top)
+
+### Quick Links
+- [Back to Unit 01](https://github.com/PdxCodeGuild/Programming101/blob/master/units/unit-1.md)
+- [Back to Syllabus](https://github.com/PdxCodeGuild/Programming101)
 
 ## Directions
 

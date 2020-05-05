@@ -1,8 +1,8 @@
 # Lab 01
 
 ### Quick Links
-
-- [Back to Syllabus](../README.md)
+- [Back to Unit 01](https://github.com/PdxCodeGuild/Programming101/blob/master/units/unit-1.md)
+- [Back to Syllabus](https://github.com/PdxCodeGuild/Programming101)
 
 ### Lab
 
