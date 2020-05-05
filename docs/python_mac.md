@@ -1,4 +1,6 @@
 # Installing Python 3 - Mac
+[Back to Syllabus](../README.md)
+
 ##### Start by heading to the Python [dowload page](https://www.python.org/downloads/)
 
 Click the yellow download button to download the latest version of Python:
