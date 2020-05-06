@@ -1,4 +1,4 @@
-# Lab 01 (completed) <a id="top"></a>
+# Creating a Folder (completed) <a id="top"></a>
 
 ### Quick Links
 - [Back to Unit 01](https://github.com/PdxCodeGuild/Programming101/blob/master/units/unit-1.md)

@@ -1,4 +1,4 @@
-# Lab 04: Magic 8 Ball
+# Magic 8 Ball
 
 ### Quick Links
 - [Back to Unit 2](https://github.com/PdxCodeGuild/Programming101/blob/master/units/unit-2.md)

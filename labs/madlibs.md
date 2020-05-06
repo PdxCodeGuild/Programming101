@@ -1,4 +1,4 @@
-# Lab 3: Mad Libs
+# Mad Libs
 
 ### Quick Links
 - [Back to Unit 2](https://github.com/PdxCodeGuild/Programming101/blob/master/units/unit-2.md)
