@@ -5,7 +5,7 @@ Welcome to Programming 101. This five day course will help build your programmin
 ## Instructions
 The syllabus below outlines the concepts you will learn in this course. Click on each **Unit** link to view lecture note and examples.
 
-Each unit contains labs that you will need to complete and turn in to the instructor on Slack. You can find directions on how to submit homework to Slack [here](https://github.com/PdxCodeGuild/IntroToProgramming/blob/master/documentation/slack.md).
+Each unit contains labs that you will need to complete and turn in to the instructor on Slack. You can find directions on how to submit homework to Slack [here](/docs/slack.md).
 
 ## Syllabus Overview
 
@@ -25,7 +25,7 @@ While we don't expect you to complete all the advance versions of the labs, we e
 Below is a list of helpful links.
 | Resource | Link  | Note |
 | ---------- | -------- | --------- |
-| Class Chatroom | [Slack](https://app.slack.com/client/TH5A28SJ0/CH6DE8QK1) | for enrolled Intro students only. [directions on how to use slack](https://github.com/PdxCodeGuild/IntroToProgramming/blob/master/documentation/slack.md) |
+| Class Chatroom | [Slack](https://app.slack.com/client/TH5A28SJ0/CH6DE8QK1) | for enrolled Intro students only. [directions on how to use slack](/docs/slack.md) |
 | Terminal Cheatsheet  | [Google Sheets](https://docs.google.com/spreadsheets/d/18WWrry7RI2zzJlTsUHQLCsElNjiVVuMGjowBKZ5DPH8/edit#gid=0) | Command Prompt/Terminal/Powershell |
 | VS Code Keyboard ShortCuts | [For Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf) |
 | VS Code Keyboard ShortCuts | [For macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)   |
