@@ -50,7 +50,7 @@ print(chosen_fruit)
 ```
 Let's practice random.choice() in the next lab.
 
-#### Lab 03: [Magic 8 Ball](https://github.com/PdxCodeGuild/IntroToProgramming/blob/master/labs/lab03-magic_8_ball.md)
+#### Lab 05: [Magic 8 Ball](https://github.com/PdxCodeGuild/Programming101/blob/master/labs/lab05_magic-8-ball.md)
 
 ## <a id="each"></a>Loops: for each
 
