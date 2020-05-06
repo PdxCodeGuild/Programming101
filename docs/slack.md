@@ -1,4 +1,5 @@
 # Slack
+[Back to Syllabus](../README.md)
 
 Slack is a communication tool we will be using in Intro to Programming. By the first day of class, you will be added to a channel, or chatroom, for your cohort. The cohort will be named after the start date. For example, if your cohort starts on Aug 20, 2019, the channel name will be 190820 (YYMMDD).
 
