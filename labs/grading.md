@@ -1,4 +1,4 @@
-# Lab 4: Grading
+# Grading
 
 ### Quick Links
 - [Back to Unit 3](https://github.com/PdxCodeGuild/Programming101/blob/master/units/unit-3.md)

@@ -1,4 +1,4 @@
-# Lab 2: Hello!
+# Hello!
 
 ### Quick Links
 - [Back to Unit 01](https://github.com/PdxCodeGuild/Programming101/blob/master/units/unit-1.md)
