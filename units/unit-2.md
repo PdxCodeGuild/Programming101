@@ -27,6 +27,6 @@ user_name = input("What is your name?") # this line has three actions!
 print(f"Hello {user_name}!") # outcome: "Hello Lisa"
 ```
 
-#### Lab 02: [Mad Libs](https://github.com/PdxCodeGuild/IntroToProgramming/blob/master/labs/lab02-madlib.md)
+#### Lab 03: [Mad Libs](https://github.com/PdxCodeGuild/IntroToProgramming/blob/master/labs/lab03_madlibs.md)
 
 [Back to top](#top)
