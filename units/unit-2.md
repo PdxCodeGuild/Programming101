@@ -5,6 +5,9 @@
 - [variables](#variables)
 - [f-strings](#fstring)
 - [input()](#input)
+- Random Module
+- Integers
+- Operators
 
 ### <a id="variables"></a>Variables
 - Complete [Exercise 4](https://learnpythonthehardway.org/python3/ex4.html) of Learn Python the Hard Way
