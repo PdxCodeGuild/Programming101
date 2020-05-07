@@ -68,31 +68,37 @@ for student in students: # for each item in the list, do this:
   print(f"Hello {student}")
 ```
 
-Outcome: each item of the list printed on a new line
-```
+Outcome: each item of the list printed on a new line:
+
+```bash
 Hello Al
 Hello Anthony
 Hello Lisa
 ```
 
-Complete [Exercise 6](https://www.w3schools.com/python/exercise.asp?filename=exercise_for_loops3) of PYTHON Loops.
+- Check out the for each [demo code here](https://repl.it/@pdxadmin/for-each). Add a few more names to the students list. Does the outcome change?
+- Complete [Exercise 6](https://www.w3schools.com/python/exercise.asp?filename=exercise_for_loops3) of PYTHON Loops.
 
 ## <a id="range"></a>Loops: for x in range()
 
 Do something for a set number of times.
 
 ```python
-# x here is just a placeholder. it will do the counting for us
+# the x belpw is a counter. it will keep track of what number loop we are on
 for x in range(3): # do the following 3 times
-  print("Hello!")
+  print("Hello!") # this is done 3 times
+```
 
-# outcome: each item of the list on a new line
+Outcome: each item of the list is printed on a new line
+
+```bash
 Hello
 Hello
 Hello
 ```
 
-Complete [Exercise 5](https://www.w3schools.com/python/exercise.asp?filename=exercise_for_loops2) of PYTHON Loops.
+- Checkout the for x in range() [demo code here](https://repl.it/@pdxadmin/for-x-in-range). CHange the integer inside the range() function. What happens to the outcome?
+- Complete [Exercise 5](https://www.w3schools.com/python/exercise.asp?filename=exercise_for_loops2) of PYTHON Loops.
 
 ## <a id="break"></a>Loops: break
 
