@@ -49,6 +49,8 @@ chosen_fruit = random.choice(fruits)
 # print the value of variable chosen_fruit
 print(chosen_fruit)
 ```
+- Check out the [random.choice() demo code] (https://repl.it/@pdxadmin/randomchoice). Add more fruit to the fruits list and run the code a few times to make sure you're truly getting a random fruit!
+
 Let's practice random.choice() in the next lab.
 
 #### Lab 05: [Magic 8 Ball](https://github.com/PdxCodeGuild/Programming101/blob/master/labs/lab05_magic-8-ball.md)
