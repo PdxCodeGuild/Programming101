@@ -112,6 +112,8 @@ while i < 6: # as long as i (1) is less than 6, run the following
     break # if it does, exit the while loop and stop counting
   i += 1 # after printing i (1), add 1 to i (1). i is now 2
 ```
+- Check out the break code demo [here](https://repl.it/@pdxadmin/break)
+- Read more about break [here](https://www.w3schools.com/python/ref_keyword_break.asp)
 
 ## <a id="continue"></a>Loops: continue
 
