@@ -27,7 +27,7 @@ print(fruits[2]) #outcome: "cherry"
 for fruit in fruits:
   print(f"{fruit} has an index of {fruits.index(fruit)}")
 ```
-- [Lists code demo](https://repl.it/@pdxadmin/lists)
+- [List code demo](https://repl.it/@pdxadmin/lists)
 - [List Overview](https://www.w3schools.com/python/python_lists.asp)
 - [List Methods](https://www.w3schools.com/python/python_ref_list.asp)
 
