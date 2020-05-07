@@ -9,11 +9,9 @@
 - [break](#break)
 - [continue](#continue)
 
-## <a id="lists"></a>Lists
-- [List Overview](https://www.w3schools.com/python/python_lists.asp)
-- [List Methods](https://www.w3schools.com/python/python_ref_list.asp)
+## <a id="lists"></a>Datatype: Lists
 
-A list is a collection which is ordered and changeable. In Python lists are written with square brackets.
+A list is a collection of items which are ordered and changeable. In Python lists are written with square brackets.
 
 ```python
 fruits = [] # empty list
@@ -29,6 +27,9 @@ print(fruits[2]) #outcome: "cherry"
 for fruit in fruits:
   print(f"{fruit} has an index of {fruits.index(fruit)}")
 ```
+- [Lists code demo](https://repl.it/@pdxadmin/lists)
+- [List Overview](https://www.w3schools.com/python/python_lists.asp)
+- [List Methods](https://www.w3schools.com/python/python_ref_list.asp)
 
 ## <a id="modules"></a>Modules
 Modules are sources of code; similar to a library. It is a file containing a set of functions you want to include in your application. (For a list of all modules, you can check out the offical [Python docs](https://docs.python.org/3/py-modindex.html)). For this lesson, we will be looking at the [random module](https://pynative.com/python-random-module/). And specifically, we will be looking at the choice() function of the random module: [random.choice()](https://www.w3schools.com/python/ref_random_choice.asp). Please see the example below:
