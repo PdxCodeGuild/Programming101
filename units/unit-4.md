@@ -55,6 +55,8 @@ Let's practice random.choice() in the next lab.
 
 #### Lab 05: [Magic 8 Ball](https://github.com/PdxCodeGuild/Programming101/blob/master/labs/lab05_magic-8-ball.md)
 
+[Back to top](#top)
+
 ## <a id="each"></a>Loops: for each
 
 Do something to each item in a list.
@@ -78,6 +80,7 @@ Hello Lisa
 
 - Check out the for each [demo code here](https://repl.it/@pdxadmin/for-each). Add a few more names to the students list. Does the outcome change?
 - Complete [Exercise 6](https://www.w3schools.com/python/exercise.asp?filename=exercise_for_loops3) of PYTHON Loops.
+- [Back to top](#top)
 
 ## <a id="range"></a>Loops: for x in range()
 
@@ -99,6 +102,7 @@ Hello
 
 - Checkout the for x in range() [demo code here](https://repl.it/@pdxadmin/for-x-in-range). CHange the integer inside the range() function. What happens to the outcome?
 - Complete [Exercise 5](https://www.w3schools.com/python/exercise.asp?filename=exercise_for_loops2) of PYTHON Loops.
+- [Back to top](#top)
 
 ## <a id="break"></a>Loops: break
 
@@ -114,6 +118,7 @@ while i < 6: # as long as i (1) is less than 6, run the following
 ```
 - Check out the break code demo [here](https://repl.it/@pdxadmin/break)
 - Read more about break [here](https://www.w3schools.com/python/ref_keyword_break.asp)
+- [Back to top](#top)
 
 ## <a id="continue"></a>Loops: continue
 
@@ -124,12 +129,7 @@ for i in range(9):
     continue
   print(i)
 ```
-Complete [Exercise 4](https://www.w3schools.com/python/exercise.asp?filename=exercise_for_loops1) of PYTHON Loops.
-
-## Additional Resources
-- Loops & Iteration
-  - [article](https://www.py4e.com/html3/05-iterations)
-  - [slides](https://www.py4e.com/lectures3/Pythonlearn-05-Iterations.pptx)
-  - [video](https://www.youtube.com/watch?v=8DvywoWv6fI&t=8121s) (2:15:21 - 2:58:38)
+- Demo code for [continue](https://repl.it/@pdxadmin/continue)
+- Complete [Exercise 4](https://www.w3schools.com/python/exercise.asp?filename=exercise_for_loops1) of PYTHON Loops.
 
 [Back to top](#top)
