@@ -5,7 +5,7 @@ Welcome to Programming 101. This five day course will help build your programmin
 ## Instructions
 The syllabus below outlines the concepts you will learn in this course. Click on each **Unit** link to view lecture note and examples.
 
-Each unit contains labs that you will need to complete and turn in to the instructor on Slack. You can find directions on how to submit homework to Slack [here](/docs/slack.md).
+Each unit contains labs that you will need to complete and turn in to the instructor on Slack. You can find directions on how to submit homework to Slack [here](/docs/slack.md). **If you are having issues, please email admin@pdxcodeguild.com**
 
 ## Syllabus Overview
 
