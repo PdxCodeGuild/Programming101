@@ -80,7 +80,7 @@ print("Hello World!")
 ```
 
 #### Assignment
-Complete <a href="https://shop.learncodethehardway.org/paid/python3/ex2.html" target="_blank">Exercise 2 of Learn Python the Hard Way</a>.
+Complete <a href="https://learnpythonthehardway.org/python3/" target="_blank">Exercise 2 of Learn Python the Hard Way</a>.
 
 #### Quiz
 Complete this short <a href="https://forms.gle/UkKbHrbnS2ttCSSNA" target="_blank">quiz</a> to test your knowledge.
