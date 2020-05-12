@@ -72,7 +72,7 @@ print(f"Hello ${name}! Today in ${city}, it is warm and sunny!")
 Example 1:
 ```python
 # this line has three actions!
-user_name = input("What is your name?") 
+user_name = input("What is your name?")
 # prints a question to the user
 # then allows the user to type an input
 # saves user input to a variable
@@ -85,7 +85,7 @@ print(f"Hello {user_name}!")
 - [input() code demo](https://repl.it/@pdxadmin/input) (Type in your name after the programs asks you for it!)
 - [read more here](https://www.w3schools.com/python/ref_func_input.asp)
 
-#### Lab 03: [Mad Libs](https://github.com/PdxCodeGuild/Programming101/blob/master/labs/lab03_madlibs.md)
+#### Lab 03: [Mad Libs](https://github.com/PdxCodeGuild/Programming101/blob/master/labs/madlibs.md)
 
 [Back to top](#top)
 
