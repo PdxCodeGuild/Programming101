@@ -91,7 +91,7 @@ print(f"Hello {user_name}!")
 
 ### <a id="random"></a>Random Module
 
-Modules are a Python object that are sources of related code; think of if as a library of information. A code library, if you will! It is a file containing a set of functions you want to include in your application. (For a list of all modules, you can check out the offical [Python docs](https://docs.python.org/3/py-modindex.html)). For this lesson, we will be looking at the [random module](https://pynative.com/python-random-module/). And specifically, we will be looking at the choice() function of the random module: [random.choice()](https://www.w3schools.com/python/ref_random_choice.asp). Please see the example below:
+Modules are a Python object that are sources of related code; think of if as a library of information. A code library, if you will! It is a file containing a set of functions you want to include in your application. ([For a list of all modules, you can check out the offical Python docs](https://docs.python.org/3/py-modindex.html)). For this lesson, we will be looking at the [random module](https://pynative.com/python-random-module/). And specifically, we will be looking at the choice() function of the random module: [random.choice()](https://www.w3schools.com/python/ref_random_choice.asp). Please see the example below:
 
 ```python
 # include the random module in our file
@@ -100,14 +100,17 @@ import random
 # a list of fruits
 fruits = ["apple", "banana", "cherry"]
 
-# randomly choose a fruit and save it to a variable, chosen_fruit
-# choice() is a function inside the random module. we use it by writing random.choice()
+# randomly choose a fruit and save it to a variable: chosen_fruit
+# choice() is a function inside the random module. we use it by calling it: random.choice()
 # the list in which you want the program to choose from, needs to go inside the parenthesis of choice()
+
+# syntax: new_variable = random.choice(list)
 chosen_fruit = random.choice(fruits)
 
 # print the value of variable chosen_fruit
 print(chosen_fruit)
 ```
+
 - [random module code demo](https://repl.it/@pdxadmin/random)
 - [Back to top](#top)
 
