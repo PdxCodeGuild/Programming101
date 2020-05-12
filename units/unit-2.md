@@ -133,5 +133,34 @@ print(age)
 
 ### <a id="operators"></a>Operators
 
-- [code demo](https://repl.it/@pdxadmin/operators)
+The example above snuck in some operators. Did you recognize it? It was addition! Let's do some operations in the example below.
+
+The adventure club you're in has decided to check out [Powell Butte Nature Park](https://www.portlandoregon.gov/parks/finder/index.cfm?action=ViewPark&PropertyID=528). When the idea comes up, 20 people are interested in going. On the day before the hike, 6 people drop out. Let's update the headcount.
+
+```python
+num_of_interested = 20
+drop_outs = 6
+num_of_attendees = num_of_interested - drop_outs
+
+print(f"There were {num_of_interested} people who were interested in going hiking but {drop_outs} have changed their mind. The total number of people going is now {num_of_attendees}.")
+```
+
+- [operators code demo](https://repl.it/@pdxadmin/operators)
+
+Great! Now let's figure out carpool. With 14 people, how many cars do we need? Let's do 4 people to 1 car. That way everyone can sit comfortably.
+
+```python
+num_of_interested = 20
+drop_outs = 6
+num_of_attendees = num_of_interested - drop_outs
+
+print(f"There were {num_of_interested} people who were interested in going hiking but {drop_outs} have changed their mind. The total number of people going is now {num_of_attendees}.")
+
+car_max = 4
+num_of_cars = num_of_attendees / car_max
+print(f"With {num_of_attendees} people, we will need {num_of_cars} cars.")
+```
+
+- [carpool code demo](https://repl.it/@pdxadmin/operators2)
+
 - [Back to top](#top)
