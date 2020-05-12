@@ -116,8 +116,22 @@ print(chosen_fruit)
 
 ### <a id="integers"></a>integers
 
-[Back to top](#top)
+Integers are an integeral part of programming. In fact, the very first computer program (written by Ada Lovelace) was designed to calculate [Bernoulli numbers](https://en.wikipedia.org/wiki/Bernoulli_number)! I don't know about you but I wouldn't want to calculate _the sequence of rational numbers which occur frequently in number theory_. No, thank you. Which brings us back to integers.
+
+An integer (int) can be a whole number. It can positive or negative. Let's use the example below to calculate how old we are this year.
+
+```python
+current_year = 2020
+year_of_birth = 1988
+age = current_year - year_of_birth
+
+print(age)
+```
+
+- [integers code demo](https://repl.it/@pdxadmin/integers)
+- [Back to top](#top)
 
 ### <a id="operators"></a>Operators
 
-[Back to top](#top)
+- [code demo](https://repl.it/@pdxadmin/operators)
+- [Back to top](#top)
