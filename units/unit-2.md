@@ -45,8 +45,20 @@ Let's say we want to print a message to the user with some information that we h
 name = "Lisa"
 city = "Portland"
 
-# print statement
+# print statement with the concatenation method
 print("Hello " + name + "! Today in " + city + ", it is warm and sunny!")
+# result: Hello Lisa! Today in Portland, it is warm and sunny!
+```
+
+Doesn't that look cumbersome? An easier and cleaner way would be to use f-strings! We use f-strings to format our strings! See below:
+
+```python
+# Variables
+name = "Lisa"
+city = "Portland"
+
+# print statement with the concatenation method
+print(f"Hello ${name}! Today in ${city}, it is warm and sunny!")
 # result: Hello Lisa! Today in Portland, it is warm and sunny!
 ```
 
