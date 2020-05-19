@@ -152,6 +152,6 @@ print(c) # outcome: "Hello World"
 ```
 
 To practice everythin you learned in Unit 1, please complete Lab 01.
-#### Lab 01: [Hello](https://github.com/PdxCodeGuild/Programming101/blob/master/labs/lab01_pdxfolder.md)
+#### Lab 02: [Hello](/labs/hello.md)
 
 [Back to top](#top)
