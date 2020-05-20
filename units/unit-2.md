@@ -56,7 +56,7 @@ name = "Lisa"
 city = "Portland"
 
 # print statement with the concatenation method
-print(f"Hello ${name}! Today in ${city}, it is warm and sunny!")
+print(f"Hello {name}! Today in {city}, it is warm and sunny!")
 # result: Hello Lisa! Today in Portland, it is warm and sunny!
 ```
 
