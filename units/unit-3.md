@@ -191,6 +191,6 @@ Notice there is no conditional statement on `else`.
 ### Assignment
 
 -   [Unit 3 Quiz](https://forms.gle/2F7BuDH5vRKUZCUB6)
--   [Lab 04: Grading](/labs/lab04_grading.md)
+-   [Lab 04: Grading](/labs/grading.md)
 
 [Back to top](#top)
