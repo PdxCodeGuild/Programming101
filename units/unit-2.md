@@ -110,7 +110,8 @@ print(chosen_fruit)
 ```
 
 - [random module code demo](https://repl.it/@pdxadmin/random)
-- [Back to top](#top)
+
+[Lab 04: Magic 8 Ball](/labs/magic-8-ball.md)
 
 
 - [Back to top](#top)
