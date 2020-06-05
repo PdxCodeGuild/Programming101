@@ -53,7 +53,7 @@ print(chosen_fruit)
 
 Let's practice random.choice() in the next lab.
 
-#### Lab 05: [Magic 8 Ball](https://github.com/PdxCodeGuild/Programming101/blob/master/labs/lab05_magic-8-ball.md)
+#### Lab 05: [Magic 8 Ball](/labs/magic-8-ball.md)
 
 [Back to top](#top)
 
