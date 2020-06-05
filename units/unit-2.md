@@ -1,13 +1,16 @@
 # <a id="top"></a>Unit 02
+
 [Back to Syllabus](../README.md)
 
 ## Table of Contents
-- [variables](#variables)
-- [f-strings](#fstring)
-- [input()](#input)
-- [Random Module](#random)
+
+-   [variables](#variables)
+-   [f-strings](#fstring)
+-   [input()](#input)
+-   [Random Module](#random)
 
 ### <a id="variables"></a>Variables
+
 Variables are used to store data that the program will use later.
 
 ```python
@@ -29,10 +32,11 @@ name = "Anthony"
 print("Hello " + name + "!")
 # result: Hello Anthony!
 ```
-- [variable code demo](https://repl.it/@pdxadmin/variables)
-- [read more here](https://www.w3schools.com/python/python_variables.asp)
-- Complete [Exercise 4](https://learnpythonthehardway.org/python3/ex4.html) of Learn Python the Hard Way
-[Back to top](#top)
+
+-   [variable code demo](https://repl.it/@pdxadmin/variables)
+-   [read more here](https://www.w3schools.com/python/python_variables.asp)
+-   Complete [Exercise 4](https://learnpythonthehardway.org/python3/ex4.html) of Learn Python the Hard Way
+    [Back to top](#top)
 
 ### <a id="fstring">f-strings</a>
 
@@ -60,14 +64,15 @@ print(f"Hello {name}! Today in {city}, it is warm and sunny!")
 # result: Hello Lisa! Today in Portland, it is warm and sunny!
 ```
 
-- [fstring code demo](https://repl.it/@pdxadmin/fstrings)
-- [read more here](https://www.w3schools.com/python/ref_func_print.asp)
-- Complete [Exercise 5](https://learnpythonthehardway.org/python3/ex5.html) of Learn Python the Hard Way
-[Back to top](#top)
+-   [fstring code demo](https://repl.it/@pdxadmin/fstrings)
+-   [read more here](https://www.w3schools.com/python/ref_func_print.asp)
+-   Complete [Exercise 5](https://learnpythonthehardway.org/python3/ex5.html) of Learn Python the Hard Way
+    [Back to top](#top)
 
 ### <a id="input"></a>input()
 
 Example 1:
+
 ```python
 # this line has three actions!
 user_name = input("What is your name?")
@@ -80,8 +85,9 @@ print(f"Hello {user_name}!")
 # prints "Hello" with the user's name that they typed in!
 # outcome: "Hello <user name>"
 ```
-- [input() code demo](https://repl.it/@pdxadmin/input) (Type in your name after the programs asks you for it!)
-- [read more here](https://www.w3schools.com/python/ref_func_input.asp)
+
+-   [input() code demo](https://repl.it/@pdxadmin/input) (Type in your name after the programs asks you for it!)
+-   [read more here](https://www.w3schools.com/python/ref_func_input.asp)
 
 #### Lab 03: [Mad Libs](https://github.com/PdxCodeGuild/Programming101/blob/master/labs/madlibs.md)
 
@@ -109,9 +115,6 @@ chosen_fruit = random.choice(fruits)
 print(chosen_fruit)
 ```
 
-- [random module code demo](https://repl.it/@pdxadmin/random)
+-   [random module code demo](https://repl.it/@pdxadmin/random)
 
-[Lab 04: Magic 8 Ball](/labs/magic-8-ball.md)
-
-
-- [Back to top](#top)
+*   [Back to top](#top)
