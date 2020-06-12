@@ -1,12 +1,12 @@
 # <a id="top"></a>Programming 101
 
-Welcome to Programming 101. This five day course will help build your programming fundamentals.
+Welcome to Programming 101. This five day course will help build your programming fundamentals. Following along with this syllabus will allow you to work independently. However, if you'd like to sign up for a live remote class, please visit our [Eventbrite](https://www.eventbrite.com/o/pdx-code-guild-17959456298) to see a list of upcoming classes.
 
 ## Instructions
 
 The syllabus below outlines the concepts you will learn in this course. Click on each **Unit** link to view lecture note and examples.
 
-Each unit contains labs that you will need to complete and turn in to the instructor on Slack. You can find directions on how to submit homework to Slack [here](/docs/slack.md). **If you are having issues, please email admin@pdxcodeguild.com**
+**For the live class**: Each unit contains labs that you will need to complete and turn in to the instructor on Slack. You can find directions on how to submit homework to Slack [here](/docs/slack.md). **If you are having issues, please email admin@pdxcodeguild.com**
 
 ## Syllabus Overview
 
