@@ -4,10 +4,10 @@
 
 ## Table of Contents
 
--   [variables](#variables)
--   [f-strings](#fstring)
--   [input()](#input)
--   [Random Module](#random)
+- [variables](#variables)
+- [f-strings](#fstring)
+- [input()](#input)
+- [Integers](#integers)
 
 ### <a id="variables"></a>Variables
 
@@ -33,10 +33,10 @@ print("Hello " + name + "!")
 # result: Hello Anthony!
 ```
 
--   [variable code demo](https://repl.it/@pdxadmin/variables)
--   [read more here](https://www.w3schools.com/python/python_variables.asp)
--   Complete [Exercise 4](https://learnpythonthehardway.org/python3/ex4.html) of Learn Python the Hard Way
-    [Back to top](#top)
+- [variable code demo](https://repl.it/@pdxadmin/variables)
+- [read more here](https://www.w3schools.com/python/python_variables.asp)
+- Complete [Exercise 4](https://learnpythonthehardway.org/python3/ex4.html) of Learn Python the Hard Way
+  [Back to top](#top)
 
 ### <a id="fstring">f-strings</a>
 
@@ -64,10 +64,10 @@ print(f"Hello {name}! Today in {city}, it is warm and sunny!")
 # result: Hello Lisa! Today in Portland, it is warm and sunny!
 ```
 
--   [fstring code demo](https://repl.it/@pdxadmin/fstrings)
--   [read more here](https://www.w3schools.com/python/ref_func_print.asp)
--   Complete [Exercise 5](https://learnpythonthehardway.org/python3/ex5.html) of Learn Python the Hard Way
-    [Back to top](#top)
+- [fstring code demo](https://repl.it/@pdxadmin/fstrings)
+- [read more here](https://www.w3schools.com/python/ref_func_print.asp)
+- Complete [Exercise 5](https://learnpythonthehardway.org/python3/ex5.html) of Learn Python the Hard Way
+  [Back to top](#top)
 
 ### <a id="input"></a>input()
 
@@ -86,35 +86,83 @@ print(f"Hello {user_name}!")
 # outcome: "Hello <user name>"
 ```
 
--   [input() code demo](https://repl.it/@pdxadmin/input) (Type in your name after the programs asks you for it!)
--   [read more here](https://www.w3schools.com/python/ref_func_input.asp)
+- [input() code demo](https://repl.it/@pdxadmin/input) (Type in your name after the programs asks you for it!)
+- [read more here](https://www.w3schools.com/python/ref_func_input.asp)
+
+### <a id="integers"></a>Integers
+
+Integers are an integeral part of programming. In fact, the very first computer program (written by Ada Lovelace) was designed to calculate [Bernoulli numbers](https://en.wikipedia.org/wiki/Bernoulli_number)! I don't know about you but I wouldn't want to calculate _the sequence of rational numbers which occur frequently in number theory_. No, thank you. Which brings us back to integers.
+
+An integer (int) can be a whole number. It can positive or negative. Let's use the example below to calculate how old we are this year.
+
+```python
+current_year = 2020
+year_of_birth = 1988
+age = current_year - year_of_birth
+
+print(age)
+```
+
+> 32
+
+### Addition:
+
+```python
+print(4 + 4)
+```
+
+> 8
+
+### Subtraction:
+
+```python
+print(8 - 4)
+```
+
+> 4
+
+### Multiplication:
+
+```python
+print(4 * 4)
+```
+
+> 16
+
+### Division:
+
+```python
+print(16 / 4)
+```
+
+> 4.0
+
+### Exponential:
+
+```python
+print(2 ** 3)
+```
+
+> 8
+
+### Floor Division:
+
+```python
+print(16 // 4)
+```
+
+> 4
+
+### Error:
+
+```python
+print(4 + "4")
+```
+
+> TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+- [integers code demo](https://repl.it/@pdxadmin/integers)
 
 #### Lab 03: [Mad Libs](https://github.com/PdxCodeGuild/Programming101/blob/master/labs/madlibs.md)
 
-[Back to top](#top)
-
-### <a id="random"></a>Random Module
-
-Modules are a Python object that are sources of related code; think of if as a library of information. A code library, if you will! It is a file containing a set of functions you want to include in your application. ([For a list of all modules, you can check out the offical Python docs](https://docs.python.org/3/py-modindex.html)). For this lesson, we will be looking at the [random module](https://pynative.com/python-random-module/). And specifically, we will be looking at the choice() function of the random module: [random.choice()](https://www.w3schools.com/python/ref_random_choice.asp). Please see the example below:
-
-```python
-# include the random module in our file
-import random
-
-# a list of fruits
-fruits = ["apple", "banana", "cherry"]
-
-# randomly choose a fruit and save it to a variable: chosen_fruit
-# choice() is a function inside the random module. we use it by calling it: random.choice()
-# the list in which you want the program to choose from, needs to go inside the parenthesis of choice()
-
-# syntax: new_variable = random.choice(list)
-chosen_fruit = random.choice(fruits)
-
-# print the value of variable chosen_fruit
-print(chosen_fruit)
-```
-
--   [random module code demo](https://repl.it/@pdxadmin/random)
-
-*   [Back to top](#top)
+- [Back to top](#top)

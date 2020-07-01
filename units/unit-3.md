@@ -3,30 +3,14 @@
 [Back to Syllabus](../README.md)
 
 ## Table of Contents
-- [Integers](#integers)
+
 - [Operators](#operators)
 - [Math Module](#math)
 - [Datatype: boolean](#boolean)
 - [Comparison Operators](#comparison)
 - [Logical Operators](#logical)
 - [Conditionals: if/else](#conditionals)
-
-### <a id="integers"></a>integers
-
-Integers are an integeral part of programming. In fact, the very first computer program (written by Ada Lovelace) was designed to calculate [Bernoulli numbers](https://en.wikipedia.org/wiki/Bernoulli_number)! I don't know about you but I wouldn't want to calculate _the sequence of rational numbers which occur frequently in number theory_. No, thank you. Which brings us back to integers.
-
-An integer (int) can be a whole number. It can positive or negative. Let's use the example below to calculate how old we are this year.
-
-```python
-current_year = 2020
-year_of_birth = 1988
-age = current_year - year_of_birth
-
-print(age)
-```
-
-- [integers code demo](https://repl.it/@pdxadmin/integers)
-- [Back to top](#top)
+- [Random Module](#random)
 
 ### <a id="operators"></a>Operators
 
@@ -61,6 +45,7 @@ print(f"With {num_of_attendees} people, we will need {num_of_cars} cars.")
 - [carpool code demo](https://repl.it/@pdxadmin/operators2)
 
 ## <a id="math"> Math Module</a>
+
 Great! We figured out that we need 3.5 cars. But wait, 3.5 doesn't make sense! In real life, we would round up the number of cars. So let's do that.
 
 Introducing the [Math module](https://docs.python.org/3/library/math.html)! Let's look at the ceiling function in the Math module.
@@ -80,7 +65,7 @@ print(num_of_cars) # outcome: 4
 
 ## <a id="boolean"></a>Dataype: Boolean
 
--   [Boolean Overview (w3schools)](https://www.w3schools.com/python/python_booleans.asp)
+- [Boolean Overview (w3schools)](https://www.w3schools.com/python/python_booleans.asp)
 
 A boolean can represent one of two values: `True` or `False`.
 
@@ -91,15 +76,15 @@ b = False
 
 ## <a id="comparison"></a>Comparison Operators
 
--   [Comparison Operators Overview (w3schools)](https://www.w3schools.com/python/python_operators.asp)
-    |Operator|Description|Example|
-    |--------|-----------|-------|
-    | == | Equal | x==y |
-    | != | Not Equal | x != y |
-    | > | Greater than | x > y |
-    | < | Less than | x < y |
-    | >= | Greater than or equal to | x >= y |
-    | <= | Less than or equal to | x <= y |
+- [Comparison Operators Overview (w3schools)](https://www.w3schools.com/python/python_operators.asp)
+  |Operator|Description|Example|
+  |--------|-----------|-------|
+  | == | Equal | x==y |
+  | != | Not Equal | x != y |
+  | > | Greater than | x > y |
+  | < | Less than | x < y |
+  | >= | Greater than or equal to | x >= y |
+  | <= | Less than or equal to | x <= y |
 
 ```python
 x = 3
@@ -120,7 +105,7 @@ x >= 3 # True
 
 ## <a id="logical"></a>Logical Operators
 
--   [Logical Operators Overview (w3schools)](https://www.w3schools.com/python/python_operators.asp)
+- [Logical Operators Overview (w3schools)](https://www.w3schools.com/python/python_operators.asp)
 
 | Operator | Description                              | Example          |
 | -------- | ---------------------------------------- | ---------------- |
@@ -144,7 +129,7 @@ x >= 3 # True
 
 ## <a id="conditionals"></a>Conditionals: if/else
 
--   [Conditionals: if/else Overview (w3schools)](https://www.w3schools.com/python/python_conditions.asp)
+- [Conditionals: if/else Overview (w3schools)](https://www.w3schools.com/python/python_conditions.asp)
 
 We can use condtional statements to run code using our comparison operators
 
@@ -188,9 +173,33 @@ else:
 
 Notice there is no conditional statement on `else`.
 
+### <a id="random"></a>Random Module
+
+Modules are a Python object that are sources of related code; think of if as a library of information. A code library, if you will! It is a file containing a set of functions you want to include in your application. ([For a list of all modules, you can check out the offical Python docs](https://docs.python.org/3/py-modindex.html)). For this lesson, we will be looking at the [random module](https://pynative.com/python-random-module/). And specifically, we will be looking at the choice() function of the random module: [random.choice()](https://www.w3schools.com/python/ref_random_choice.asp). Please see the example below:
+
+```python
+# include the random module in our file
+import random
+
+# a list of fruits
+fruits = ["apple", "banana", "cherry"]
+
+# randomly choose a fruit and save it to a variable: chosen_fruit
+# choice() is a function inside the random module. we use it by calling it: random.choice()
+# the list in which you want the program to choose from, needs to go inside the parenthesis of choice()
+
+# syntax: new_variable = random.choice(list)
+chosen_fruit = random.choice(fruits)
+
+# print the value of variable chosen_fruit
+print(chosen_fruit)
+```
+
+- [random module code demo](https://repl.it/@pdxadmin/random)
+
 ### Assignment
 
--   [Unit 3 Quiz](https://forms.gle/2F7BuDH5vRKUZCUB6)
--   [Lab 04: Grading](/labs/grading.md)
+- [Unit 3 Quiz](https://forms.gle/2F7BuDH5vRKUZCUB6)
+- [Lab 04: Grading](/labs/grading.md)
 
 [Back to top](#top)
