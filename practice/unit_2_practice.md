@@ -10,7 +10,7 @@
   - State
   - Zip Code
   
-- Assign the values of each field to a variable
+- Assign the value of each field to a variable
   
 - Display the address back to the user using an `f-string`
 
