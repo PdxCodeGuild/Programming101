@@ -63,6 +63,8 @@ Let's do a little geometry!
   - Assign a number to a variable to represent the `radius` of a **second** circle. 
   - Use the two radii to calculate the area of an  [annulus](https://www.google.com/search?q=annulus%20area).
 
+### **1.6**
+
 
 ### **Extra challenges**  
 
@@ -70,7 +72,7 @@ Let's do a little geometry!
 Use the `random` module to generate **random integer** values for the circle and sphere's `radius` and the triangle's `base` and `height`.
 
 ### **1.5** 
-Have the user enter the circle's `radius` and the triangle's `base` and `height`. Don't forget that `input()` always returns a `string`.
+Have the user enter all number values used in previous versions. Don't forget that `input()` always returns a `string`.
 
 
 **Exercise 2**
