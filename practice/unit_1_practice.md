@@ -1,11 +1,10 @@
-Unit 1 Practice
-===============
+# Unit 1 Practice
 
-Exercise 1
----------
+## **Exercise 1**
+
 ### **1.1**
 
-- Create a signature header
+Create a signature header
 
       *'-.-'*'-.-'*'-.-'*'-.-'*
           Project: Python
@@ -15,22 +14,18 @@ Exercise 1
            Date: Jan, 1994
       *'-.-'*'-.-'*'-.-'*'-.-'*
 
-- add it to your code once as *single*-line comments, and once as a *multi*-line comment
-
-
+add it to your code once as *single*-line comments, and once as a *multi*-line comment
 
 ### **1.2**  
 
 `print` the signature header under its
 respective comment using the same format as the comment - 
-single lines under the single line comments, multi-line under 
-the multi-line comment
+single lines under the single line comments, multi-line under the multi-line comment
 
-**Exercise 2**
----------
-**"Comment out"** lines of code until you acheive 
+## **Exercise 2**
+
+**"Comment out"** lines of code until you achieve
 the following output:
-
 
     The time has come,' the Walrus said,
     To talk of many things:
@@ -39,48 +34,52 @@ the following output:
     And why the sea is boiling hot —
     And whether pigs have wings!'
 
-
 Also, add `comments` on the lines of code you keep
 that denote the number of the line in the poem. These can be
 added on the same line as the code.
 
 **The code**:
-```python
-print("The time has come,' the Walrus said,")
-print("’Twas brillig, and the slithy toves")
-print("To talk of many things:")
-print("Did gyre and gimble in the wabe:")
-print("Of shoes — and ships — and sealing-wax —")
-print("All mimsy were the borogoves, ")
-print("Of cabbages — and kings —")
-print("And the mome raths outgrabe. ")
-print("And why the sea is boiling hot —")
-print("O frabjous day! Callooh! Callay!")
-print("And whether pigs have wings.'")
-```
 
-**Exercise 3**
-----------
+    ```python
+    print("The time has come,' the Walrus said,")
+    print("’Twas brillig, and the slithy toves")
+    print("To talk of many things:")
+    print("Did gyre and gimble in the wabe:")
+    print("Of shoes — and ships — and sealing-wax —")
+    print("All mimsy were the borogoves, ")
+    print("Of cabbages — and kings —")
+    print("And the mome raths outgrabe. ")
+    print("And why the sea is boiling hot —")
+    print("O frabjous day! Callooh! Callay!")
+    print("And whether pigs have wings.'")
+    ```
+
+## **Exercise 3**
+
 ### **3.1**
+
 - Concatenate together the letters of a word
+
 - Print the word
 
 ### **3.2**
+
 - Concatenate together the words and spaces
 of a sentence.
+
 - Print the sentence.
 
 ### **3.3**
-- Concatenate together each individual character in a sentence,
-including spaces and punctuation. 
+
+- Concatenate together each individual character in a sentence, including spaces and punctuation.
 - Print the full sentence.
 
-**Exercise 4**
-----------
+## **Exercise 4**
 
 Using one or more string methods:
 
-### **4.1** 
+### **4.1**
+
 Capitalize a word
 
     word: bicycle 
@@ -92,15 +91,15 @@ Capitalize a word
     word: enveleope
     output: Envelope
 
-
 ### **4.2**
+
 Display a word in all capital letters and all lowercase letters
-       
+
     word: vIoLiN
     output: VIOLIN violin
 
-
 ### **4.3**
+
 Exchange all instances of a letter within a word with a different
   
     word: Mississippi
@@ -109,8 +108,8 @@ Exchange all instances of a letter within a word with a different
 
     output: Mizzizzippi
 
-**Exercise 5**
---------------
+## **Exercise 5**
+
 Print a famous quote with the following criteria
 
 - Use only one `print()`
@@ -121,7 +120,6 @@ Print a famous quote with the following criteria
   - Break the quote up onto multiple lines, if appropriate.
   
 - Include quotation marks around the quote
-  
 
       Output:
       "The secret of genius is to carry the spirit of the child into old age, which means never losing your enthusiasm."
