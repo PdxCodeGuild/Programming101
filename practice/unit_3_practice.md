@@ -22,6 +22,7 @@ Let's do a little geometry!
 ### **1.2**
 
 - Create variables with numbers representing the `base` and `height` measurements of the **triangle**. Select `a`, `b` or `c` to represent the `base`.
+
 - Calculate the `area` of the triangle.
 
         base: 5         
@@ -39,8 +40,13 @@ Let's do a little geometry!
 
 ### **1.3**
 
-- `import` the `math` module
-- Assign a number to a variable torepresent the `radius` of a circle
+- `import` the `math` module.
+
+- Find the `hypotenuse` (`c`) of a **triangle** given sides `a` and `b`.
+
+- Hint: The `math` module contains a method for calculating **square roots**.
+
+- Assign a number to a variable torepresent the `radius` of a circle.
 - Use the constant for `pi`contained within the `math` module and the `radius` *variable* to calculate the `circumference` and `area` of a ***circle***.
 
         output:
