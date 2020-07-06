@@ -73,11 +73,10 @@ Let's do a little geometry!
 - Assign a number to a variable to represent the `radius` of a **second** circle.
 - Use the two radii to calculate the area of an  [annulus](https://www.google.com/search?q=annulus%20area).
 
-### **1.6**
 
 ### **Extra challenges**
 
-### **1.7**
+### **1.6**
 
 - Create two variables, `a` and `b` to represent the adjacent sides of a right triangle.
 
@@ -92,11 +91,11 @@ Let's do a little geometry!
       output:
       A triangle with sides of 65 and 72 has a hypotenuse of 97.
 
-### **1.8**
+### **1.7**
 
 Use the `random` module to generate **random integer** values for the circle and sphere's `radius` and the triangle's `base` and `height`.
 
-### **1.9**
+### **1.8**
 
 Have the user enter all number values used in previous versions. Don't forget that `input()` always returns a `string`.
 
