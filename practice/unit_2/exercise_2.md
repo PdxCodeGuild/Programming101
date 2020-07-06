@@ -16,7 +16,7 @@ a `letter` occurs in a `word`
   
 - Ask the user for a `word`
 - Ask the user for a `letter`
-- Assign the `word` and the `letter` to variables
+- Assign the `word` and the `letter` to *variables*
 - Determine how many times the `letter` occurs in the `word`
 
       Enter a word: hippopotamus
