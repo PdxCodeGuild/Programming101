@@ -5,7 +5,7 @@
 ### **2.1**
 
 Use string methods to determine the number of times
-a letter occurs in a word
+a `letter` occurs in a `word`
 
     word: bookkeeper
     letter: k

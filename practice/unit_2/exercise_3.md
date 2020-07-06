@@ -2,7 +2,7 @@
 
 ## **Exercise 3**
 
-Have the user enter a word or phrase. Print out the word or phrase with the cases of all the letters swapped.
+Have the user enter a word or phrase. Print out the word or phrase with the cases of all the letters flipped.
 
     Enter a word or phrase: HeLlO wOrLd
 
