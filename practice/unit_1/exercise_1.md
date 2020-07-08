@@ -4,7 +4,12 @@
 
 ### **1.1**
 
-- Create a signature header
+- Create a code signature with:
+  - Project name
+  - Version number
+  - Author
+  - Email
+  - Date
 
 - Add it to your code once as *single*-line comments, and once as a *multi*-line comment
 
