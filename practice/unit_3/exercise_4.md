@@ -11,6 +11,9 @@
       number: 92
       output: 92 is within 10 of 100.
 
+      number: 108
+      output: 108 is within 10 of 100.
+
       number: 51
       output: 51 is not within 10 of 100.
 
