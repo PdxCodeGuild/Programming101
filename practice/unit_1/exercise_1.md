@@ -25,6 +25,6 @@
 
 ### **1.2**  
 
-`print` the signature header under its
+`print` the signature under its
 respective comment using the same format as the comment -
 single lines under the single line comments, multi-line under the multi-line comment
