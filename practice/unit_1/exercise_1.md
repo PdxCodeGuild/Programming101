@@ -4,7 +4,9 @@
 
 ### **1.1**
 
-- Create a code signature with:
+- Create a code signature to place in a comment at the top of your project to tell other developers who wrote the code.
+  
+- The signature should contain:
   - Project name
   - Version number
   - Author
