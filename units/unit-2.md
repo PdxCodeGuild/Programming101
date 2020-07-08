@@ -33,28 +33,28 @@ print("Hello " + name + "!")
 # result: Hello Anthony!
 ```
 
-#### Variable names:
+### Variable names:
     
 - must start with a letter or the underscore character
 - cannot start with a number
 - can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 - are case-sensitive (age, Age and AGE are three different variables)
 
-**Valid variable names:**
+  ##### Valid variable names:
 
-    username = 'Athena'
-    user_name = 'Dionysus'
-    _user_name = 'Aphrodite'
-    userName = 'Poseidon'
-    USERNAME = 'Hera'
-    username2 = 'Artemis'
-    
-**Invalid variable names:**
+      username = 'Athena'
+      user_name = 'Dionysus'
+      _user_name = 'Aphrodite'
+      userName = 'Poseidon'
+      USERNAME = 'Hera'
+      username2 = 'Artemis'
+      
+  ##### Invalid variable names:
 
-    2username = 'Nyx'        # cannot begin with a number
-    user-name = 'Hades'      # no hyphens
-    u$ern&me = 'Cerberus'    # no special characters other than underscores
-    user name = 'Persephone' # no spaces
+      2username = 'Nyx'        # cannot begin with a number
+      user-name = 'Hades'      # no hyphens
+      u$ern&me = 'Cerberus'    # no special characters other than underscores
+      user name = 'Persephone' # no spaces
 
 
 - [variable code demo](https://repl.it/@pdxadmin/variables)
