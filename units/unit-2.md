@@ -33,11 +33,35 @@ print("Hello " + name + "!")
 # result: Hello Anthony!
 ```
 
+#### Variable names:
+    
+- must start with a letter or the underscore character
+- cannot start with a number
+- can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+- are case-sensitive (age, Age and AGE are three different variables)
+
+**Valid variable names:**
+
+    username = 'Athena'
+    user_name = 'Dionysus'
+    _user_name = 'Aphrodite'
+    userName = 'Poseidon'
+    USERNAME = 'Hera'
+    username2 = 'Artemis'
+    
+**Invalid variable names:**
+
+    2username = 'Nyx'        # cannot begin with a number
+    user-name = 'Hades'      # no hyphens
+    u$ern&me = 'Cerberus'    # no special characters other than underscores
+    user name = 'Persephone' # no spaces
+
+
 - [variable code demo](https://repl.it/@pdxadmin/variables)
 - [read more here](https://www.w3schools.com/python/python_variables.asp)
 - Complete [Exercise 4](https://learnpythonthehardway.org/python3/ex4.html) of Learn Python the Hard Way
   [Back to top](#top)
-
+---
 ### <a id="fstring">f-strings</a>
 
 Let's say we want to print a message to the user with some information that we have about them:
@@ -69,6 +93,7 @@ print(f"Hello {name}! Today in {city}, it is warm and sunny!")
 - Complete [Exercise 5](https://learnpythonthehardway.org/python3/ex5.html) of Learn Python the Hard Way
   [Back to top](#top)
 
+---
 ### <a id="input"></a>input()
 
 Example 1:
@@ -89,6 +114,7 @@ print(f"Hello {user_name}!")
 - [input() code demo](https://repl.it/@pdxadmin/input) (Type in your name after the programs asks you for it!)
 - [read more here](https://www.w3schools.com/python/ref_func_input.asp)
 
+---
 ### <a id="integers"></a>Integers
 
 Integers are an integeral part of programming. In fact, the very first computer program (written by Ada Lovelace) was designed to calculate [Bernoulli numbers](https://en.wikipedia.org/wiki/Bernoulli_number)! I don't know about you but I wouldn't want to calculate _the sequence of rational numbers which occur frequently in number theory_. No, thank you. Which brings us back to integers.
