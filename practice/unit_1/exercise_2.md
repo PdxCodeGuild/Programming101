@@ -18,7 +18,7 @@ added on the same line as the code.
 **The code**:
 
     print("The time has come,' the Walrus said,")
-    print("’Twas brillig, and the slithy toves")
+    print("'Twas brillig, and the slithy toves")
     print("To talk of many things:")
     print("Did gyre and gimble in the wabe:")
     print("Of shoes — and ships — and sealing-wax —")
