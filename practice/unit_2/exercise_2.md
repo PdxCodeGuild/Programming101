@@ -24,3 +24,11 @@ a `letter` occurs in a `word`
 
       Output:
       The letter 'p' occurs 3 times in 'hippopotamus'
+
+### Exercise 2 [solution](solutions/exercise_2_solution.md)
+
+---
+
+## [< Exercise 1](exercise_1.md) |  [Exercise 3 >](exercise_3.md)
+
+### [<< Back to Unit 2 Practice](/practice/unit_1/)

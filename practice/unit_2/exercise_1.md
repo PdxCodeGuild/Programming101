@@ -37,3 +37,11 @@ Using string methods, ensure that the address will be properly capitalized, no m
     231 Faux Ave.
     Portland, Oregon
     97211
+
+### Exercise 1 [solution](solutions/exercise_1_solution.md)
+
+---
+
+## [Exercise 2 >](exercise_2.md)
+
+### [<< Back to Unit 1 Practice](/practice/unit_2/)

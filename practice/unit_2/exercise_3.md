@@ -20,3 +20,11 @@ Have the user enter a word or phrase. Print out the word or phrase with the case
       
     output: 
     SUPercALIfrAGiLIsTICexPIaLIdOcioUS
+
+### Exercise 3 [solution](solutions/exercise_3_solution.md)
+
+---
+
+## [< Exercise 2](exercise_2.md)
+
+### [<< Back to Unit 1 Practice](/practice/unit_1/)
