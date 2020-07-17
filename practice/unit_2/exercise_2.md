@@ -31,4 +31,4 @@ a `letter` occurs in a `word`
 
 ## [< Exercise 1](exercise_1.md) |  [Exercise 3 >](exercise_3.md)
 
-### [<< Back to Unit 2 Practice](/practice/unit_1/)
+### [<< Back to Unit 2 Practice](/practice/unit_2/)

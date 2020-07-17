@@ -40,7 +40,8 @@ Using string methods, ensure that the address will be properly capitalized, no m
     {city}, {state}
     {zip_code}
     ''')
-
+    
+Keep in mind that this is just one potential solution.
 
 ## [< Exercise 1](exercise_1.md)
 
