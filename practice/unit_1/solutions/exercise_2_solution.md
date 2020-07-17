@@ -27,3 +27,6 @@
         # print("O frabjous day! Callooh! Callay!")
         
         print("And whether pigs have wings.'")  # keep this line
+
+## [< Exercise 2](../exercise_2.md)
+### [<< Back to Unit 1 Practice](/practice/unit_1/)

@@ -57,3 +57,8 @@
             '''
         ) # notice how this parentheses 
         #is at the same indentation as print()
+
+
+
+## [< Exercise 1](../exercise_1.md)
+### [<< Back to Unit 1 Practice](/practice/unit_1/)

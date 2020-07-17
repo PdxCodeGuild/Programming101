@@ -20,3 +20,11 @@ Print a famous quote with the following criteria
       "The secret of genius is to carry the spirit of the child into old age, which means never losing your enthusiasm."
 
             - Aldous Huxley
+
+### Exercise 5 [solution](solutions/exercise_5_solution.md)
+
+---
+
+## [< Exercise 4](exercise_4.md) 
+
+### [<< Back to Unit 1 Practice](/practice/unit_1/)

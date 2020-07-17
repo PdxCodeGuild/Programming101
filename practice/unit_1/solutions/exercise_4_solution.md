@@ -41,3 +41,6 @@ The string method `.replace(old, new)` will replace the `old` character with the
 
         # Mizzizzippi
         print('Mississippi'.replace('s','z')) 
+
+## [< Exercise 4](../exercise_4.md)
+### [<< Back to Unit 1 Practice](/practice/unit_1/)

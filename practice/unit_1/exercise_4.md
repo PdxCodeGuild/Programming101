@@ -33,3 +33,11 @@ Exchange all instances of a letter within a word with a different
     ...exchange 's' for 'z'...
 
     output: Mizzizzippi
+
+### Exercise 4 [solution](solutions/exercise_4_solution.md)
+
+---
+
+## [< Exercise 3](exercise_3.md) | [Exercise 5 >](exercise_5.md)
+
+### [<< Back to Unit 1 Practice](/practice/unit_1/)

@@ -28,3 +28,11 @@
 `print` the signature under its
 respective comment using the same format as the comment -
 single lines under the single line comments, multi-line under the multi-line comment
+
+### Exercise 1 [solution](solutions/exercise_1_solution.md)
+
+---
+
+## [Exercise 2 >](exercise_2.md)
+
+### [<< Back to Unit 1 Practice](/practice/unit_1/)

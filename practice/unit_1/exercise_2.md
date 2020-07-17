@@ -28,3 +28,11 @@ added on the same line as the code.
     print("And why the sea is boiling hot —")
     print("O frabjous day! Callooh! Callay!")
     print("And whether pigs have wings.'")
+
+### Exercise 2 [solution](solutions/exercise_2_solution.md)
+
+---
+
+## [< Exercise 1](exercise_1.md) | [Exercise 3 >](exercise_3.md)
+
+### [<< Back to Unit 1 Practice](/practice/unit_1/)

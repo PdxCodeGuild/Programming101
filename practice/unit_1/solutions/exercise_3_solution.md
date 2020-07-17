@@ -30,3 +30,6 @@ of a sentence.
     **Solution**
 
         print('H' + 'o' + 'w' + ' ' + 'n' + 'o' + 'w' + ' ' + 'b' + 'r' + 'o' + 'w' + 'n' + ' ' + 'c' + 'o' + 'w' + '?')
+
+## [< Exercise 3](../exercise_3.md)
+### [<< Back to Unit 1 Practice](/practice/unit_1/)
