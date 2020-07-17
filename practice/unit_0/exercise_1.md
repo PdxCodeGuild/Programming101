@@ -35,4 +35,4 @@ The final structure of your `pdx_code` folder should be:
 
 ---
 
-### [<< Back to syllabus](../../)
+### [<< Back to syllabus](https://github.com/PdxCodeGuild/Programming101/)

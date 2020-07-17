@@ -99,4 +99,4 @@ We actually don't need our `extra` folder. Navigate to the `pdx_code` folder usi
 
 ## [< Exercise 1](../exercise_1.md)
 
-### [<< Back to syllabus](../../../)
+### [<< Back to syllabus](https://github.com/PdxCodeGuild/Programming101/)
