@@ -1,8 +1,6 @@
-# **Programming 101**
+# Unit 1 Practice
 
-# **Unit 0 Practice**
-
-# Exercise 1
+## **Exercise 1**
 
 ### **1.1**
 
@@ -32,3 +30,9 @@ The final structure of your `pdx_code` folder should be:
     - `unit_5`
 
 - We actually don't need our `extra` folder. Navigate to the `pdx_code` folder using the terminal and delete it using terminal commands.
+
+### Exercise 1 [solution](solutions/exercise_1_solution.md)
+
+---
+
+### [<< Back to syllabus](/)
