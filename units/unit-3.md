@@ -4,18 +4,36 @@
 
 ## Table of Contents
 
-- [Operators](#operators)
-- [Math Module](#math)
-- [Datatype: boolean](#boolean)
-- [Comparison Operators](#comparison)
-- [Logical Operators](#logical)
-- [Conditionals: if/else](#conditionals)
-- [Random Module](#random)
+- [<a id="top"><a>Unit 03](#a-idtopaunit-03)
+  - [Table of Contents](#table-of-contents)
+    - [<a id="operators"></a>Operators](#operators)
+    - [Arithmetic Operators](#arithmetic-operators)
+    - [Arithmetic Example](#arithmetic-example)
+  - [<a id="math"> Math Module</a>](#math-module)
+  - [<a id="boolean"></a>Dataype: Boolean](#dataype-boolean)
+  - [<a id="comparison"></a>Comparison Operators](#comparison-operators)
+  - [<a id="logical"></a>Logical Operators](#logical-operators)
+  - [<a id="conditionals"></a>Conditionals: if/else](#conditionals-ifelse)
+    - [<a id="random"></a>Random Module](#random-module)
+    - [Assignment](#assignment)
 
 ### <a id="operators"></a>Operators
 
-The example above snuck in some operators. Did you recognize it? It was addition! Let's do some operations in the example below.
+The example above snuck in some operators. Did you recognize it? It was addition! We'll do some operations in the example below, but first let's look at our Arithmetic Operators.
 
+### Arithmetic Operators
+
+| Operator |     Name       | Example |
+| -------- | -----------    | ------- |
+| +        |   Addition     | x + y   |
+| -        |  Subtraction   | x - y   |
+|*         | Multiplication | x * y   |
+|/         |   Division     | x / y   |
+|//        | Floor Division | x // y  |
+|**        | Exponentiation | x ** y  |
+|%         |     Modulus    | x % y   |
+
+### Arithmetic Example
 The adventure club you're in has decided to check out [Powell Butte Nature Park](https://www.portlandoregon.gov/parks/finder/index.cfm?action=ViewPark&PropertyID=528). When the idea comes up, 20 people are interested in going. On the day before the hike, 6 people drop out. Let's update the headcount.
 
 ```python
