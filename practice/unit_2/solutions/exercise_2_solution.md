@@ -6,6 +6,8 @@ Use string methods to determine the number of times a `letter` occurs in a `word
 
 ### **2.1**
 
+**Solution**
+
     word = 'bookkeeper'
     letter = 'k'
 
@@ -14,7 +16,7 @@ Use string methods to determine the number of times a `letter` occurs in a `word
 
     print(f"The letter '{letter}' occurs in the word '{word}' {letter_count} times.")
 
-Output:
+**Output**
 
     Output:
     The letter 'k' occurs 2 times in 'bookkeeper'
@@ -22,6 +24,8 @@ Output:
 ### **2.2**
 
 In version 2.2, the user enters values for `word` and `letter` using `input()`.
+
+**Solution**
 
     # get a word and a letter from the user
     word = input('Please enter a word: ')
@@ -32,7 +36,7 @@ In version 2.2, the user enters values for `word` and `letter` using `input()`.
 
     print(f"The letter '{letter}' occurs in the word '{word}' {letter_count} times.")
 
-Output:
+**Output**
 
     Enter a word: hippopotamus
     Enter a letter to count: p
