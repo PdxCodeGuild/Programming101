@@ -11,6 +11,7 @@ a `letter` occurs in a `word`
     letter: k
     
     output: 2
+    The letter 'k' occurs in the word 'bookkeeper' 2 times.
 
 ### **2.2**
   

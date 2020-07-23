@@ -24,15 +24,13 @@
 
 Using string methods, ensure that the address will be properly capitalized, no matter how it's entered.
 
-**Solution 1**
-
     street = input("Street number: ")
     city = input("City: ")
     state = input("State: ")
     zip_code = input('Zip: ')
 
-    street = street.lower().title()
-    city = street.lower().title()
+    street = street.title()
+    city = street.title()
     
     # format address using an f-string
     print(f'''
@@ -43,6 +41,6 @@ Using string methods, ensure that the address will be properly capitalized, no m
     
 Keep in mind that this is just one potential solution.
 
-## [< Exercise 1](exercise_1.md)
+## [< Exercise 1](../exercise_1.md)
 
 ### [<< Back to Unit 1 Practice](/practice/unit_1/)
