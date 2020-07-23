@@ -1,6 +1,6 @@
 # Unit 2 Practice Solutions
 
-## Exercise 2
+## **Exercise 2 - Count letters**
 
 Use string methods to determine the number of times a `letter` occurs in a `word`
 

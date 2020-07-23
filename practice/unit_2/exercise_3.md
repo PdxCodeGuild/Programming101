@@ -1,6 +1,6 @@
 # Unit 2 Practice
 
-## **Exercise 3**
+## **Exercise 3 - Flip Letter Casing**
 
 Have the user enter a word or phrase. Print out the word or phrase with the cases of all the letters flipped.
 

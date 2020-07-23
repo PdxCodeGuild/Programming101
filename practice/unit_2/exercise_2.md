@@ -1,6 +1,6 @@
 # Unit 2 Practice
 
-## **Excercise 2**
+## **Excercise 2 - Count Letters**
 
 ### **2.1**
 

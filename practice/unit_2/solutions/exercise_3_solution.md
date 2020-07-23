@@ -1,6 +1,6 @@
 # Unit 2 Practice Solutions
 
-## Exercise 3
+## **Exercise 3 - Flip Letter Casing**
 
 **Solution**
 
