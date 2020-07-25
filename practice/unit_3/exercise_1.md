@@ -46,6 +46,8 @@ Let's do a little geometry!
 
 - Hint: The `math` module contains a function for calculating **square roots**.
 
+### **1.4**
+
 - Assign a number to a variable torepresent the `radius` of a circle.
 - Use the constant for `pi`contained within the `math` module and the `radius` *variable* to calculate the `circumference` and `area` of a ***circle***.
 
@@ -57,7 +59,7 @@ Let's do a little geometry!
         Circumference: 31.4159...
         Area: 78.5398...
 
-### **1.4**
+### **1.5**
 
 - Calculate the `volume` of a ***sphere*** with the same `radius`.
 
@@ -68,7 +70,7 @@ Let's do a little geometry!
         Radius: 5
         Volume: 523.5987...
 
-### **1.5**
+### **1.6**
 
 - Assign a number to a variable to represent the `radius` of a **second** circle.
 - Use the two radii to calculate the area of an  [annulus](https://www.google.com/search?q=annulus%20area).
@@ -76,7 +78,7 @@ Let's do a little geometry!
 
 ### **Extra challenges**
 
-### **1.6**
+### **1.7**
 
 - Create two variables, `a` and `b` to represent the adjacent sides of a right triangle.
 
@@ -91,10 +93,10 @@ Let's do a little geometry!
       output:
       A triangle with sides of 65 and 72 has a hypotenuse of 97.
 
-### **1.7**
+### **1.8**
 
 Use the `random` module to generate **random integer** values for the circle and sphere's `radius` and the triangle's `base` and `height`.
 
-### **1.8**
+### **1.9**
 
 Have the user enter all number values used in previous versions. Don't forget that `input()` always returns a `string`.
