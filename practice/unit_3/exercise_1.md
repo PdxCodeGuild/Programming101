@@ -46,6 +46,10 @@ Let's do a little geometry!
 
 - Hint: The `math` module contains a function for calculating **square roots**.
 
+**Output**
+
+    A triangle adjacent sides of 3 and 4 has a hypotenuse of 5.0.
+
 ### **1.4**
 
 - Assign a number to a variable torepresent the `radius` of a circle.
