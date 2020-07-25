@@ -44,7 +44,7 @@ Let's do a little geometry!
 
 - Find the `hypotenuse` (`c`) of a **triangle** given sides `a` and `b`.
 
-- Hint: The `math` module contains a method for calculating **square roots**.
+- Hint: The `math` module contains a function for calculating **square roots**.
 
 - Assign a number to a variable torepresent the `radius` of a circle.
 - Use the constant for `pi`contained within the `math` module and the `radius` *variable* to calculate the `circumference` and `area` of a ***circle***.

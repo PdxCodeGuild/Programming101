@@ -15,6 +15,7 @@
 - Ask the user for a `word`
 - Ask the user for a `letter`
 - Assign the `word` and the `letter` to variables
+- Use the keyword `in` to determine if the `letter` is `in` the `word`
 - Tell the user `if` the `letter` is `in` the `word`. Display the letter in uppercase
   
       Enter a word: umbrella
