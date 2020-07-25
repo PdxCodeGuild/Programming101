@@ -1,6 +1,6 @@
 # Unit 3 Practice
 
-## **Exercise 1**
+## **Exercise 1 - Geometry**
 
 Let's do a little geometry!
 
@@ -15,6 +15,7 @@ Let's do a little geometry!
   **Output**
 
       A triangle with sides of 3, 4, and 5 has a perimeter of 12.
+---
 
 ### **1.2**
 
@@ -28,7 +29,7 @@ Let's do a little geometry!
       ---
 
       A triangle with a base of 2.8 and a height of 2.02 has an area of 3.08.
-
+---
 
 ### **1.3**
 
@@ -42,6 +43,7 @@ Let's do a little geometry!
         Radius: 5
         Circumference: 31.4159...
         Area: 78.5398...
+---
 
 ### **1.4**
 
@@ -53,11 +55,13 @@ Let's do a little geometry!
       
       Radius: 5
       Volume: 523.5987...
+---
 
 ### **1.5**
 
 - Assign a number to a variable to represent the `radius` of a **second** circle.
 - Use the two radii to calculate the area of an  [annulus](https://www.google.com/search?q=annulus%20area).
+---
 
 
 ### **Extra challenges**
@@ -71,10 +75,13 @@ Let's do a little geometry!
 - Display the result to the user
 
       A triangle with sides of 65 and 72 has a hypotenuse of 97.
+---
 
 ### **1.7**
 
 Use the `random` module to generate **random integer** values for the circle and sphere's `radius` and the triangle's `base` and `height`.
+
+---
 
 ### **1.8**
 
