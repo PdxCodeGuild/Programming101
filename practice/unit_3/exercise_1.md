@@ -33,8 +33,8 @@ Let's do a little geometry!
 
 ### **1.3**
 
-- Assign a number to a variable torepresent the `radius` of a circle.
-- Use the constant for `pi`contained within the `math` module and the `radius` *variable* to calculate the `circumference` and `area` of a ***circle***.
+- Assign a number to a variable to represent the `radius` of a circle.
+- Use the constant for `pi` contained within the `math` module and the `radius` *variable* to calculate the `circumference` and `area` of a ***circle***.
 
   **Output**
                 
@@ -61,6 +61,14 @@ Let's do a little geometry!
 
 - Assign a number to a variable to represent the `radius` of a **second** circle.
 - Use the two radii to calculate the area of an  [annulus](https://www.google.com/search?q=annulus%20area).
+
+  **Output**
+      
+      Annulus
+
+      Outer Radius: 5
+      Inner Radius: 3
+      Area: 50.26548245743669
 ---
 
 
@@ -86,3 +94,9 @@ Use the `random` module to generate **random integer** values for the circle and
 ### **1.8**
 
 Have the user enter all number values used in previous versions. Don't forget that `input()` always returns a `string`.
+
+---
+
+## [Exercise 2 >](exercise_2.md)
+
+### [<< Back to Unit 3 Practice](/practice/unit_3/)

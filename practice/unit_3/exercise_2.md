@@ -1,6 +1,6 @@
 # Unit 3 Practice
 
-## Exercise 2
+## Exercise 2 - Count Letters
 
 ### **2.1**
 
@@ -46,3 +46,9 @@
   Using string methods, determine if the string the user entered contains only letters, no spaces, numbers or special characters.
 
   `if` the string contains characters **other than letters**, inform the user that those characters aren't allowed.
+
+---
+
+## [< Exercise 1](exercise_1.md) | [Exercise 3 >](exercise_3.md)
+
+### [<< Back to Unit 3 Practice](/practice/unit_3/)
