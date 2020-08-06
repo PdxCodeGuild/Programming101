@@ -1,6 +1,6 @@
 # Unit 3 Practice
 
-## Exercise 2 - Count Letters
+## Exercise 2 - String Comparisons
 
 ### **2.1**
 
