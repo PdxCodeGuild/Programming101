@@ -95,6 +95,8 @@ Use the `random` module to generate **random integer** values for the circle and
 
 Have the user enter all number values used in previous versions. Don't forget that `input()` always returns a `string`.
 
+### Exercise 1 [solution](./solutions/exercise_1_solution.md)
+
 ---
 
 ## [Exercise 2 >](exercise_2.md)
