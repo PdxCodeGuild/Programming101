@@ -19,3 +19,11 @@ Ask the user for the `number of characters` in their message
 ### **3.3**
 
 Display different messages to the user depending on how many Tweets their message requires.
+
+### Exercise 3 [solution](./solutions/exercise_3_solution.md)
+
+---
+
+## [< Exercise 2](exercise_2.md) | [Exercise 4 >](exercise_4.md)
+
+### [<< Back to Unit 3 Practice](/practice/unit_3/)
