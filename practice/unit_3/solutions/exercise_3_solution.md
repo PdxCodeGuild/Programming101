@@ -132,6 +132,6 @@
 
     Maybe you should find a different medium...
 
-## [< Exercise 2](../exercise_2.md)
+## [< Exercise 3](../exercise_3.md)
 
 ### [<< Back to Unit 3 Practice](/practice/unit_3/)
