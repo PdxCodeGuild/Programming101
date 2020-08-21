@@ -8,6 +8,8 @@
 
 - Determine whether the number is within 10 of 100.
 
+**Output**
+
       number: 92
       output: 92 is within 10 of 100.
 
@@ -21,29 +23,59 @@
 
 - Have the user enter values for `number_1` and `number_2`.
 
+- Determine whether `number_1` is within 10 of `number_2`.
+
+**Output**
+
+      Enter the first number: 36
+      Enter the second number: 28
+
+      output: 36 is within 10 of 28.
+      ---
+
+      Enter the first number: 251
+      Enter the second number: 260
+
+      output: 251 is within 10 of 260.
+      ---
+
+      Enter the first number: 95
+      Enter the second number: 15
+
+      output: 95 is not within 10 of 15.
+
+### **4.3**
+
+- Have the user enter values for `number_1` and `number_2`.
+
 - Have the user choose the `limit` of how many numbers may be in between the two.
 
 - Determine whether `number_1` and `number_2` are within the limit set by the user.
 
-      number 1: 800
-      number 2: 1200
-      limit: 500
+      Enter the first number: 235
+      Enter the second number: 555
+      Enter how far apart the numbers are allowed to be: 1000
 
-      output:
-      800 is within 500 of 1200
+      235 is within 1000 of 555.
+      ---
 
-      ---------
-      number 1: 1575
-      number 2: 1200
-      limit: 500
+      Enter the first number: 66
+      Enter the second number: 62
+      Enter how far apart the numbers are allowed to be: 5
 
-      output:
-      1575 is within 500 of 1200
-      
-      --------
-      number 1: 1000
-      number 2: 15
-      limit: 3
+      66 is within 5 of 62.
+      ---
 
-      output:
-      15 is not within 3 of 1000
+      Enter the first number: 34
+      Enter the second number: 101
+      Enter how far apart the numbers are allowed to be: 20
+
+      34 is not within 20 of 101.
+
+### Exercise 4 [solution](./solutions/exercise_4_solution.md)
+
+---
+
+## [< Exercise 3](exercise_3.md)
+
+### [<< Back to Unit 3 Practice](/practice/unit_3/)
