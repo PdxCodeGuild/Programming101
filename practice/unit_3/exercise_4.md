@@ -1,6 +1,6 @@
 # **Unit 3 Practice**
 
-## **Exercise 4**
+## **Exercise 4 - Number Proximity**
 
 ### **4.1**
 
