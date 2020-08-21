@@ -1,8 +1,8 @@
 # Unit 3 Practice Solutions
 
-## Exercise 3 -
+## Exercise 4 - Number Proximity
 
-### **3.1**
+### **4.1**
 
 **Solution**
 
@@ -30,7 +30,7 @@
 
 ---
 
-### **3.2**
+### **4.2**
 
 **Solution**
 
@@ -60,18 +60,16 @@
     print(message)
 
 **Output**
-  
- Enter the first number: 4
+
+Enter the first number: 4
 Enter the second number: 12
-  
- 4 is within 10 of 12.
----
-  
- Enter the first number: 66
+
+## 4 is within 10 of 12.
+
+Enter the first number: 66
 Enter the second number: 57
-  
- 66 is within 10 of 57.
----
+
+## 66 is within 10 of 57.
 
     Enter the first number: 36
     Enter the second number: 245
@@ -80,9 +78,11 @@ Enter the second number: 57
 
 ---
 
-### **3.3**
+### **4.3**
 
 This solution uses Python's built-in `abs()` function to find the **absolute value** of the subtraction of `number_2` from `number_1`. The **absolute value** is then used to determine if the numbers are within a certain value of each other.
+
+Alternatively, the solution from **4.2** can be used and 10 can be replaced with the user's value for how far apart the numbers are allowed to be.
 
 **Solution**
 
