@@ -11,7 +11,7 @@
 ### **3.2**
 
 - Concatenate together the words and spaces
-of a sentence.
+  of a sentence.
 
 - Print the sentence.
 
@@ -19,7 +19,7 @@ of a sentence.
 
 - Concatenate together each individual character in a sentence, including spaces and punctuation.
 - Print the full sentence.
-- 
+
 ### Exercise 3 [solution](solutions/exercise_3_solution.md)
 
 ---
