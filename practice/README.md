@@ -4,7 +4,7 @@
 
 ### [Unit 0](unit_0/)
 
-### [Unit 1](./unit_1/)
+### [Unit 1](/unit_1/)
 
 ### [Unit 2](unit_2/)
 
