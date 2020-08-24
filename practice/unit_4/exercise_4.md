@@ -2,18 +2,18 @@
 
 ## **Exercise 4 - Looping Strings**
 
-### **4**
+### **4.1**
 
 Using a `for` loop, ask the user for the name of three items (animals, colors, fruits, or whatever you'd like).
 
-### **4**
+### **4.2**
 
 Loop through the user's list and with iteration, print both the item and all the letters in the item.
 
     numbers: [10, -36, 6, -39, -96, 13, -35, 83, -52, 86]
     flipped: [-10, 36, -6, 39, 96, -13, 35, -83, 52, -86]
 
-### **4**
+### **4.3**
 
 Loop through the list.
 
