@@ -1,6 +1,6 @@
 # **Unit 4 Practice**
 
-## **Exercise 2**
+## **Exercise 2 - Sum, Mean, Mode**
 
 Use a loop to create a list of 10 random numbers between 1 and 100.
 
