@@ -21,10 +21,10 @@ Loop through the letters of each word.
 
 Create a list of the characters that occur in the list. Each letter may only occur in the list once.
 
-### Exercise 4 [solution](./solutions/exercise_3_solution.md)
+### Exercise 4 [solution](./solutions/exercise_4_solution.md)
 
 ---
 
-## [< Exercise 3](exercise_1.md)
+## [< Exercise 3](exercise_3.md)
 
 ### [<< Back to Unit 4 Practice](/practice/unit_4/)
