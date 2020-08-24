@@ -5,5 +5,3 @@
 ### Coming Soon ...
 
 ## [< Exercise 1](../exercise_1.md)
-
-[Back to Syllabus](../README.md)

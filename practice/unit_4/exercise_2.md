@@ -33,6 +33,6 @@ Loop through the list of numbers and calculate the `mode`.
 
 ---
 
-## [< Exercise 1](exercise_1.md)
+## [< Exercise 1](exercise_1.md) | [Exercise 3 >](exercise_3.md)
 
 ### [<< Back to Unit 4 Practice](/practice/unit_4/)

@@ -1,6 +1,6 @@
 # **Unit 4 Practice**
 
-## **Exercise 3**
+## **Exercise 3 - Flip the Numbers**
 
 Use a loop to create a list of 10 random numbers between -100 and 100.
 

@@ -1,6 +1,6 @@
 # **Unit 4 Practice**
 
-## **Exercise 1**
+## **Exercise 1 - Number Lists**
 
 Create a list of 10 `numbers` between 1 and 10.
 
