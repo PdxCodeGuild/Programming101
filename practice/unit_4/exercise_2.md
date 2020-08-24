@@ -16,8 +16,6 @@ Loop through the list of numbers and calculate the `sum`.
 Loop through the list of numbers and calculate the `mean` (average).
 
     numbers: 1, 4, 6, 4, 6, 4, 5, 9
-
-    output:
     mean: 4.875
 
 ### **2.3**
@@ -25,8 +23,6 @@ Loop through the list of numbers and calculate the `mean` (average).
 Loop through the list of numbers and calculate the `mode`.
 
     numbers: 1, 4, 6, 4, 6, 4, 5, 9
-
-    output:
     mode: 4
 
 ### Exercise 2 [solution](./solutions/exercise_2_solution.md)

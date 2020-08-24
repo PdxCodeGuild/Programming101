@@ -6,11 +6,10 @@ Create a list of 10 `numbers` between 1 and 10.
 
 ### **1.1**
 
-Print all the number in the list that are less than 5.
+Print all the number in the list that are less than or equal to 5.
 
     numbers: 3, 3, 10, 5, 4, 5, 6, 5, 7, 2
 
-    output:
     Less than five: 3, 3, 4, 2
 
 ### **1.2**

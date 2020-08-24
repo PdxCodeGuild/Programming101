@@ -4,7 +4,7 @@
 
 Use a loop to create a list of 10 random numbers between -100 and 100.
 
-### **2.1**
+### **3.1**
 
 Loop through the list of numbers and switch each number to its opposite sign. Negatives become positives, positives become negatives.
 
@@ -15,6 +15,6 @@ Loop through the list of numbers and switch each number to its opposite sign. Ne
 
 ---
 
-## [< Exercise 2](exercise_1.md)
+## [< Exercise 2](exercise_2.md) | [Exercise 4](exercise_4.md)
 
 ### [<< Back to Unit 4 Practice](/practice/unit_4/)
