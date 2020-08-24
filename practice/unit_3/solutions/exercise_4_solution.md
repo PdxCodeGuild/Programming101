@@ -61,15 +61,17 @@
 
 **Output**
 
-Enter the first number: 4
-Enter the second number: 12
+    Enter the first number: 4
+    Enter the second number: 12
 
-## 4 is within 10 of 12.
+    4 is within 10 of 12.
+    ----
 
-Enter the first number: 66
-Enter the second number: 57
+    Enter the first number: 66
+    Enter the second number: 57
 
-## 66 is within 10 of 57.
+    66 is within 10 of 57.
+    ----
 
     Enter the first number: 36
     Enter the second number: 245
