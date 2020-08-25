@@ -19,12 +19,21 @@ Loop through the list.
 
 Loop through the letters of each word.
 
-Create a list of the characters that occur in the list. Each letter may only occur in the list once.
+Create a list of the characters that occur in the words. If a letter has already been added to the list, skip it.
+
+**Output**
+
+    Enter an animal: lynx
+    Enter an animal: ocelot
+    Enter an animal: puma
+
+    Letters used:
+    ['l', 'y', 'n', 'x', 'o', 'c', 'e', 't', 'p', 'u', 'm', 'a']
 
 ### Exercise 4 [solution](./solutions/exercise_4_solution.md)
 
 ---
 
-## [< Exercise 3](exercise_3.md)
+## [< Exercise 3](exercise_3.md) | [Exercise 5 >](exercise_5.md)
 
 ### [<< Back to Unit 4 Practice](/practice/unit_4/)
