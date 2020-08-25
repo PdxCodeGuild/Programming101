@@ -34,6 +34,8 @@
     print(f'numbers: {numbers}')
     print(f'flipped {flipped}')
 
+Keep in mind that is is just one potential solution
+
 ## [< Exercise 3](../exercise_3.md)
 
 ---
