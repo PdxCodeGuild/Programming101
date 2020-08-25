@@ -10,8 +10,27 @@ Using a `for` loop, ask the user for the name of three items (animals, colors, f
 
 Loop through the user's list and with iteration, print both the item and all the letters in the item.
 
-    numbers: [10, -36, 6, -39, -96, 13, -35, 83, -52, 86]
-    flipped: [-10, 36, -6, 39, 96, -13, 35, -83, 52, -86]
+    Enter an animal: lynx
+    Enter an animal: ocelot
+    Enter an animal: puma
+
+    lynx
+    l
+    y
+    n
+    x
+    ocelot
+    o
+    c
+    e
+    l
+    o
+    t
+    puma
+    p
+    u
+    m
+    a
 
 ### **4.3**
 
