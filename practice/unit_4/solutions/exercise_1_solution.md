@@ -68,6 +68,11 @@
     # display the result
     print(f'squares: {numbers}')
 
+**Output**
+
+    numbers: [3, 3, 10, 5, 4, 5, 6, 5, 7, 2]
+    squares: [9, 9, 100, 25, 16, 25, 36, 25, 49, 4]
+
 Keep in mind that is is just one potential solution
 
 ## [< Exercise 1](../exercise_1.md)
