@@ -86,6 +86,45 @@ Sort the list of numbers in ascending order without using methods or built-in fu
 
 **Solution**
 
+    numbers = [62, 23, 56, 30, 55, 60, 31, 91, 93, 45]
+
+    # print before sorting
+    print(f'numbers: {numbers}')
+
+
+    # loop: i = 0 -> (length of list - 1)
+    for i in range(len(numbers) - 1):
+        # set 'swap' variable to False
+        swap = False
+
+        # loop: j = 0 -> (length of list - 1)
+        for j in range(len(numbers) - 1):
+
+            #if list[j] is less than list[j+1]
+                if numbers[j] > numbers[j+1]:
+                    #place list[j] in a 'bubble' variable
+                    bubble = numbers[j]
+                    # put list[j+1] at list[j]
+                    numbers[j] = numbers[j+1]
+                    # put bubble at list[j+1]
+                    numbers[j+1] = bubble
+
+                    # since a swap occured this loop,
+                    # set swap to True
+                    swap = True
+
+            # if no swap occured, break the outer loop
+            if not swap:
+            break
+
+    # print after sorting
+    print(f'sorted:  {numbers}')
+
+**Output**
+
+    numbers: [62, 23, 56, 30, 55, 60, 31, 91, 93, 45]
+    sorted:  [23, 30, 31, 45, 55, 56, 60, 62, 91, 93]
+
 Keep in mind that is is just one potential solution
 
 ## [< Exercise 5](../exercise_5.md)
