@@ -10,7 +10,7 @@ Count the even numbers
 
 **Solution**
 
-import random
+    import random
 
     # generate 10 random numbers between 1 and 100
     numbers = []
