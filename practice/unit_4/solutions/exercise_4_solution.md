@@ -108,6 +108,15 @@ Loop through the user's list and with iteration, print both the item and all the
     # display result
     print(f'letters used: {letters_used}')
 
+**Output**
+
+    Enter an animal: lynx
+    Enter an animal: ocelot
+    Enter an animal: puma
+
+    Letters used:
+    ['l', 'y', 'n', 'x', 'o', 'c', 'e', 't', 'p', 'u', 'm', 'a']
+
 Keep in mind that is is just one potential solution
 
 ## [< Exercise 4](../exercise_4.md)
