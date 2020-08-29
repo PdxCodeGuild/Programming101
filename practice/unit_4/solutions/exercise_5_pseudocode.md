@@ -19,3 +19,9 @@
                 set swap to True
 
         if no swap occured, break the outer loop
+
+### Exercise 5 [solution](./solutions/exercise_5_solution.md)
+
+---
+
+## [< Exercise 5](../exercise_5.md)
