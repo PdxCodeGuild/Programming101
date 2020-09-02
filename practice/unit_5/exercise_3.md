@@ -65,7 +65,7 @@ Invalid guesses shouldn't affect the number of remaining guesses.
 
 **Output**
 
-### Exercise 1 [solution](./solutions/exercise_1_solution.md)
+### Exercise 3 [solution](./solutions/exercise_3_solution.md)
 
 ---
 
