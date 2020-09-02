@@ -11,14 +11,16 @@
     # Generate a random number between 1 and 10 to represent the number of sheep needed to fall asleep.
     sheep_to_sleep = random.randint(1,10)
 
+    # you are still awake
+    awake = True
 
-    # Using a `while` loop, count sheep until you fall asleep
+    # count sheep until you fall asleep
 
     # counter variable
     sheep = 0
 
     # count sheep
-    while sheep < sheep_to_sleep:
+    while awake: # same as awake == True
         print(f'{sheep + 1} sheep - baa!')
 
         # add one sheep_to_sleep
