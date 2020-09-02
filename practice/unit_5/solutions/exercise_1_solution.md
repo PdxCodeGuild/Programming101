@@ -1,6 +1,6 @@
-# Unit 3 Practice Solutions
+# Unit 5 Practice Solutions
 
-## Exercise 1 - Geometry
+## Exercise 1 - Count Sheep
 
 ### **1.1**
 
@@ -45,6 +45,6 @@
 
     ...zZzZzZzZ...
 
-## [< Exercise 1](../exercise_1.md)
+## [< Exercise 1](../exercise_1.md) | [Exercise 2 >](../exercise_2.md)
 
 ### [<< Back to Unit 5 Practice](/practice/unit_5/)
