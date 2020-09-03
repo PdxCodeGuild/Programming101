@@ -1,5 +1,7 @@
 # Terminal Cheatsheet
 
+[Back to Syllabus](../README.md)
+
 The following commands will work in Mac and Linux terminals as well as Windows PowerShell.
 
 ## Terminal Navigation
@@ -26,3 +28,5 @@ Each operating system has a different shortcut for running Python's `.py` files 
 | `python <filename>.py`  | &#10007; | &#10003; | &#10007; |
 
 When these commands are run without a `filename`, the **Python** **_interpreter_** will run in the terminal.
+
+[Back to Syllabus](/README.md)
