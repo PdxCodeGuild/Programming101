@@ -9,13 +9,12 @@
   - [<a id="operators"></a>Operators](#operators)
     - [Arithmetic Operators](#arithmetic-operators)
     - [Arithmetic Example](#arithmetic-example)
-  - [<a id="math"> Math Module</a>](#-math-module)
   - [<a id="boolean"></a>Dataype: Boolean](#dataype-boolean)
   - [<a id="comparison"></a>Comparison Operators](#comparison-operators)
   - [<a id="logical"></a>Logical Operators](#logical-operators)
   - [<a id="conditionals"></a>Conditionals: if/else](#conditionals-ifelse)
     - [<a id="random"></a>Random Module](#random-module)
-    - [Assignment](#assignment)
+    - [Lab](#lab)
 
 ## <a id="operators"></a>Operators
 
@@ -43,42 +42,28 @@ num_of_attendees = num_of_interested - drop_outs
 print(f"There were {num_of_interested} people who were interested in going hiking but {drop_outs} have changed their mind. The total number of people going is now {num_of_attendees}.")
 ```
 
-- [operators code demo](https://repl.it/@pdxadmin/operators)
+**Output**
 
-Great! Now let's figure out carpool. With 14 people, how many cars do we need? Let's do 4 people to 1 car. That way everyone can sit comfortably.
+    There were 20 people who were interested in going hiking but 6 have changed their mind. The total number of people going is now 14.
+
+We can also calculate the attendance rate as a percentage
 
 ```python
 num_of_interested = 20
 drop_outs = 6
 num_of_attendees = num_of_interested - drop_outs
 
+attendance_rate = (num_of_attendees / num_of_interested) * 100
+
 print(f"There were {num_of_interested} people who were interested in going hiking but {drop_outs} have changed their mind. The total number of people going is now {num_of_attendees}.")
 
-car_max = 4
-num_of_cars = num_of_attendees / car_max
-print(f"With {num_of_attendees} people, we will need {num_of_cars} cars.")
+print(f"That's an attendance rate of {attendance_rate}%")
 ```
 
-- [carpool code demo](https://repl.it/@pdxadmin/operators2)
+**Output**
 
-## <a id="math"> Math Module</a>
-
-Great! We figured out that we need 3.5 cars. But wait, 3.5 doesn't make sense! In real life, we would round up the number of cars. So let's do that.
-
-Introducing the [Math module](https://docs.python.org/3/library/math.html)! Let's look at the ceiling function in the Math module.
-
-```python
-# import the math module
-import math
-
-# number of cars from last example
-num_of_cars = 3.5
-
-# use math.ceil() to round up
-num_of_cars = math.ceil(num_of_cars)
-
-print(num_of_cars) # outcome: 4
-```
+    There were 20 people who were interested in going hiking but 6 have changed their mind. The total number of people going is now 14.
+    That's an attendance rate of 70.0%.
 
 ## <a id="boolean"></a>Dataype: Boolean
 
@@ -217,7 +202,7 @@ print(f'Random number: {random_number}')
 
     Random number: 98
 
-### Assignment
+### Lab
 
 - [Unit 3 Quiz](https://forms.gle/2F7BuDH5vRKUZCUB6)
 - [Lab 04: Grading](/labs/grading.md)
