@@ -217,8 +217,6 @@ print(f'Random number: {random_number}')
 
     Random number: 98
 
-- [random module code demo](https://repl.it/@pdxadmin/random)
-
 ### Assignment
 
 - [Unit 3 Quiz](https://forms.gle/2F7BuDH5vRKUZCUB6)
