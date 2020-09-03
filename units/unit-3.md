@@ -6,10 +6,10 @@
 
 - [<a id="top"><a>Unit 03](#a-idtopaunit-03)
   - [Table of Contents](#table-of-contents)
-    - [<a id="operators"></a>Operators](#operators)
+  - [<a id="operators"></a>Operators](#operators)
     - [Arithmetic Operators](#arithmetic-operators)
     - [Arithmetic Example](#arithmetic-example)
-  - [<a id="math"> Math Module</a>](#math-module)
+  - [<a id="math"> Math Module</a>](#-math-module)
   - [<a id="boolean"></a>Dataype: Boolean](#dataype-boolean)
   - [<a id="comparison"></a>Comparison Operators](#comparison-operators)
   - [<a id="logical"></a>Logical Operators](#logical-operators)
@@ -17,23 +17,22 @@
     - [<a id="random"></a>Random Module](#random-module)
     - [Assignment](#assignment)
 
-### <a id="operators"></a>Operators
-
-The example above snuck in some operators. Did you recognize it? It was addition! We'll do some operations in the example below, but first let's look at our Arithmetic Operators.
+## <a id="operators"></a>Operators
 
 ### Arithmetic Operators
 
-| Operator |     Name       | Example |
-| -------- | -----------    | ------- |
-| +        |   Addition     | x + y   |
-| -        |  Subtraction   | x - y   |
-|*         | Multiplication | x * y   |
-|/         |   Division     | x / y   |
-|//        | Floor Division | x // y  |
-|**        | Exponentiation | x ** y  |
-|%         |     Modulus    | x % y   |
+| Operator | Name           | Example  |
+| -------- | -------------- | -------- |
+| +        | Addition       | x + y    |
+| -        | Subtraction    | x - y    |
+| \*       | Multiplication | x \* y   |
+| /        | Division       | x / y    |
+| //       | Floor Division | x // y   |
+| \*\*     | Exponentiation | x \*\* y |
+| %        | Modulus        | x % y    |
 
 ### Arithmetic Example
+
 The adventure club you're in has decided to check out [Powell Butte Nature Park](https://www.portlandoregon.gov/parks/finder/index.cfm?action=ViewPark&PropertyID=528). When the idea comes up, 20 people are interested in going. On the day before the hike, 6 people drop out. Let's update the headcount.
 
 ```python
@@ -97,7 +96,7 @@ b = False
 - [Comparison Operators Overview (w3schools)](https://www.w3schools.com/python/python_operators.asp)
   |Operator|Description|Example|
   |--------|-----------|-------|
-  | == | Equal | x==y |
+  | == | Equal | x == y |
   | != | Not Equal | x != y |
   | > | Greater than | x > y |
   | < | Less than | x < y |
@@ -193,25 +192,30 @@ Notice there is no conditional statement on `else`.
 
 ### <a id="random"></a>Random Module
 
-Modules are a Python object that are sources of related code; think of if as a library of information. A code library, if you will! It is a file containing a set of functions you want to include in your application. ([For a list of all modules, you can check out the offical Python docs](https://docs.python.org/3/py-modindex.html)). For this lesson, we will be looking at the [random module](https://pynative.com/python-random-module/). And specifically, we will be looking at the choice() function of the random module: [random.choice()](https://www.w3schools.com/python/ref_random_choice.asp). Please see the example below:
+Modules are a Python object that are sources of related code; think of if as a library of information. A code library, if you will! It is a file containing a set of functions you want to include in your application. ([For a list of all modules, you can check out the offical Python docs](https://docs.python.org/3/py-modindex.html)).
+
+For this lesson, we will be looking at the [random module](https://pynative.com/python-random-module/). And specifically, we will be looking at the `randint()` function of the random module: [random.randint()](https://www.w3schools.com/python/ref_random_randint.asp). Please see the example below:
 
 ```python
 # include the random module in our file
 import random
 
-# a list of fruits
-fruits = ["apple", "banana", "cherry"]
+# randint(bottom, top)
+# generate a random integer between
+# the bottom number and the top number
+random_number = random.randint(1, 100)
 
-# randomly choose a fruit and save it to a variable: chosen_fruit
-# choice() is a function inside the random module. we use it by calling it: random.choice()
-# the list in which you want the program to choose from, needs to go inside the parenthesis of choice()
+print(f'Random number: {random_number}')
 
-# syntax: new_variable = random.choice(list)
-chosen_fruit = random.choice(fruits)
-
-# print the value of variable chosen_fruit
-print(chosen_fruit)
 ```
+
+**Output**
+
+    Random number: 56
+
+    Random number: 13
+
+    Random number: 98
 
 - [random module code demo](https://repl.it/@pdxadmin/random)
 
