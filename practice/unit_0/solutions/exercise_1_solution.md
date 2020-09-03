@@ -83,14 +83,14 @@ Create a `programming_102` directory. Create a directory for each unit in Progra
 
     [myComputer programming_102]$ mkdir unit_1 unit_2 unit_3 unit_4 unit_5
 
-We actually don't need our `extra` directory. Navigate to the `pdx_code` directory using the terminal and delete it using `rm -rf <DIRECTORY_NAME>`.
+We actually don't need our `extra` directory. Navigate to the `pdx_code` directory using the terminal and delete it using `rm -r <DIRECTORY_NAME>`.
 
     [myComputer programming_102]$ cd ..
 
     [myComputer pdx_code]$ ls
     extra programming_101 programming_102
 
-    [myComputer programming_102]$ rm -rf extra
+    [myComputer programming_102]$ rm -r extra
 
     [myComputer programming_102]$ ls
     programming_101 programming_102
