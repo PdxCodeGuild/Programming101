@@ -120,7 +120,7 @@ If a number is a **multiple of 3** **_and_** a **multiple of 5**, print `FizzBuz
     99: Fizz
     100: Buzz
 
-### Exercise 1 [solution](./solutions/exercise_1_solution.md)
+### Exercise 2 [solution](./solutions/exercise_2_solution.md)
 
 ---
 
