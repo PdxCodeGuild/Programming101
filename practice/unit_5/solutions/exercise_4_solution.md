@@ -6,7 +6,7 @@
 
 **Solution**
 
-````python
+```python
 # starting values
 fibonacci = [0,1]
 
@@ -30,7 +30,8 @@ while len(fibonacci) < 10:
 
 # display the result
 output = f'First ten Fibonacci numbers:\n{fibonacci}'
-print(output)```
+print(output)
+```
 
 **Output**
 
@@ -67,7 +68,7 @@ while len(tribonacci) < 10:
 # display the result
 output = f'First ten Tribonacci numbers:\n{tribonacci}'
 print(output)
-````
+```
 
 **Output**
 
