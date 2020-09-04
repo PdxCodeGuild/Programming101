@@ -4,12 +4,12 @@
 
 ## Table of Contents
 
--   [Datatype: Lists](#lists)
--   [Modules](#modules)
--   [for each](#each)
--   [for x in range()](#range)
--   [break](#break)
--   [continue](#continue)
+- [Datatype: Lists](#lists)
+- [Modules](#modules)
+- [for each](#each)
+- [for x in range()](#range)
+- [break](#break)
+- [continue](#continue)
 
 ## <a id="lists"></a>Datatype: Lists
 
@@ -30,9 +30,9 @@ for fruit in fruits:
   print(f"{fruit} has an index of {fruits.index(fruit)}")
 ```
 
--   [List code demo](https://repl.it/@pdxadmin/lists)
--   [List Overview](https://www.w3schools.com/python/python_lists.asp)
--   [List Methods](https://www.w3schools.com/python/python_ref_list.asp)
+- [List code demo](https://repl.it/@pdxadmin/lists)
+- [List Overview](https://www.w3schools.com/python/python_lists.asp)
+- [List Methods](https://www.w3schools.com/python/python_ref_list.asp)
 
 ## <a id="modules"></a>Modules
 
@@ -54,7 +54,7 @@ chosen_fruit = random.choice(fruits)
 print(chosen_fruit)
 ```
 
--   Check out the [random.choice() demo code](https://repl.it/@pdxadmin/randomchoice). Add more fruit to the fruits list and run the code a few times to make sure you're truly getting a random fruit!
+- Check out the [random.choice() demo code](https://repl.it/@pdxadmin/randomchoice). Add more fruit to the fruits list and run the code a few times to make sure you're truly getting a random fruit!
 
 Let's practice random.choice() in the next lab.
 
@@ -83,9 +83,9 @@ Hello Anthony
 Hello Lisa
 ```
 
--   Check out the for each [demo code here](https://repl.it/@pdxadmin/for-each). Add a few more names to the students list. Does the outcome change?
--   Complete [Exercise 6](https://www.w3schools.com/python/exercise.asp?filename=exercise_for_loops3) of PYTHON Loops.
--   [Back to top](#top)
+- Check out the for each [demo code here](https://repl.it/@pdxadmin/for-each). Add a few more names to the students list. Does the outcome change?
+- Complete [Exercise 6](https://www.w3schools.com/python/exercise.asp?filename=exercise_for_loops3) of PYTHON Loops.
+- [Back to top](#top)
 
 ## <a id="range"></a>Loops: for x in range()
 
@@ -105,26 +105,34 @@ Hello
 Hello
 ```
 
--   Checkout the for x in range() [demo code here](https://repl.it/@pdxadmin/for-x-in-range). CHange the integer inside the range() function. What happens to the outcome?
--   Complete [Exercise 5](https://www.w3schools.com/python/exercise.asp?filename=exercise_for_loops2) of PYTHON Loops.
--   [Back to top](#top)
+- Checkout the for x in range() [demo code here](https://repl.it/@pdxadmin/for-x-in-range). CHange the integer inside the range() function. What happens to the outcome?
+- Complete [Exercise 5](https://www.w3schools.com/python/exercise.asp?filename=exercise_for_loops2) of PYTHON Loops.
+- [Back to top](#top)
 
 ## <a id="break"></a>Loops: break
 
-The break keyword is used to break out a for loop, or a while loop.
+The break keyword is used to break out of a loop.
 
 ```python
-i = 1 # set variable i equal to the value of 1
-while i < 6: # as long as i (1) is less than 6, run the following
-  print(i) # print i (1 on the first round)
+for i in range(10): # for each number 0-9, run the following
   if i == 3: # on every loop, check if i == 3
-    break # if it does, exit the while loop and stop counting
-  i += 1 # after printing i (1), add 1 to i (1). i is now 2
+    print('skip 3')
+
+    # return to the top of the loop
+    continue
+
+  if i == 7:
+    print('Goodbye!')
+
+    # exit the loop
+    break
+
+  print(i) # print the current value of i
 ```
 
--   Check out the break code demo [here](https://repl.it/@pdxadmin/break)
--   Read more about break [here](https://www.w3schools.com/python/ref_keyword_break.asp)
--   [Back to top](#top)
+- Check out the break code demo [here](https://repl.it/@pdxadmin/break)
+- Read more about break [here](https://www.w3schools.com/python/ref_keyword_break.asp)
+- [Back to top](#top)
 
 ## <a id="continue"></a>Loops: continue
 
@@ -136,8 +144,8 @@ for i in range(9):
   print(i)
 ```
 
--   Demo code for [continue](https://repl.it/@pdxadmin/continue)
--   Complete [Exercise 4](https://www.w3schools.com/python/exercise.asp?filename=exercise_for_loops1) of PYTHON Loops.
+- Demo code for [continue](https://repl.it/@pdxadmin/continue)
+- Complete [Exercise 4](https://www.w3schools.com/python/exercise.asp?filename=exercise_for_loops1) of PYTHON Loops.
 
 #### Lab 06: [Rock, Paper, Scissors](/labs/rps.md)
 
