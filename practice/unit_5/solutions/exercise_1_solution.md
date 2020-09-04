@@ -6,32 +6,34 @@
 
 **Solution**
 
-    import random
+```python
+import random
 
-    # Generate a random number between 1 and 10 to represent the number of sheep needed to fall asleep.
-    sheep_to_sleep = random.randint(1,10)
+# Generate a random number between 1 and 10 to represent the number of sheep needed to fall asleep.
+sheep_to_sleep = random.randint(1,10)
 
-    # you are still awake
-    awake = True
+# you are still awake
+awake = True
 
-    # count sheep until you fall asleep
+# count sheep until you fall asleep
 
-    # counter variable
-    sheep = 0
+# counter variable
+sheep = 0
 
-    # count sheep
-    while awake: # same as awake == True
-        print(f'{sheep + 1} sheep - baa!')
+# count sheep
+while awake: # same as awake == True
+    print(f'{sheep + 1} sheep - baa!')
 
-        # add one sheep_to_sleep
-        sheep += 1
+    # add one sheep_to_sleep
+    sheep += 1
 
-      # fall asleep
-    if sheep == sheep_to_sleep:
-        awake = False
+    # fall asleep
+if sheep == sheep_to_sleep:
+    awake = False
 
-        # sweet dreams
-        print('\n...zZzZzZzZ...')
+    # sweet dreams
+    print('\n...zZzZzZzZ...')
+```
 
 **Output**
 

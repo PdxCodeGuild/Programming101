@@ -30,9 +30,9 @@ Change the value of each number in the list to be the square of itself. Then pri
 
 **Output**
 
-      numbers: [3, 3, 10, 5, 4, 5, 6, 5, 7, 2]
+    numbers: [3, 3, 10, 5, 4, 5, 6, 5, 7, 2]
 
-      [9, 9, 100, 25, 16, 25, 36, 25, 49, 4]
+    [9, 9, 100, 25, 16, 25, 36, 25, 49, 4]
 
 ### Exercise 1 [solution](./solutions/exercise_1_solution.md)
 

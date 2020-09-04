@@ -12,11 +12,13 @@ Capitalize a word
 
 **Solution**
 
-        # Bicycle - using .capitalize()
-        print('bicycle'.capitalize()))
+```python
+# Bicycle - using .capitalize()
+print('bicycle'.capitalize()))
 
-        # Guitar - using .title()
-        print('guitar'.title())
+# Guitar - using .title()
+print('guitar'.title())
+```
 
 ### 4.2
 
@@ -27,9 +29,10 @@ Display a word in all capital letters and all lowercase letters
 
 **Solution**
 
-        # word: vIoLiN
-
-        print('vIoLiN'.upper() + ' ' + vIoLiN.lower())
+```python
+# word: vIoLiN
+print('vIoLiN'.upper() + ' ' + vIoLiN.lower())
+```
 
 ### 4.3
 
@@ -39,8 +42,10 @@ Exchange all instances of a letter within a word with a different
 
 The string method `.replace(old, new)` will replace the `old` character with the `new` character.
 
-        # Mizzizzippi
-        print('Mississippi'.replace('s','z'))
+```python
+# Mizzizzippi
+print('Mississippi'.replace('s','z'))
+```
 
 ## [< Exercise 4](../exercise_4.md) | [Exercise 5 >](../exercise_5.md)
 

@@ -6,21 +6,23 @@
 
 **Solution**
 
-    # display a welcome message to the user, for some context
-    print("Welcome! Please enter your address:")
+```python
+# display a welcome message to the user, for some context
+print("Welcome! Please enter your address:")
 
-    # collect address fields
-    street = input("Street number: ")
-    city = input("City: ")
-    state = input("State: ")
-    zip_code = input('Zip: ')
+# collect address fields
+street = input("Street number: ")
+city = input("City: ")
+state = input("State: ")
+zip_code = input('Zip: ')
 
-    # format address using an f-string
-    print(f'''
-    {street}
-    {city}, {state}
-    {zip_code}
-    ''')
+# format address using an f-string
+print(f'''
+{street}
+{city}, {state}
+{zip_code}
+''')
+```
 
 **Output**
 
@@ -37,21 +39,23 @@
 
 Using string methods, ensure that the address will be properly capitalized, no matter how it's entered.
 
-    street = input("Street number: ")
-    city = input("City: ")
-    state = input("State: ")
-    zip_code = input('Zip: ')
+```python
+street = input("Street number: ")
+city = input("City: ")
+state = input("State: ")
+zip_code = input('Zip: ')
 
-    street = street.title()
-    city = street.title()
-    
-    # format address using an f-string
-    print(f'''
-    {street}
-    {city}, {state}
-    {zip_code}
-    ''')
-    
+street = street.title()
+city = street.title()
+
+# format address using an f-string
+print(f'''
+{street}
+{city}, {state}
+{zip_code}
+''')
+```
+
 **Output**
 
     Enter address: 231 fAUx aVE.

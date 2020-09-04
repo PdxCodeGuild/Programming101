@@ -10,14 +10,14 @@
 
 **Output**
 
-      number: 92
-      output: 92 is within 10 of 100.
+    number: 92
+    output: 92 is within 10 of 100.
 
-      number: 108
-      output: 108 is within 10 of 100.
+    number: 108
+    output: 108 is within 10 of 100.
 
-      number: 51
-      output: 51 is not within 10 of 100.
+    number: 51
+    output: 51 is not within 10 of 100.
 
 ### **4.2**
 
@@ -27,22 +27,19 @@
 
 **Output**
 
-      Enter the first number: 36
-      Enter the second number: 28
+    Enter the first number: 36
+    Enter the second number: 28
+    output: 36 is within 10 of 28.
+    ---
 
-      output: 36 is within 10 of 28.
-      ---
+    Enter the first number: 251
+    Enter the second number: 260
+    output: 251 is within 10 of 260.
+    ---
 
-      Enter the first number: 251
-      Enter the second number: 260
-
-      output: 251 is within 10 of 260.
-      ---
-
-      Enter the first number: 95
-      Enter the second number: 15
-
-      output: 95 is not within 10 of 15.
+    Enter the first number: 95
+    Enter the second number: 15
+    output: 95 is not within 10 of 15.
 
 ### **4.3**
 

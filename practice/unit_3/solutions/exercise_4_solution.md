@@ -6,16 +6,18 @@
 
 **Solution**
 
-    #Assign a number to a variable.
-    number = 95
+```python
+#Assign a number to a variable.
+number = 95
 
-    #Determine whether the number is within 10 of 100.
-    if number >= 90 and number <= 110:
-        message = f'{number} is within 10 of 100.'
-    else:
-        message = f'{number} is not within 10 of 100.'
+#Determine whether the number is within 10 of 100.
+if number >= 90 and number <= 110:
+    message = f'{number} is within 10 of 100.'
+else:
+    message = f'{number} is not within 10 of 100.'
 
-    print(message)
+print(message)
+```
 
 **Output**
 

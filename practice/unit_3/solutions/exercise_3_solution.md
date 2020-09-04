@@ -6,20 +6,22 @@
 
 **Solution**
 
-    import math
+```python
+import math
 
-    # number of characters in message
-    num_characters = 1345
+# number of characters in message
+num_characters = 1345
 
-    # Tweets are 280 characters max
-    max_per_tweet = 280
+# Tweets are 280 characters max
+max_per_tweet = 280
 
-    # calculate the number of Tweets needed, rounding up
-    # with math.ceil()
-    tweets_needed = math.ceil(num_characters/max_per_tweet)
+# calculate the number of Tweets needed, rounding up
+# with math.ceil()
+tweets_needed = math.ceil(num_characters/max_per_tweet)
 
-    # place commas in appropriate places in characters with :,
-    message = f'''A message containing {num_characters:,} characters will require {tweets_needed} Tweets.'''
+# place commas in appropriate places in characters with :,
+message = f'''A message containing {num_characters:,} characters will require {tweets_needed} Tweets.'''
+```
 
 **Output**
 
@@ -31,31 +33,33 @@
 
 **Solution**
 
-    import math
+```python
+import math
 
-    # ask the user for number of characters in message
-    num_characters = input("Enter the number of characters: ")
+# ask the user for number of characters in message
+num_characters = input("Enter the number of characters: ")
 
-    # convert to an integer to perform math operations and comparisons
-    num_characters = int(num_characters)
+# convert to an integer to perform math operations and comparisons
+num_characters = int(num_characters)
 
-    # Tweets are 280 characters max
-    max_per_tweet = 280
+# Tweets are 280 characters max
+max_per_tweet = 280
 
-    # the user's message has less than 280 characters,
-    # they only need one Tweet
-    if num_characters < max_per_tweet:
-        message = f'A message with {num_characters} characters only requires one Tweet!'
-    else:
-        # calculate the number of Tweets needed, rounding up
-        # with math.ceil()
-        tweets_needed = math.ceil(num_characters/max_per_tweet)
+# the user's message has less than 280 characters,
+# they only need one Tweet
+if num_characters < max_per_tweet:
+    message = f'A message with {num_characters} characters only requires one Tweet!'
+else:
+    # calculate the number of Tweets needed, rounding up
+    # with math.ceil()
+    tweets_needed = math.ceil(num_characters/max_per_tweet)
 
 
-        # place commas in appropriate places in characters with :,
-        message = f'''A message containing {num_characters:,} characters will require {tweets_needed} Tweets.'''
+    # place commas in appropriate places in characters with :,
+    message = f'''A message containing {num_characters:,} characters will require {tweets_needed} Tweets.'''
 
-    print(message)
+print(message)
+```
 
 **Output**
 
@@ -74,41 +78,43 @@
 
 **Solution**
 
-    import math
+```python
+import math
 
-    # ask the user for number of characters in message
-    num_characters = input("Enter the number of characters: ")
+# ask the user for number of characters in message
+num_characters = input("Enter the number of characters: ")
 
-    # convert to an integer to perform math operations and comparisons
-    num_characters = int(num_characters)
+# convert to an integer to perform math operations and comparisons
+num_characters = int(num_characters)
 
-    # Tweets are 280 characters max
-    max_per_tweet = 280
+# Tweets are 280 characters max
+max_per_tweet = 280
 
-    # the user's message has less than 280 characters,
-    # they only need one Tweet
-    if num_characters < max_per_tweet:
-        message = f'A message with {num_characters} characters only requires one Tweet!'
-    else:
-        # calculate the number of Tweets needed, rounding up
-        # with math.ceil()
-        tweets_needed = math.ceil(num_characters/max_per_tweet)
+# the user's message has less than 280 characters,
+# they only need one Tweet
+if num_characters < max_per_tweet:
+    message = f'A message with {num_characters} characters only requires one Tweet!'
+else:
+    # calculate the number of Tweets needed, rounding up
+    # with math.ceil()
+    tweets_needed = math.ceil(num_characters/max_per_tweet)
 
 
-    if tweets_needed < 3:
-        comment = '\n\nThat should\'t take you too long!'
-    elif tweets_needed < 10:
-        comment = '\n\nYou\'d better get typing!'
-    elif tweets_needed >= 10:
-        comment = '\n\nMaybe you should find a different medium...'
+if tweets_needed < 3:
+    comment = '\n\nThat should\'t take you too long!'
+elif tweets_needed < 10:
+    comment = '\n\nYou\'d better get typing!'
+elif tweets_needed >= 10:
+    comment = '\n\nMaybe you should find a different medium...'
 
-    # place commas in appropriate places in characters with :,
-    message = f'''A message containing {num_characters:,} characters will require {tweets_needed} Tweets.'''
+# place commas in appropriate places in characters with :,
+message = f'''A message containing {num_characters:,} characters will require {tweets_needed} Tweets.'''
 
-    # add the comment to the message
-    message += comment
+# add the comment to the message
+message += comment
 
-    print(message)
+print(message)
+```
 
 **Output**
 

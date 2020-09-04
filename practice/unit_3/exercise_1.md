@@ -15,6 +15,7 @@ Let's do a little geometry!
   **Output**
 
       A triangle with sides of 3, 4, and 5 has a perimeter of 12.
+
 ---
 
 ### **1.2**
@@ -25,52 +26,55 @@ Let's do a little geometry!
 
   **Output**
 
-      A triangle with a base of 5 and a height of 8 has an area of 20.0.      
+      A triangle with a base of 5 and a height of 8 has an area of 20.0.
       ---
 
       A triangle with a base of 2.8 and a height of 2.02 has an area of 3.08.
+
 ---
 
 ### **1.3**
 
 - Assign a number to a variable to represent the `radius` of a circle.
-- Use the constant for `pi` contained within the `math` module and the `radius` *variable* to calculate the `circumference` and `area` of a ***circle***.
+- Use the constant for `pi` contained within the `math` module and the `radius` _variable_ to calculate the `circumference` and `area` of a **_circle_**.
 
   **Output**
-                
-        Circle
 
-        Radius: 5
-        Circumference: 31.4159...
-        Area: 78.5398...
+      Circle
+
+      Radius: 5
+      Circumference: 31.4159...
+      Area: 78.5398...
+
 ---
 
 ### **1.4**
 
-- Calculate the `volume` of a ***sphere*** with the same `radius`.
+- Calculate the `volume` of a **_sphere_** with the same `radius`.
 
   **Output**
 
       Sphere
-      
+
       Radius: 5
       Volume: 523.5987...
+
 ---
 
 ### **1.5**
 
 - Assign a number to a variable to represent the `radius` of a **second** circle.
-- Use the two radii to calculate the area of an  [annulus](https://www.google.com/search?q=annulus%20area).
+- Use the two radii to calculate the area of an [annulus](https://www.google.com/search?q=annulus%20area).
 
   **Output**
-      
+
       Annulus
 
       Outer Radius: 5
       Inner Radius: 3
       Area: 50.26548245743669
----
 
+---
 
 ### **Extra challenges**
 
@@ -83,6 +87,7 @@ Let's do a little geometry!
 - Display the result to the user
 
       A triangle with sides of 65 and 72 has a hypotenuse of 97.
+
 ---
 
 ### **1.7**

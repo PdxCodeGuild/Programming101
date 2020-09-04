@@ -4,11 +4,13 @@
 
 **Solution**
 
-    # ask the user for some text
-    text = input('Please enter a word or phrase: ')
+```python
+# ask the user for some text
+text = input('Please enter a word or phrase: ')
 
-    # use the .swapcase() string method to swap uppercase with lowercase and vice versa
-    print(text.swapcase())
+# use the .swapcase() string method to swap uppercase with lowercase and vice versa
+print(text.swapcase())
+```
 
 **Output**
 

@@ -4,28 +4,30 @@
 
 ### **1.1**
 
-    # Create a list of 10 numbers between 1 and 10.
-    numbers = [4, 9, 3, 9, 5, 7, 2, 5, 1, 7]
+```python
+# Create a list of 10 numbers between 1 and 10.
+numbers = [4, 9, 3, 9, 5, 7, 2, 5, 1, 7]
 
-    #Print all the number in the list that are less than or equal to 5.
+#Print all the number in the list that are less than or equal to 5.
 
-    # empty string for result
-    result = []
+# empty string for result
+result = []
 
-    # loop through the numbers
-    for number in numbers:
-        # if the current number is less than 5,
-        if number <= 5:
-            # convert the number to a string
-            number = str(number)
+# loop through the numbers
+for number in numbers:
+    # if the current number is less than 5,
+    if number <= 5:
+        # convert the number to a string
+        number = str(number)
 
-            # add it to the list
-            result.append(number)
+        # add it to the list
+        result.append(number)
 
 
-    # display the result
-    print(f'numbers: {numbers}')
-    print(f'less than five: {result}')
+# display the result
+print(f'numbers: {numbers}')
+print(f'less than five: {result}')
+```
 
 **Output**
 
@@ -34,15 +36,17 @@
 
 ### **1.2**
 
-    # Create a list of 10 numbers between 1 and 10.
-    numbers = [4, 9, 3, 9, 5, 7, 2, 5, 1, 7]
+```python
+# Create a list of 10 numbers between 1 and 10.
+numbers = [4, 9, 3, 9, 5, 7, 2, 5, 1, 7]
 
-    # determine how many 5s
-    fives = numbers.count(5)
+# determine how many 5s
+fives = numbers.count(5)
 
-    # display the result
-    print(f'numbers: {numbers}')
-    print(f'The number 5 occurs {numbers.count(5)} times')
+# display the result
+print(f'numbers: {numbers}')
+print(f'The number 5 occurs {numbers.count(5)} times')
+```
 
 **Output**
 
@@ -51,22 +55,24 @@
 
 ### **1.3**
 
-    # numbers list
-    numbers = [3, 3, 10, 5, 4, 5, 6, 5, 7, 2]
+```python
+# numbers list
+numbers = [3, 3, 10, 5, 4, 5, 6, 5, 7, 2]
 
-    # display numbers before transformation
-    print(f'numbers: {numbers}')
+# display numbers before transformation
+print(f'numbers: {numbers}')
 
-    # get the length of the numbers list
-    numbers_length = len(numbers)
-    # loop the length of the list
-    for i in range(numbers_length):
-        # using i as the index for the current number,
-        # change the value at i to the itself squared
-        numbers[i] = numbers[i] ** 2
+# get the length of the numbers list
+numbers_length = len(numbers)
+# loop the length of the list
+for i in range(numbers_length):
+    # using i as the index for the current number,
+    # change the value at i to the itself squared
+    numbers[i] = numbers[i] ** 2
 
-    # display the result
-    print(f'squares: {numbers}')
+# display the result
+print(f'squares: {numbers}')
+```
 
 **Output**
 

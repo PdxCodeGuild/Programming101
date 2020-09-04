@@ -9,7 +9,9 @@
 
   **Solution**
 
-        print('c' +  'o' +  'n' +  'c' +  'a' +  't' +  'e' +  'n' +  'a' +  't' +  'e')
+  ```python
+  print('c' +  'o' +  'n' +  'c' +  'a' +  't' +  'e' +  'n' +  'a' +  't' +  'e')
+  ```
 
 ### **3.2**
 
@@ -19,7 +21,9 @@
 
   **Solution**
 
-        print('How' + ' ' + 'now' + ' ' + 'brown' + ' ' + 'cow?')
+  ```python
+  print('How' + ' ' + 'now' + ' ' + 'brown' + ' ' + 'cow?')
+  ```
 
 ### **3.3**
 
@@ -28,7 +32,9 @@
 
   **Solution**
 
-        print('H' + 'o' + 'w' + ' ' + 'n' + 'o' + 'w' + ' ' + 'b' + 'r' + 'o' + 'w' + 'n' + ' ' + 'c' + 'o' + 'w' + '?')
+  ```python
+  print('H' + 'o' + 'w' + ' ' + 'n' + 'o' + 'w' + ' ' + 'b' + 'r' + 'o' + 'w' + 'n' + ' ' + 'c' + 'o' + 'w' + '?')
+  ```
 
 ## [< Exercise 3](../exercise_3.md) | [Exercise 4 >](../exercise_4.md)
 

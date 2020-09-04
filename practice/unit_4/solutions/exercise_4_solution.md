@@ -8,16 +8,18 @@ Using a for loop, ask the user for the name of three items (animals, colors, fru
 
 **Solution**
 
-    # empty list
-    animals = []
+```python
+# empty list
+animals = []
 
-    for i in range(3):
-        # ask the user for an animal
-        animal = input("Enter an animal: ")
-        # add it to the list
-        animals.append(animal)
+for i in range(3):
+    # ask the user for an animal
+    animal = input("Enter an animal: ")
+    # add it to the list
+    animals.append(animal)
 
-    print(f'animals: {animals}')
+print(f'animals: {animals}')
+```
 
 **Output**
 
@@ -33,25 +35,27 @@ Loop through the user's list and with iteration, print both the item and all the
 
 **Solution**
 
-    # empty list
-    animals = []
+```python
+# empty list
+animals = []
 
-    # ask the user for three animals
-    for i in range(3):
-        # ask the user for an animal
-        animal = input("Enter an animal: ")
-        # add it to the list
-        animals.append(animal)
+# ask the user for three animals
+for i in range(3):
+    # ask the user for an animal
+    animal = input("Enter an animal: ")
+    # add it to the list
+    animals.append(animal)
 
-    # loop through the animals
-    for animal in animals:
-        # print the current animal name
-        print(animal)
+# loop through the animals
+for animal in animals:
+    # print the current animal name
+    print(animal)
 
-    # loop through the letters in the animal name
-    for letter in animal:
-        # print the current letter
-        print(letter)
+# loop through the letters in the animal name
+for letter in animal:
+    # print the current letter
+    print(letter)
+```
 
 **Output**
 
@@ -81,32 +85,34 @@ Loop through the user's list and with iteration, print both the item and all the
 
 **Solution**
 
-    # empty list
-    animals = []
+```python
+# empty list
+animals = []
 
-    # ask the user for three animals
-    for i in range(3):
-        # ask the user for an animal
-        animal = input("Enter an animal: ")
-        # add it to the list
-        animals.append(animal)
+# ask the user for three animals
+for i in range(3):
+    # ask the user for an animal
+    animal = input("Enter an animal: ")
+    # add it to the list
+    animals.append(animal)
 
-    # empty list
-    letters_used = []
+# empty list
+letters_used = []
 
-    # loop through the animals
-    for animal in animals:
+# loop through the animals
+for animal in animals:
 
-        # loop through the letters in the animal name
-        for letter in animal:
+    # loop through the letters in the animal name
+    for letter in animal:
 
-            # if the letter isn't in the characters list,
-            if letter not in letters_used:
-                # add it
-                letters_used.append(letter)
+        # if the letter isn't in the characters list,
+        if letter not in letters_used:
+            # add it
+            letters_used.append(letter)
 
-    # display result
-    print(f'letters used: {letters_used}')
+# display result
+print(f'letters used: {letters_used}')
+```
 
 **Output**
 
