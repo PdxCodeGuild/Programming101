@@ -10,6 +10,7 @@
 - [String Concatenation](#concatenating)
 - [String Methods](#methods)
 - [Escape Characters](#escape)
+- [Unit 1 Lab](#lab)
 
 ## <a id="comments"></a>Comments
 
@@ -40,8 +41,8 @@ print("I don't like spam!")
 ### exclude certain lines of code while testing
 
 ```python
-print("Hello World!")
-# print("Hello Pluto!") # this line is excluded using a comment
+print("Hello friends!")
+# print("Hello nobody!") # this line is excluded using a comment
 ```
 
 [Back to top](#top)
@@ -84,43 +85,34 @@ Triple quoted strings may **span multiple lines**. All associated whitespace wil
 Some examples of Strings:
 
 ```python
-# String: Hello Mars!
-print("Hello Mars!")
+# String: Hello, friends!
+print("Hello, friends!")
 
-# String: Bucky is my favorite dog!
-dog_name = "Bucky"
-print(f"{dog_name} is my favorite dog!")
-# dog_name is variable where it's dataype is a String.
+# String: Welcome to PDX Code Guild!
+print("Welcome to PDX Code Guild!")
 ```
 
-We only use fstrings (format string) when we are embedding the value of a variable in a string when priting. We will learn more about this in <a href="https://github.com/PdxCodeGuild/Programming101/blob/master/units/unit-2.md" target="_blank">Unit 2</a>,
-
-#### Assignment
-
-Complete <a href="https://learnpythonthehardway.org/python3/ex6.html" target="_blank">Exercise 6 of Learn Python the Hard Way</a>
-
+We only use f
 [Back to top](#top)
 
 ## <a id="strings"></a>String Concatenation
 
 To concatenate, or combine, two strings you can use the **+** operator.
 
-Example 1:
+Strings will be printed **_exactly_** as they're written.
 
 ```python
-a = "Hello"
-b = "World"
-c = a + b
-print(c) # outcome: "HelloWorld"
+print("PDX" + "Code" + "Guild") # PDXCodeGuild
 ```
 
-Example 2:
+If we want spaces between our strings, we have to include them ourselves.
 
 ```python
-a = "Hello"
-b = "World"
-c = a + " " + b
-print(c) # outcome: "Hello World"
+# spaces inside another string
+print("PDX" + " Code " + "Guild") # PDX Code Guild
+
+# spaces inside their own strings
+print("PDX" + " " + "Code" + " " + "Guild") # PDX Code Guild
 ```
 
 ## <a id="methods"></a>Methods
@@ -150,8 +142,8 @@ Below are a few examples:
 |`\n`|New Line|
 |`\t`|Tab|
 
-To practice everything you learned in Unit 1, please complete Lab 01.
+To practice everything you learned in Unit 1, please complete the following lab:
 
-#### Lab 02: [Hello](/labs/hello.md)
+## <a id="lab"></a> Lab 01: [Hello](/labs/hello.md)
 
 [Back to top](#top)
