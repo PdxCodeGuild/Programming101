@@ -1,86 +1,39 @@
-# Hello!
+## **Lab 01**
 
-### Quick Links
-- [Back to Unit 01](https://github.com/PdxCodeGuild/Programming101/blob/master/units/unit-1.md)
-- [Back to Syllabus](https://github.com/PdxCodeGuild/Programming101)
+[Back to Unit 1](https://github.com/PdxCodeGuild/Programming101/blob/master/units/unit-1.md)
 
-## Directions
-
-
-### print()
-
-1. Create a new file `hello.py` in VS Code.
-2. Say hello! with the following code:
-
+[Back to Syllabus](https://github.com/PdxCodeGuild/Programming101)
 
 ```python
-print("Hello World!")
-```
-Run the following code in your terminal:
-
-**Mac**
-```bash
-python3 hello.py
+print("Welcome to PDX Code Guild!")
 ```
 
-**Windows**
-```bash
-py hello.py
-```
-#### Result
+Print the following **concatenations**:
 
-```bash
-Hello World!
-```
+### **1.1**
 
-### Concatenating
+The letters of a word, each in its own string.
 
-1. On a new line, concatenate two strings:
+---
 
-```python
-print("Hello World!")
-print("Hello" + "Mercury!")
-```
+### **1.2**
 
-Switch to your terminal and run the following command:
+The individual words of a sentence. Place spaces between each word using separate strings.
 
-**Mac**
-```bash
-python3 hello.py
-```
-**Windows**
-```bash
-py hello.py
-```
+---
 
-#### Result
+### **1.3**
 
-```bash
-Hello World!
-HelloMercury!
-```
+The individual characters in a sentence, including spaces and punctuation. Each character should be in its own string.
 
-Do you notice that there is no space in between `Hello` and `Mercury`?
+---
 
-Edit your code to include a white space:
-```python
-print("Hello World!")
-print("Hello " + "Mercury!")
-```
+### **1.4**
 
-#### Result
+Place comments explaining your code.
 
-```bash
-Hello World!
-Hello Mercury!
-```
+---
 
-### comments
-Now let's go back and add comments to explain the code.
+[Back to Unit 1](https://github.com/PdxCodeGuild/Programming101/blob/master/units/unit-1.md)
 
-```python
-# saying hello to the world
-print("Hello World!")
-# saying hellow to Mercury
-print("Hello " + "Mercury!")
-```
+[Back to Syllabus](https://github.com/PdxCodeGuild/Programming101)
