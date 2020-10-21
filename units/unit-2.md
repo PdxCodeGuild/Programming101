@@ -17,7 +17,7 @@ Variables are used to store data that the program will use later.
 # a string, "Jim", is assigned to a variable called name
 name = "Jim"
 # we later use that variable in a print statement
-print("Hello " + Jim + "!") # Hello Jim!
+print("Hello " + name + "!") # Hello Jim!
 ```
 
 A variable's value can be changed after assignment.
