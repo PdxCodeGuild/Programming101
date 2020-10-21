@@ -2,23 +2,37 @@
 
 ## **Exercise 3**
 
+Using one or more string methods:
+
 ### **3.1**
 
-- Concatenate together the letters of a word
+Capitalize a word
 
-- Print the word
+    word: bicycle
+    output: Bicycle
+
+    word: guitar
+    output: Guitar
+
+    word: enveleope
+    output: Envelope
 
 ### **3.2**
 
-- Concatenate together the words and spaces
-  of a sentence.
+Display a word in all capital letters and all lowercase letters
 
-- Print the sentence.
+    word: vIoLiN
+    output: VIOLIN violin
 
 ### **3.3**
 
-- Concatenate together each individual character in a sentence, including spaces and punctuation.
-- Print the full sentence.
+Exchange all instances of a letter within a word with a different
+
+    word: Mississippi
+
+    ...exchange 's' for 'z'...
+
+    output: Mizzizzippi
 
 ### Exercise 3 [solution](solutions/exercise_3_solution.md)
 

@@ -1,41 +1,52 @@
-# Unit 1 Practice
+# Unit 1 Practice Solutions
 
-## **Exercise 3**
+## Exercise 3
 
-### **3.1**
+### 3.1
 
-- Concatenate together the letters of a word
-- Print the word
+Capitalize a word
 
-  **Solution**
+`.capitalize()` will convert the first letter in a string to uppercase.
 
-  ```python
-  print('c' +  'o' +  'n' +  'c' +  'a' +  't' +  'e' +  'n' +  'a' +  't' +  'e')
-  ```
+`.title()` will convert the first letter of _each word_ in a string to uppercase.
 
-### **3.2**
+**Solution**
 
-- Concatenate together the words and spaces
-  of a sentence.
-- Print the sentence.
+```python
+# Bicycle - using .capitalize()
+print('bicycle'.capitalize()))
 
-  **Solution**
+# Guitar - using .title()
+print('guitar'.title())
+```
 
-  ```python
-  print('How' + ' ' + 'now' + ' ' + 'brown' + ' ' + 'cow?')
-  ```
+### 3.2
 
-### **3.3**
+Display a word in all capital letters and all lowercase letters
 
-- Concatenate together each individual character in a sentence, including spaces and punctuation.
-- Print the full sentence.
+`.upper()` will convert all letters in a string to uppercase.
+`.lower()` will convert all letters in a string to lowercase.
 
-  **Solution**
+**Solution**
 
-  ```python
-  print('H' + 'o' + 'w' + ' ' + 'n' + 'o' + 'w' + ' ' + 'b' + 'r' + 'o' + 'w' + 'n' + ' ' + 'c' + 'o' + 'w' + '?')
-  ```
+```python
+# word: vIoLiN
+print('vIoLiN'.upper() + ' ' + vIoLiN.lower())
+```
 
-## [< Exercise 3](../exercise_3.md) | [Exercise 4 >](../exercise_4.md)
+### 3.3
+
+**Solution**
+
+Exchange all instances of a letter within a word with a different
+
+The string method `.replace(old, new)` will replace the `old` character with the `new` character.
+
+```python
+# Mizzizzippi
+print('Mississippi'.replace('s','z'))
+```
+
+## [< Exercise 2](../exercise_2.md) | [Exercise 4 >](../exercise_4.md)
 
 ### [<< Back to Unit 1 Practice](/practice/unit_1/)

@@ -2,42 +2,29 @@
 
 ## **Exercise 4**
 
-Using one or more string methods:
+Print a famous quote with the following criteria
 
-### **4.1**
+- Use only one `print()`
 
-Capitalize a word
+- Using escape characters:
 
-    word: bicycle 
-    output: Bicycle
-      
-    word: guitar
-    output: Guitar
-    
-    word: enveleope
-    output: Envelope
+  - Place the quote and its author's name on separate lines.
 
-### **4.2**
+  - Indent the author's name
 
-Display a word in all capital letters and all lowercase letters
+  - Break the quote up onto multiple lines, if appropriate.
 
-    word: vIoLiN
-    output: VIOLIN violin
+- Include quotation marks around the quote
 
-### **4.3**
+      Output:
+      "The secret of genius is to carry the spirit of the child into old age, which means never losing your enthusiasm."
 
-Exchange all instances of a letter within a word with a different
-  
-    word: Mississippi
-
-    ...exchange 's' for 'z'...
-
-    output: Mizzizzippi
+            - Aldous Huxley
 
 ### Exercise 4 [solution](solutions/exercise_4_solution.md)
 
 ---
 
-## [< Exercise 3](exercise_3.md) | [Exercise 5 >](exercise_5.md)
+## [< Exercise 3](exercise_3.md)
 
 ### [<< Back to Unit 1 Practice](/practice/unit_1/)

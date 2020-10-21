@@ -2,51 +2,32 @@
 
 ## Exercise 4
 
-### 4.1
+Print a famous quote:
 
-Capitalize a word
+### **Solution 1**
 
-`.capitalize()` will convert the first letter in a string to uppercase.
+Escape characters can be used in a string to:
 
-`.title()` will convert the first letter of _each word_ in a string to uppercase.
-
-**Solution**
-
-```python
-# Bicycle - using .capitalize()
-print('bicycle'.capitalize()))
-
-# Guitar - using .title()
-print('guitar'.title())
-```
-
-### 4.2
-
-Display a word in all capital letters and all lowercase letters
-
-`.upper()` will convert all letters in a string to uppercase.
-`.lower()` will convert all letters in a string to lowercase.
-
-**Solution**
+- break it up onto new lines `\n`
+- insert tabs `\t`
+- place quotes within the string `\"`
 
 ```python
-# word: vIoLiN
-print('vIoLiN'.upper() + ' ' + vIoLiN.lower())
+print("\"The secret of genius is to carry the spirit of the child into old age, which means never losing your enthusiasm.\"\n\n\t- Aldous Huxley")
 ```
 
-### 4.3
+### **Solution 2**
 
-**Solution**
-
-Exchange all instances of a letter within a word with a different
-
-The string method `.replace(old, new)` will replace the `old` character with the `new` character.
+Using a multi-line string
 
 ```python
-# Mizzizzippi
-print('Mississippi'.replace('s','z'))
+print('''
+The secret of genius is to carry the spirit of the child into old age, which means never losing your enthusiasm."
+
+    - Aldous Huxley
+''')
 ```
 
-## [< Exercise 4](../exercise_4.md) | [Exercise 5 >](../exercise_5.md)
+## [< Exercise 4](../exercise_4.md)
 
 ### [<< Back to Unit 1 Practice](/practice/unit_1/)
