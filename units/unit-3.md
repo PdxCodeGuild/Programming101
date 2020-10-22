@@ -14,7 +14,7 @@
   - [<a id="logical"></a>Logical Operators](#logical-operators)
   - [<a id="conditionals"></a>Conditionals: if/else](#conditionals-ifelse)
     - [<a id="random"></a>Random Module](#random-module)
-    - [Lab](#lab)
+    - [Lab 04: Grading](#lab-04-grading)
 
 ## <a id="operators"></a>Operators
 
@@ -202,9 +202,6 @@ print(f'Random number: {random_number}')
 
     Random number: 98
 
-### Lab
-
-- [Unit 3 Quiz](https://forms.gle/2F7BuDH5vRKUZCUB6)
-- [Lab 04: Grading](/labs/grading.md)
+### [Lab 04: Grading](/labs/grading.md)
 
 [Back to top](#top)
