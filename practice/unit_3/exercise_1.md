@@ -29,7 +29,7 @@ Let's do a little geometry!
       A triangle with a base of 5 and a height of 8 has an area of 20.0.
       ---
 
-      A triangle with a base of 2.8 and a height of 2.02 has an area of 3.08.
+      A triangle with a base of 2.8 and a height of 2.02 has an area of 2.828.
 
 ---
 
