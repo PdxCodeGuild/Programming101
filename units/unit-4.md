@@ -6,7 +6,7 @@
 
 - [Datatype: Lists](#lists)
 - [Modules](#modules)
-- [for each](#each)
+- [for item in sequence](#each)
 - [for x in range()](#range)
 - [break](#break)
 - [continue](#continue)
