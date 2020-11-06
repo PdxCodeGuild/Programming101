@@ -28,6 +28,7 @@ Below is a list of helpful links.
 | ---------- | -------- | --------- |
 | Lab Submissions | [Slack](https://app.slack.com/client/TH5A28SJ0/CH6DE8QK1) | For enrolled Intro students only. [directions on how to use slack](/docs/slack.md) |
 | Terminal Cheatsheet | [Terminal Cheatsheet](/docs/terminal_cheatsheet.md) | Command Prompt/Terminal/Powershell |
+|Flowcharts|[Flowcharts](../docs/flowcharts/)|Example flowcharts with corresponding code|
 | VS Code Keyboard Shortcuts | [For Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf) |
 | VS Code Keyboard Shortcuts | [For macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf) |
 | Python Tutor | [Python Tutor](http://pythontutor.com/visualize.html#mode=edit) | online debugging tool |
