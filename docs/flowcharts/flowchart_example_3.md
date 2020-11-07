@@ -38,6 +38,6 @@ elif guess > secret:
 
 ---
 
-## [< Example 1](./flowchart_example_1.md)| [Example 3 >](./flowchart_example_3.md)
+## [< Example 2](./flowchart_example_2.md)| [Example 4 >](./flowchart_example_4.md)
 
 ### [<< Back to Flowcharts](/docs/flowcharts/)
