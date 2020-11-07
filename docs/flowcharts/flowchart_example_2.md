@@ -1,4 +1,4 @@
-# Flowchart Example 2 - The choice is yours
+# Flowchart Example 2 - Even or Odd?
 
 In this example the user will be asked to enter a number, which will be converted from a string to an integer. Then the program will output whether the number is even or odd.
 

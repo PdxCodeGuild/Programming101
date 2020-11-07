@@ -6,8 +6,7 @@
 
 - [Introduction](#intro)
 - [Symbols](#symbols)
-- [input()](#input)
-- [Integers / Floats](#numbers)
+- [Examples](#examples)
 
 ### <a id="intro"></a>Introduction
 
@@ -32,3 +31,13 @@ Flowcharts use different shapes to represent different data, processes and decis
 [Back to top](#top)
 
 ---
+
+### <a id="examples"></a>Examples
+
+[Output a Value](flowchart_example_1.md)
+
+[Even or Odd?](flowchart_example_2.md)
+
+[Guess the Number](flowchart_example_3.md)
+
+[Square the Numbers](flowchart_example_4.md)
