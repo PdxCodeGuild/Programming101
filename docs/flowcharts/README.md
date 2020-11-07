@@ -32,17 +32,3 @@ Flowcharts use different shapes to represent different data, processes and decis
 [Back to top](#top)
 
 ---
-
-### <a id="example1"></a>Example 1
-
-In this example a variable containing a string representing a color will be defined and then displayed in the terminal.
-
-[Back to top](#top)
-
-### <a id="input"></a>input()
-
-### <a id="numbers"></a>Numbers
-
-## <a id="lab"></a>Lab 02: [Mad Libs](https://github.com/PdxCodeGuild/Programming101/blob/master/labs/madlibs.md)
-
-[Back to top](#top)
