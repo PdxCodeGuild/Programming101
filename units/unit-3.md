@@ -133,9 +133,9 @@ x >= 3 # True
 
 - [Conditionals: if/else Overview (w3schools)](https://www.w3schools.com/python/python_conditions.asp)
 
-We can use condtional statements to run code using our comparison operators
+We can use condtional statements to run code using our comparison operators.
 
-This can be achieved by using the `if` keyword
+This can be achieved by using the `if` keyword.
 
 ```python
 x = 4
@@ -159,7 +159,7 @@ elif x < y:
 
 ```
 
-Lastly we have `else`. This will catch any case that was not caught by the preceding conditions
+Lastly we have `else`. This will catch any case that was not caught by the preceding conditions.
 
 ```python
 x = 4
