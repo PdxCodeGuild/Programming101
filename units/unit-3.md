@@ -144,9 +144,9 @@ if x < y:
     print("x is less than y")
 ```
 
-Notice how the `print` statement is indented? Python relies on indentation to define blocks of code. Other languages my use { } to accomplish the same task.
+Notice how the `print` statement is indented? Python relies on indentation to define blocks of code.
 
-We also have access to the keyword `elif`. This is pythons way of saying "if the previous condition was not True, then try this one"
+We also have access to the keyword `elif`. This is Python's way of saying, "if the previous condition was not True, then try this one."
 
 ```python
 x = 4
