@@ -82,6 +82,22 @@ There are many different datatypes in Python. The first one we will explore are 
 
 Triple quoted strings may **span multiple lines**. All associated whitespace will be included in the string literal.
 
+```python
+print("""
+PDX Code Guild
+Programming 101
+Unit 1
+""")
+```
+
+Output
+
+```bash
+PDX Code Guild
+Programming 101
+Unit 1
+```
+
 Some examples of Strings:
 
 ```python
@@ -92,7 +108,6 @@ print("Hello, friends!")
 print("Welcome to PDX Code Guild!")
 ```
 
-We only use f
 [Back to top](#top)
 
 ## <a id="strings"></a>String Concatenation
@@ -117,7 +132,9 @@ print("PDX" + " " + "Code" + " " + "Guild") # PDX Code Guild
 
 ## <a id="methods"></a>Methods
 
-Methods give datatypes more functionality. They allow you to work with Strings in a more useful way. You can learn more about [String methods here.](https://www.w3schools.com/python/python_ref_string.asp)
+Methods are functions that manipulate the piece of data to which they're attached. In Python, many datatypes have methods, including strings.
+
+Find a full list of string methods [here](https://www.w3schools.com/python/python_ref_string.asp).
 
 ### Common string methods:
 
@@ -133,7 +150,6 @@ Methods give datatypes more functionality. They allow you to work with Strings i
 
 Escape characters allow us to use special characters inside a string. They also allow us to use 'illegal' characters in a string, such as a double quote withing a string surrounded by double quotes.
 An escape character is a `\` followed by the character you want to insert.
-Below are a few examples:
 |code|result|
 |---|---|
 |`\'`|Single Quote|

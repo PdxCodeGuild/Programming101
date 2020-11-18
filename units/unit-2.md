@@ -45,10 +45,10 @@ print("Hello " + name + "!") # Hello Pam!
 ```python
 username = 'Athena'
 user_name = 'Dionysus'
+username_2 = 'Artemis'
 _user_name = 'Aphrodite'
 userName = 'Poseidon'
 USERNAME = 'Hera'
-username2 = 'Artemis'
 ```
 
 #### Invalid variable names:
