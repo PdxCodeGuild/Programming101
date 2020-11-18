@@ -27,7 +27,7 @@ print("Of cabbages — and kings —")
 print("And the mome raths outgrabe. ")
 print("And why the sea is boiling hot —")
 print("O frabjous day! Callooh! Callay!")
-print("And whether pigs have wings.'")
+print("And whether pigs have wings!'")
 ```
 
 ### Exercise 2 [solution](solutions/exercise_2_solution.md)
