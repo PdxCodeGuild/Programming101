@@ -3,7 +3,7 @@
 **"Comment out"** lines of code until you achieve
 the following output:
 
-    The time has come,' the Walrus said,
+    'The time has come,' the Walrus said,
     To talk of many things:
     Of shoes and ships and sealing-wax —
     Of cabbages and kings —
@@ -17,9 +17,9 @@ added on the same line as the code.
 **The code**:
 
 ```python
-print("The time has come,' the Walrus said,")
+print("'The time has come,' the Walrus said,")
 print("'Twas brillig, and the slithy toves")
-print("To talk of many things:")
+print("'To talk of many things:")
 print("Did gyre and gimble in the wabe:")
 print("Of shoes — and ships — and sealing-wax —")
 print("All mimsy were the borogoves, ")
