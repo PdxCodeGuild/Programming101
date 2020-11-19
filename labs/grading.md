@@ -1,13 +1,14 @@
 # Grading
 
 ### Quick Links
+
 - [Back to Unit 3](https://github.com/PdxCodeGuild/Programming101/blob/master/units/unit-3.md)
 - [Back to Syllabus](https://github.com/PdxCodeGuild/Programming101)
 
-Let's convert a number grade to a letter grade, using `if` and `elif` statements and comparisons.
+Let's convert a numerical score into a letter grade, using `if` and `elif` statements and comparisons.
 
-1. Have the user enter a number representing the grade (0-100)
-2. Convert the number grade to a letter grade
+1. Have the user enter a number representing the score (0-100)
+2. Convert the score to a letter grade A - F
 
 ## Numeric Ranges
 
