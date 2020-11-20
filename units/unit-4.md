@@ -8,8 +8,6 @@
 - [Modules](#modules)
 - [for item in sequence](#each)
 - [for x in range()](#range)
-- [break](#break)
-- [continue](#continue)
 
 ## <a id="lists"></a>Datatype: Lists
 
@@ -97,37 +95,6 @@ Outcome: each item of the list is printed on a new line
 Hello
 Hello
 Hello
-```
-
-## <a id="break"></a>Loops: break
-
-The break keyword is used to break out of a loop.
-
-```python
-for i in range(10): # for each number 0-9, run the following
-  if i == 3: # on every loop, check if i == 3
-    print('skip 3')
-
-    # return to the top of the loop
-    continue
-
-  if i == 7:
-    print('Goodbye!')
-
-    # exit the loop
-    break
-
-  print(i) # print the current value of i
-```
-
-## <a id="continue"></a>Loops: continue
-
-```python
-# Skip the iteration if the variable i is 3, but continue with the next iteration:
-for i in range(9):
-  if i == 3:
-    continue
-  print(i)
 ```
 
 #### Lab 06: [Rock, Paper, Scissors](/labs/rps.md)
