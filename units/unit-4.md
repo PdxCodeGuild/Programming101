@@ -65,8 +65,8 @@ Do something to each item in a list.
 ```python
 # initialize a list with student names and save to a variable, students
 students = ["Al", "Anthony", "Lisa"]
-# the student variable only exists in this for loop. you cannot use "student" anywhere else
-# studentS is the list variable we created a bove
+
+# the student variable will hold each subsequent student as we pass through the students list
 for student in students: # for each item in the list, do this:
   print(f"Hello {student}")
 ```
