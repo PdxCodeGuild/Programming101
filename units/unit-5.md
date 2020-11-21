@@ -79,7 +79,7 @@ for i in range(9):
 
 ## <a id="else"></a>Loops: else
 
-Do something while statement is `True`. When it is no longer `True`, do something `else`. The `else` code block will only be triggered if a loop ends "naturally", or when its condition becomes `False`. It will not be triggered if a loop is broken with `break`.
+Do something while statement is `True`. When it is no longer `True`, do something `else`. The `else` code block will only be triggered if a loop ends "naturally", when its condition becomes `False`. It will not be triggered if a loop is broken with `break`.
 
 ```python
 i = 1 # set variable i equal to the value of 1
