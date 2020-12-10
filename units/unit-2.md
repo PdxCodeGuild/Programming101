@@ -133,42 +133,6 @@ print(age)  # 32
 
 Floats are one way that Python represents decimal numbers. They can also be positive or negative, but will always contain a decimal.
 
-### Addition:
-
-```python
-print(4 + 4)  # 8
-```
-
-### Subtraction:
-
-```python
-print(8 - 4)  # 4
-```
-
-### Multiplication:
-
-```python
-print(4 * 4)  # 16
-```
-
-### Division:
-
-```python
-print(16 / 4)  # 4.0
-```
-
-### Exponential:
-
-```python
-print(2 ** 3)  # 8
-```
-
-### Floor Division:
-
-```python
-print(16 // 4) # 4
-```
-
 ### Error:
 
 ```python
@@ -176,9 +140,8 @@ print(16 // 4) # 4
 print(4 + "4")  # TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
 
-## <a id="operators"></a>Operators
 
-### Arithmetic Operators
+## <a id="math-operators"></a>Arithmetic Operators
 
 | Operator | Name           | Example  |
 | -------- | -------------- | -------- |
