@@ -4,66 +4,14 @@
 
 ## Table of Contents
 
-- [<a id="top"><a>Unit 03](#a-idtopaunit-03)
-  - [Table of Contents](#table-of-contents)
-  - [<a id="operators"></a>Operators](#operators)
-    - [Arithmetic Operators](#arithmetic-operators)
-    - [Arithmetic Example](#arithmetic-example)
+
   - [<a id="boolean"></a>Dataype: Boolean](#dataype-boolean)
   - [<a id="comparison"></a>Comparison Operators](#comparison-operators)
   - [<a id="logical"></a>Logical Operators](#logical-operators)
   - [<a id="conditionals"></a>Conditionals: if/else](#conditionals-ifelse)
-    - [<a id="random"></a>Random Module](#random-module)
-    - [Lab 03: Grading](#lab-03-grading)
+  - [<a id="random"></a>Random Module](#random-module)
+  - [Lab 03: Grading](#lab-03-grading)
 
-## <a id="operators"></a>Operators
-
-### Arithmetic Operators
-
-| Operator | Name           | Example  |
-| -------- | -------------- | -------- |
-| +        | Addition       | x + y    |
-| -        | Subtraction    | x - y    |
-| \*       | Multiplication | x \* y   |
-| /        | Division       | x / y    |
-| //       | Floor Division | x // y   |
-| \*\*     | Exponentiation | x \*\* y |
-| %        | Modulus        | x % y    |
-
-### Arithmetic Example
-
-The adventure club you're in has decided to check out [Powell Butte Nature Park](https://www.portlandoregon.gov/parks/finder/index.cfm?action=ViewPark&PropertyID=528). When the idea comes up, 20 people are interested in going. On the day before the hike, 6 people drop out. Let's update the headcount.
-
-```python
-num_of_interested = 20
-drop_outs = 6
-num_of_attendees = num_of_interested - drop_outs
-
-print(f"There were {num_of_interested} people who were interested in going hiking but {drop_outs} have changed their mind. The total number of people going is now {num_of_attendees}.")
-```
-
-**Output**
-
-    There were 20 people who were interested in going hiking but 6 have changed their mind. The total number of people going is now 14.
-
-We can also calculate the attendance rate as a percentage
-
-```python
-num_of_interested = 20
-drop_outs = 6
-num_of_attendees = num_of_interested - drop_outs
-
-attendance_rate = (num_of_attendees / num_of_interested) * 100
-
-print(f"There were {num_of_interested} people who were interested in going hiking but {drop_outs} have changed their mind. The total number of people going is now {num_of_attendees}.")
-
-print(f"That's an attendance rate of {attendance_rate}%")
-```
-
-**Output**
-
-    There were 20 people who were interested in going hiking but 6 have changed their mind. The total number of people going is now 14.
-    That's an attendance rate of 70.0%.
 
 ## <a id="boolean"></a>Dataype: Boolean
 
