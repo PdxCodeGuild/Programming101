@@ -102,26 +102,32 @@ colors.sort(reverse=True) # sort the list in reverse (same effect as .reverse())
 
 # For loops
 
-# print(colors)
 
 # for item in sequence:
 for color in colors:
     message = f'current color: {color}'
     # print(message)
 
-'''
-for item in jumble:
-    print(item)
-'''
+# ------------------------------------------------------------ #
 
-'''
+# print different things based on the current value of color
+for color in colors:
+    if color == 'green' or color == 'burgundy':
+        message = f'I don\'t like the color {color}'
+    else:
+        message = f'I like the color {color}'
+    # print(message)
+
+# ------------------------------------------------------------ #
+
 # strings are also sequences
 word = 'hello'
 for letter in word:
     print(letter * 2)
-'''
 
-# for x in range():
+# ------------------------------------------------------------ #
+
+# for x in range() - used to loop a certain number of times:
 
 # print(list(range(10))) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
@@ -129,38 +135,51 @@ for x in range(10):
     message = f'x: {x}, squared: {x ** 2}'
     # print(message)
 
+# ------------------------------------------------------------ #
+
+squares = [] # empty list to hold squares
+
+# loop 0 - 10
+for x in range(11):
+    # calculate the square of x
+    square = x ** 2
+    
+    # add the square to the list
+    squares.append(square)
+# print(squares)
+
+# ------------------------------------------------------------ #​
+
+# loop 5 times
+
+for x in range(5):
+    # add one additional ! each loop
+    message = "You're doing a great job!" + ('!' * x)
+    # print(message)
+    
+# ------------------------------------------------------------ #
+
+# ask the user how many times they want to loop
+loops = input('How many times would you like to loop?')
+
+# convert to integer
+loops = int(loops)
+
+# use the user's input as the range limit
+for x in range(loops):
+    message = f'loop number {x}'
+    # print(message)
+
+# ------------------------------------------------------------ #
+
+colors = ['red', 'yellow', 'pink', 'blue', 'orange', 'purple', 'orange', 'burgundy']
+
 number_of_colors = len(colors) # find the number of items in the colors list
 # print(number_of_colors) # 6
 
+# use each number in the range (0 - length of colors list) as an index in a list
 for index in range(number_of_colors):
     color = colors[index] # get the color at the current index
     message = f'index: {index}, color: {color}'
 
     # print(message)
-
-# loop controls
-# keywords: continue, break
-
-'''
-for x in range(10):
-
-    if x == 3 or x == 5:
-        print(f'...skipping {x}...')
-        continue # return to the top of the loop, skipping the rest of this iteration
-
-    if x == 8:
-        print('...goodbye!')
-        break # end the loop
-
-    print(x)
-'''
-
-# -------- #
-
-# selecting random items from a sequence (list or string)
-
-random_color = random.choice(colors)
-# print(random_color)
-
-random_letter = random.choice('abcdef')
-# print(random_letter)
