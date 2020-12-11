@@ -34,22 +34,6 @@ jumble = [10, 3.14, True, [11, 22, 33]]
 # print(colors[-3]) # green
 # print(colors[-4]) # ERROR! Index doesn't exist. IndexError: list index out of range
 
-
-# working with 'nested' lists
-grid = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
-
-# laid out like a grid
-grid = [
-    [0,0,0],
-    [0,0,0],
-    [0,0,0]
-]
-
-grid[1][1] = 'x'
-
-for row in grid:
-    print(row)
-
 # adding items:
 
 # .append(item) add the item to the END of the list
@@ -117,6 +101,26 @@ colors.sort(reverse=True) # sort in descending order -
 # print(colors) # ['yellow', 'teal', 'red', 'purple', 'blue']
 
 # ------------------------------------------------------------ #
+
+
+# working with 'nested' lists
+grid = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+
+# laid out like a grid
+grid = [
+    [0,0,0],
+    [0,0,0],
+    [0,0,0]
+]
+
+grid[1][1] = 'X'
+
+print(grid) # [[0, 0, 0], [0, 'X', 0], [0, 0, 0]]
+
+for row in grid:
+    print(row)
+
+# -------------------------------------------------------------------------- #
 
 # for loops
 
