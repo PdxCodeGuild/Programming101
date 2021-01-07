@@ -167,3 +167,111 @@ Today\'s lineup:
 """
 
 # print(output)
+
+# ---------------------------- #
+
+
+x = 17 # assignment operator
+y = 6
+
+# Arithmetic operators
+# print(x + y) # addition
+# print(x - y) # subtraction
+# print(x * y) # multiplication
+# print(x / y) # 'regular' division - returns a float
+# print(x // y) # 'floor' division - always rounds down (cuts off the decimal)
+# print(x ** y) # exponentiation - x^y
+# print(x % y) # remainder after division
+
+# modulus is good for finding even/odd
+# print(562934937 % 2) # 1 - odd
+# print(598394834 % 2) # 0 - even
+
+
+
+num_of_interested = 20
+drop_outs = 6
+total_attendees = num_of_interested - drop_outs
+
+attendance_rate = (total_attendees / num_of_interested) * 100
+
+# print(f'''
+# There were {num_of_interested} people interested in going hiking
+# but {drop_outs} dropped out. Now there will be {total_attendees} people going hiking!
+# That's an attendance rate of {attendance_rate}%.
+# ''')
+
+# ---------------------- #
+
+x = 5
+x + 3
+
+# print(x + 3) # 8 - uses the value of x, but doesn't change it
+# print(x) # 5 - x is still 5
+
+x = x + 3 # overwrite the value of x with its previous value (5) + 3
+# print(x) # 8
+
+# re-assignment operators
+x += 3 # x = x + 3
+x -= 3 # x = x - 3
+x *= 3 # x = x * 3
+x /= 3 # x = x / 3
+x //= 3 # x = x // 3
+x **= 3 # x = x ** 3
+x %= 3 # x = x % 3
+
+# ------------------------- #
+
+
+x = 17 # assignment operator
+y = 6
+
+# Arithmetic operators
+# print(x + y) # addition
+# print(x - y) # subtraction
+# print(x * y) # multiplication
+# print(x / y) # 'regular' division - returns a float
+# print(x // y) # 'floor' division - always rounds down (cuts off the decimal)
+# print(x ** y) # exponentiation - x^y
+# print(x % y) # remainder after division
+
+# modulus is good for finding even/odd
+# print(562934937 % 2) # 1 - odd
+# print(598394834 % 2) # 0 - even
+
+
+
+num_of_interested = 20
+drop_outs = 6
+total_attendees = num_of_interested - drop_outs
+
+attendance_rate = (total_attendees / num_of_interested) * 100
+
+# print(f'''
+# There were {num_of_interested} people interested in going hiking
+# but {drop_outs} dropped out. Now there will be {total_attendees} people going hiking!
+# That's an attendance rate of {attendance_rate}%.
+# ''')
+
+# ---------------------- #
+
+x = 5
+x + 3
+
+# print(x + 3) # 8 - uses the value of x, but doesn't change it
+# print(x) # 5 - x is still 5
+
+x = x + 3 # overwrite the value of x with its previous value (5) + 3
+# print(x) # 8
+
+# re-assignment operators
+x += 3 # x = x + 3
+x -= 3 # x = x - 3
+x *= 3 # x = x * 3
+x /= 3 # x = x / 3
+x //= 3 # x = x // 3
+x **= 3 # x = x ** 3
+x %= 3 # x = x % 3
+
+# ------------------------- #
