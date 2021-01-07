@@ -20,8 +20,10 @@ Let's convert a numerical score into a letter grade, using `if` and `elif` state
 
 ## Advanced Version 1
 
-Use `randint()` from the random module to determine the user's rival's score. Let the user know if they did better than their rival.
+Use `randint()` from the `random` module to determine the user's rival's score. Let the user know if they did better than their rival. Display the result along with **both** student's scores and letter grades.
 
 ## Advanced Version 2
 
-Use `%` to get the remainder of the grade when divided by ten, which is the same as the number in the ones digit. The number in the ones digit will determine whether they will get a '+' or a '-' appended to the end of their grade. For example, the grade `81` would be a 'B'. `81 % 10` would give you 1, which is a low number, so you would add a '-' to the end of the grade.
+Use `%` to get the remainder of the grade when divided by ten, which is the same as the number in the ones digit. The number in the ones digit will determine whether they will get a '+' or a '-' appended to the end of their grade. 
+
+For example, the grade `81` would be a 'B'. `81 % 10` would give you `1`, which is a low number, so you would add a '-' to the end of the grade.
