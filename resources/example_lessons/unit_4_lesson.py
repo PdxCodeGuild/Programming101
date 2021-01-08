@@ -1,185 +1,161 @@
-import random # for random.choice()
-
 '''
+Progamming 101
 Unit 4
 
-- Datatype - lists
-- random module
-    - random.choice()
-- For loops
+Lists
+for loops
     - for item in sequence
     - for x in range()
-- loop control
-    - continue
-    - break
 '''
 
-# lists - 'ordered' and 'changeable' sequences of items, separated by commas and 
-# surrounded by square brackets []. Since they're 'ordered', items can be referenced
-# by their position in the list. An item's position in the list is called its 'index'.
+'''
+Lists
 
+'Ordered' and 'changeable' sequences of items. Items are 
+separated by commas and surrounded by square brackets [].
+
+Since they are 'ordered', their items can be referenced
+using their position in the list.
+
+An item's position in the list is called its 'index'.
+'''
 
 # define a list
 blank_list = [] # blank list
-# print(type(blank_list)) # <class 'list'>
+# print(blank_list, type(blank_list)) # [] <class 'list'>
 
+numbers = [11, 22, 33, -44] # list of integers
+colors = ['red', 'green', 'blue'] # list of strings
 
-numbers = [654, 73, 109, -15] # list of integers
+# list items can be ANY datatype including other lists
+jumble = ['cat', 99, 3.14, True, ['a', 'b', 'c']]
 
-# list of strings (items on multiple lines)
+# list items can be organized vertically as well
 colors = [
     'red',
     'green',
-    'blue'
+    'blue', # trailing comma in case we want to reorder items
 ]
 
-# list items can be ANY datatype
-jumble = ['cat', '3', 6, 3.1415, True, None, [1,2,3]]
-# print(jumble) #['cat', '3', 6, 3.1415, True, None, [1,2,3]]
+# print(colors)
 
-# items can be referenced by their index (position in the list)
-# print(colors[0]) # list indices start at 0 - red
-# print(colors[1]) # NOT THE FIRST ITEM - green
-# print(colors[2]) # last item in the list - blue
-# print(colors[3]) # ERROR! Index too far right.
+# items can be referenced using their indices
+# print(colors[0]) # red - first index is 0
+# print(colors[1]) # green
+# print(colors[2]) # blue
 
-# In Python, NEGATIVE indices can also be used
-# print(colors[-1]) # blue
+# can't reference indices that don't exist
+# print(colors[3]) # IndexError - index too far right
+
+# last index in the list is one less than the length of the list
+
+# Python allows negative indices
+# print(colors[-1]) # blue - negative indices start from the right
 # print(colors[-2]) # green
 # print(colors[-3]) # red
-# print(colors[-4]) # ERROR! Index too far left.
+# print(colors[-4]) # IndexError - index too far left
 
-
-# change a value at an index
-# print(colors) # ['red', 'green', 'blue']
+# change the value at an index
 colors[1] = 'yellow'
 # print(colors) # ['red', 'yellow', 'blue']
 
-# add an item by adding a list
-# colors += 'orange' # can't just add an item
-# print(colors) # ['red', 'yellow', 'blue', 'o', 'r', 'a', 'n', 'g', 'e']
+# cannot assign values to indices that don't exist
+# colors[40] = 'purple' # IndexError: list assignment index out of range
 
-colors += ['orange'] # must add a list to a list
-# print(colors) # ['red', 'yellow', 'blue', 'orange']
+# ----------------------------------------------------- #
 
-colors2 = ['purple', 'orange']
-colors += colors2
-# print(colors)
+# add items using list methods
 
-# list methods
-# .append(item) add the item to the end of the list
-colors.append('burgundy') # can only add one item at a time
-# print(colors)
+# .append(item) - add the item to the END of the list
+colors.append('purple')
+# print(colors) # ['red', 'yellow', 'blue', 'purple']
 
-# .insert(index, item) add the item at the index
-colors.insert(2, 'pink')
-# print(colors)
+# .insert(index, item) - add the item at the given index
+colors.insert(0, 'green')
+# print(colors) # ['green', 'red', 'yellow', 'blue', 'purple']
 
-# .remove(item) remove the first occurance of the item from the list
-# print(colors) # ['red', 'yellow', 'pink', 'blue', 'orange', 'purple', 'orange', 'burgundy']
-colors.remove('orange')
-# print(colors) # ['red', 'yellow', 'pink', 'blue', 'purple', 'orange', 'burgundy']
+# .extend(new_list) - add the new_list to the end of the old list
+colors.extend(['teal', 'red'])
+# print(colors) # ['green', 'red', 'yellow', 'blue', 'purple', 'teal', 'red']
 
-# removed_item = colors.remove('blue') # .remove() returns None after removing the item
-# print(removed_item, colors) # None ['red', 'yellow', 'pink', 'purple', 'orange', 'burgundy']
-
-# .pop(index) remove the item at the index and return it
-removed_item = colors.pop(4)
-# print(removed_item, colors) # purple ['red', 'yellow', 'pink', 'blue', 'orange', 'burgundy']
-
-colors.sort() # sorts the list "in place"
-# print(colors) # ['blue', 'burgundy', 'orange', 'pink', 'red', 'yellow']
-
-colors.reverse() # same as .sort(reverse=True)
-# print(colors) # ['yellow', 'red', 'pink', 'orange', 'burgundy', 'blue']
-
-colors.sort(reverse=True) # sort the list in reverse (same effect as .reverse())
-# print(colors) # ['yellow', 'red', 'pink', 'orange', 'burgundy', 'blue']
-
-# --------------------------------------- #
-
-# loops are code blocks that repeat until a certain condition is met
-
-# For loops
+# ---------------------------------------------------- #
 
 
-# for item in sequence:
+# deleting items with list methods
+
+# .remove(item) - remove the first occurrence of the item
+colors.remove('red')
+# print(colors) # ['green', 'yellow', 'blue', 'purple', 'teal', 'mauve', 'red']
+
+# .pop(index) - remove the item at the index
+# colors.pop() # if no index is provided, .pop() will remove the LAST item
+colors.pop(0)
+# print(colors) # ['yellow', 'blue', 'purple', 'teal', 'mauve', 'red']
+
+# --------------------------------------------------- #
+
+# .sort() - sort list items IN PLACE
+
+# colors.sort() # goes into the colors list and sorts it
+
+# ------------------------------------------------------ #
+
+# .reverse() reverses the order of the list items IN PLACE
+# print(colors) # ['yellow', 'blue', 'purple', 'teal', 'mauve', 'red']
+colors.reverse()
+# print(colors) # ['red', 'mauve', 'teal', 'purple', 'blue', 'yellow']
+
+# -------------------------------------------------------- #
+
+import random
+
+# random.choice(sequence) - make a random selection out of a sequence
+# print(random.choice(colors))
+
+letters = 'abcdefghijklmnopqrstuvwxyz'
+# print(random.choice(letters))
+
+# -------------------------------------------------------- #
+
+'''
+Unit 4
+for loops
+'''
+
+# a loop is a code block that repeats until a certain condition is met
+
+# for item in sequence
+colors = ['red', 'mauve', 'teal', 'purple', 'blue', 'yellow']
+
+# item - arbitrary variable name that hold each item as it comes out of the list
+# sequence - items through which to be looped
+
 for color in colors:
-    message = f'current color: {color}'
-    # print(message)
+    output = f'color: {color.upper()}'
 
-# ------------------------------------------------------------ #
+    # print(output)
 
-# print different things based on the current value of color
-for color in colors:
-    if color == 'green' or color == 'burgundy':
-        message = f'I don\'t like the color {color}'
-    else:
-        message = f'I like the color {color}'
-    # print(message)
+# ------------------------------------------------ #
 
-# ------------------------------------------------------------ #
+letters = 'abcdefghijklmnopqrstuvwxyz'
 
-# strings are also sequences
-word = 'hello'
-for letter in word:
-    print(letter * 2)
+# use a string as a sequence for looping
+for letter in letters:
+    output = f'letter: {letter}'
+    # print(output)
 
-# ------------------------------------------------------------ #
+# ------------------------------------------------ #
 
-# for x in range() - used to loop a certain number of times:
+# for x in range():
 
+# range(stop) - returns a range of numbers from 0 to stop-1
+# list() # typecasting function to convert to list
+
+# print out the range as a list
 # print(list(range(10))) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 for x in range(10):
-    message = f'x: {x}, squared: {x ** 2}'
-    # print(message)
+    output = f'{x} squared is {x ** 2}'
+    # print(output)
 
-# ------------------------------------------------------------ #
-
-squares = [] # empty list to hold squares
-
-# loop 0 - 10
-for x in range(11):
-    # calculate the square of x
-    square = x ** 2
-    
-    # add the square to the list
-    squares.append(square)
-# print(squares)
-
-# ------------------------------------------------------------ #​
-
-# loop 5 times
-
-for x in range(5):
-    # add one additional ! each loop
-    message = "You're doing a great job!" + ('!' * x)
-    # print(message)
-    
-# ------------------------------------------------------------ #
-
-# ask the user how many times they want to loop
-loops = input('How many times would you like to loop?')
-
-# convert to integer
-loops = int(loops)
-
-# use the user's input as the range limit
-for x in range(loops):
-    message = f'loop number {x}'
-    # print(message)
-
-# ------------------------------------------------------------ #
-
-colors = ['red', 'yellow', 'pink', 'blue', 'orange', 'purple', 'orange', 'burgundy']
-
-number_of_colors = len(colors) # find the number of items in the colors list
-# print(number_of_colors) # 6
-
-# use each number in the range (0 - length of colors list) as an index in a list
-for index in range(number_of_colors):
-    color = colors[index] # get the color at the current index
-    message = f'index: {index}, color: {color}'
-
-    # print(message)
+# ------------------------------------------------ #
