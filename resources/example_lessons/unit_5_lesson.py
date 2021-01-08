@@ -41,18 +41,22 @@ while counter < 10:
     counter += 1
 
 
-counter = 0
-while True:
-    # if counter % 2 == 0:
-    #     print(f'{counter} - even')
-    # if counter % 2 == 1:
-    #     print(f'{counter} - odd')
 
-    if counter == 20:
-        # print('goodbye')
-        break
+'''
+pattern = ''
 
-    counter += 1
+count = 0
+while count < 20:
+  if count % 2 == 0:
+    pattern += '*'
+  
+  else:
+    pattern += '-'
+
+  count += 1
+
+print(pattern)
+'''
 
 '''
 fruits = []
@@ -101,4 +105,20 @@ for letter in lowercase:
     #     break
 else:
     print('end of alphabet')
+'''
+
+'''
+pattern = ''
+
+i = 0
+while i < 20:
+  if i % 2 == 0:
+    pattern += '*'
+  
+  else:
+    pattern += '-'
+
+  i += 1
+
+print(pattern)
 '''
