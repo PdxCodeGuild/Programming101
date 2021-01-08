@@ -1,8 +1,14 @@
 
 # Password Generator
 
-Let's generate a password ten characters long using a loop (`while` loop or `for` loop) and `random.choice`, this will be a string of random characters.
+Let's generate a ten-character password using a loop and `random.choice()`. You can use a `while` loop or `for` loop.
 
+The final result will be a string of random characters all on one line.
+
+Example output:
+```
+Your password: Q45pA%x9PJ
+```
 
 ## Extra Challenge 1
 
