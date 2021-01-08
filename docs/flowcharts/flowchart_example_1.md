@@ -27,4 +27,4 @@ print(color)
 
 ## [Example 2 >](./flowchart_example_2.md)
 
-### [<< Back to Flowcharts]/docs/flowcharts/)
+### [<< Back to Flowcharts](/docs/flowcharts/)
