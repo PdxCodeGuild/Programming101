@@ -10,6 +10,7 @@
   - [<a id="logical"></a>Logical Operators](#logical-operators)
   - [<a id="conditionals"></a>Conditionals: if/else](#conditionals-ifelse)
   - [<a id="random"></a>Random Module](#random-module)
+  - [<a id='flowcharts'>Flowcharts</a>](#flowcharts)
   - [Lab 03: Grading](#lab-03-grading)
 
 
@@ -150,6 +151,12 @@ print(f'Random number: {random_number}')
 
     Random number: 98
 
-### [Lab 03: Grading](/labs/grading.md)
+
+### <a id="random"></a>Flow Charts
+
+[Flowcharts](../docs/flowcharts/README.md) are a great tool for planning the logical flow of a program. 
+
+---
+## [Lab 03: Grading](/labs/grading.md)
 
 [Back to top](#top)
