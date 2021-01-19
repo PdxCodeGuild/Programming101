@@ -9,17 +9,17 @@ Let's play rock-paper-scissors with the computer.
 3. Compare the players' choices and determine who won and tell the user.
 
 ## Possible Combinations
-| | |
-|-|-|
-|rock |rock |
-|rock |paper|
-|rock |scissors|
-|paper |rock|
-|paper |paper|
-|paper |scissors|
-|scissors |rock|
-|scissors |paper|
-|scissors |scissors|
+| Human | Computer | Winner
+|-|-|-|
+|rock |rock | Tie
+|rock |paper|Computer|
+|rock |scissors|Human|
+|paper |paper|Tie|
+|paper |rock|Computer|
+|paper |scissors|Human|
+|scissors |scissors|Tie|
+|scissors |rock|Computer|
+|scissors |paper|Human|
 
 
 ## Extra Challenge 1
