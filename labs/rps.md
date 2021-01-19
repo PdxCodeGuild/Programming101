@@ -15,8 +15,8 @@ Let's play rock-paper-scissors with the computer.
 |rock |paper|Computer|
 |rock |scissors|Human|
 |paper |paper|Tie|
-|paper |rock|Computer|
-|paper |scissors|Human|
+|paper |rock|Human|
+|paper |scissors|Computer|
 |scissors |scissors|Tie|
 |scissors |rock|Computer|
 |scissors |paper|Human|
