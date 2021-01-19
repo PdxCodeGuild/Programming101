@@ -28,10 +28,10 @@ Searching my magic globe...
 Sorry, it is highly unlikely :(
 ```
 
-## Advanced version 1
+## Extra Challenge 1
 
 - Let the user choose if they want to ask a second question.
 
-## Advanced version 2
+## Extra Challenge 2
 
 - Ask the user if they want to ask another question, using a while loop.
