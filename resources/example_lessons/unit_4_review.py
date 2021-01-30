@@ -48,11 +48,6 @@ colors.insert(0, 'mauve')
 colors.extend(['yellow', 'red'])
 # print(colors)
 
-# deleting items from a list
-
-# keyword: del
-del colors[0] # delete item at index 0
-# print(colors)
 
 # .remove(item) delete the first occurance of the item
 removed_color = colors.remove('red')
@@ -65,9 +60,6 @@ removed_color = colors.pop(0)
 
 colors.reverse()
 # print(colors) ['red', 'yellow', 'teal', 'purple', 'blue']
-
-random.shuffle(colors) # randomize a list
-# print(colors) # ['teal', 'blue', 'yellow', 'purple', 'red']
 
 # .count(item) count the number of times the item occurs 
 # colors.append('blue')
@@ -99,6 +91,13 @@ colors.sort()
 
 colors.sort(reverse=True) # sort in descending order - 
 # print(colors) # ['yellow', 'teal', 'red', 'purple', 'blue']
+
+# Note:
+# rather than returning a sorted list,
+# .sort() sorts the list in place and returns the value 'None'
+colors = colors.sort() # since .sort() returns None, the colors 
+                       # variable will be overridden, deleting the list
+print(colors) # None - the list is deleted
 
 # ------------------------------------------------------------ #
 
