@@ -13,7 +13,7 @@ The syllabus below outlines the concepts you will learn in this course. Click on
 While we don't expect you to complete all the advance versions of the labs, we expect you to give it a try. and challenge yourself!
 
 | Unit| Concepts| Labs| Exercises|
-| ----|-------- | --- |------ | -------- |
+| ----|-------- | --- |------ | 
 | [Unit 00](/units/unit-0.md) | <ul><li>intro to the terminal</li> <li>installing Python</li> <li>installing VS Code</li></ul>                                                          | <ul><li>[Pre-Course: Create a file tree](/practice/unit_0/exercise_1.md) </li></ul>                                   ||                               |
 | [Unit 01](/units/unit-1.md) | <ul><li>terminal review</li> <li>comments</li> <li>`print()`</li> <li>datatype: strings</li> <li>concatentate</li>                                      | <ul><li>[Lab 01: Hello World!](/labs/hello.md)</li></ul>                                                               | [Unit 01 ](/practice/unit_1/) |
 | [Unit 02](/units/unit-2.md) | <ul><li>variables</li> <li>f-strings</li> <li>`input()`</li> <li>integers / floats</li> <li>arithmetic operators</li>     </ul>                                                           | <ul> <li>[Lab 02: Mad Libs](/labs/madlibs.md)</li> </ul>                                                                                                                                                                                                | [Unit 02 ](/practice/unit_2)  |
