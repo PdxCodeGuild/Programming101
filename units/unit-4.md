@@ -52,10 +52,6 @@ chosen_fruit = random.choice(fruits)
 print(chosen_fruit)
 ```
 
-Let's practice random.choice() in the next lab.
-
-#### Lab 05: [Magic 8 Ball](/labs/magic-8-ball.md)
-
 [Back to top](#top)
 
 ## <a id="each"></a>Loops: for item in sequence
