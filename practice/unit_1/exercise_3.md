@@ -14,7 +14,7 @@ Capitalize a word
     word: guitar
     output: Guitar
 
-    word: enveleope
+    word: envelope
     output: Envelope
 
 ### **3.2**
