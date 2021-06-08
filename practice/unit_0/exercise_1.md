@@ -14,21 +14,22 @@
 
 The final structure of your `pdx_code` directory should be:
 
-- `pdx_code`
-
-  - `extra`
-  - `programming_101`
-    - `unit_1`
-    - `unit_2`
-    - `unit_3`
-    - `unit_4`
-    - `unit_5`
-  - `programming_102`
-    - `unit_1`
-    - `unit_2`
-    - `unit_3`
-    - `unit_4`
-    - `unit_5`
+```bash
+pdx_code
+    ├── extra
+    ├── programming_101
+    │   ├── unit_1
+    │   ├── unit_2
+    │   ├── unit_3
+    │   ├── unit_4
+    │   └── unit_5
+    └── programming_102
+        ├── unit_1
+        ├── unit_2
+        ├── unit_3
+        ├── unit_4
+        └── unit_5
+```
 
 - We actually don't need our `extra` directory. Navigate to the `pdx_code` directory using the terminal and delete it using terminal commands.
 
