@@ -1,189 +1,142 @@
 '''
+Programming 101
 Unit 4 Review
 '''
-import random
 
 '''
-Lists
+datatype: list (list)
 
-ordered and changeable sequences of items
-items are separated by commas and surrounded by square brackets
+'Ordered' and 'changeable' sequences of items.
+Items are separated with commas ,
+Lists are defined using square brackets []
+
+Since lists are 'ordered', their items can be retrieved using their positions in the list.
+An item's position in the list is called its 'index' (indices plural)
 '''
 
-colors = ['green', 'red', 'blue']
+# define a list of strings
 
-# organize list items vertically
-colors = [
-    'green',
-    'red',
-    'blue'
-]
+# organized vertically
 
-# list items can be ANY datatype, including other lists
-jumble = [10, 3.14, True, [11, 22, 33]]
+# ------------------------------------------------------------------------------------ #
 
-# reference an item at its index
-# print(colors[0]) # green
-# print(colors[1]) # red
-# print(colors[2]) # blue
-# print(colors[3]) # ERROR! Index doesn't exist. IndexError: list index out of range
+# because lists are 'ordered', their items can be retrieved using their indices
+# list indices start at 0
 
-# In Python, negative indices can be used as well
-# print(colors[-1]) # blue - last item in the list
-# print(colors[-2]) # red
-# print(colors[-3]) # green
-# print(colors[-4]) # ERROR! Index doesn't exist. IndexError: list index out of range
+# step off the right edge of the list
 
-# adding items:
+# ---------------------------------------------------------------------- #
 
-# .append(item) add the item to the END of the list
-colors.append('teal')
-# print(colors)
+# last index of a list is one less than the list's length
+# len(sequence) - return the length of the sequence as an integer
 
-# .insert(index, item) add the item at the given index
-colors.insert(0, 'mauve')
-# print(colors)
+# ----------------------------------------------------------------------------------- #
 
-# .extend(list) add the list to the original
-colors.extend(['yellow', 'red'])
-# print(colors)
+# Python allows negative indices
+# -1 will be the last index in the list
 
+# step off the left edge of the list
 
-# .remove(item) delete the first occurance of the item
-removed_color = colors.remove('red')
-# print(colors)
-# print(removed_color) # None - remove() doesn't return the removed value
+# ------------------------------------------------------------------------------------------ #
 
-# .pop(index) remove the item at the index AND return it to you
-removed_color = colors.pop(0)
-# print(removed_color, colors) # green ['blue', 'purple', 'teal', 'yellow', 'red']
+# strings are also 'ordered' sequences
 
-colors.reverse()
-# print(colors) ['red', 'yellow', 'teal', 'purple', 'blue']
+# strings are NOT 'changeable'
 
-# .count(item) count the number of times the item occurs 
-# colors.append('blue')
-# print(colors.count('blue')) # 2
-# print(colors.count('brown')) # 0
+# ------------------------------------------------------------------------------------------ #
 
-# -------------------------------------------------------------------------- #
+# lists are changeable
 
-# .index(item) find the index of the first occurance of an item if it exists
-# print(colors)
-# print(colors.index('yellow'))
-# print(colors.index('brown')) # ValueError: 'brown' is not in list
+# cannot add items this way
 
-# check an index for an item without breaking the code with .index()
-desired_color = 'red'
+# --------------------------------------------------------------------------------------------- #
 
-if desired_color in colors:
-    index = colors.index(desired_color)
-else:
-    index = f'{desired_color} is not in the list'
+# use list methods to add items to a list
+# .append(item) - add the item to the end of the list
 
-print(index)
+# .insert(index, item) - add the item at the index
 
-# -------------------------------------------------------------------------- #
+# .extend(sequence) - add the items from the sequence to the end of the list
 
-# sort a list
-colors.sort()
-# print(colors) # ['blue', 'purple', 'red', 'teal', 'yellow']
+# ----------------------------------------------------------------------------------------- #
 
-colors.sort(reverse=True) # sort in descending order - 
-# print(colors) # ['yellow', 'teal', 'red', 'purple', 'blue']
+# delete items with list methods
 
-# Note:
-# rather than returning a sorted list,
-# .sort() sorts the list in place and returns the value 'None'
-colors = colors.sort() # since .sort() returns None, the colors 
-                       # variable will be overridden, deleting the list
-print(colors) # None - the list is deleted
+# .remove(item) - remove the first occurrence of the item from the list
 
-# ------------------------------------------------------------ #
+# .pop(index) - remove the item at the index and return it. index is -1 if not provided
+
+# fruits.pop(1) # remove the item at index 1
+
+# -------------------------------------------------------------------------------------- #
+
+# .index(item) - return the index of the first occurrence of the item, if it exists
+
+# value must exist in the list to get its index
+
+# --------------------------------------------------------------------------------------- #
+
+# .sort() - sort a list in ascending order in place (returns None)
 
 
-# working with 'nested' lists
-grid = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+# use reverse=True to sort in descending order
 
-# laid out like a grid
-grid = [
-    [0,0,0],
-    [0,0,0],
-    [0,0,0]
-]
+# ------------------------------------------------------------------------------------ #
 
-grid[1][1] = 'X'
+# typecast to list
+# list(sequence) - return the sequence as a list, if possible
 
-print(grid) # [[0, 0, 0], [0, 'X', 0], [0, 0, 0]]
+# ----------------------------------------------------------------------------------- #
 
-for row in grid:
-    print(row)
+# string methods that deal with lists
 
-# -------------------------------------------------------------------------- #
+# .split(separator) - split the string into a list at each instance of the separator character
 
-# for loops
+# glue_string.join(list_of_strings) - join all the string in the list into a single string
+#                                     by placing the 'glue_string' between each pair
 
-# for item in sequence
-for color in colors:
-    output = f'color: {color}'
-    # print(output)
+# ----------------------------------------------------------------------------------------- #
 
-# -------------------------------------------------------------------------- #
+# 'nested' lists
 
-for color in colors:
-    # change output based on color value
-    # if color == 'yellow' or color == 'red': # check for 'yellow' or 'red'
-    if color in ['yellow', 'red', 'purple']: # check if the color is in a list
-        output = f'I like {color}!'
+# -------------------------------------------------------------------------------------------- #
 
-    else:
-        output = f'I don\'t like {color}'
+# for item in sequence - loop through each item in a sequence
 
-    # print(output)
+# --------------------------------------------------------------------------------------------- #
 
-# -------------------------------------------------------------------------- #
+# print only the fruits that start with the letter 'L'
 
-# nested loops
-# loop through all the colors
-for color in colors:
-    print(color)
-    # loop through the color string
-    for letter in color:
-        # print each letter with a tab
-        print(letter)
+# ----------------------------------------------------------------------------------------------- #
 
-# -------------------------------------------------------------------------- #
+# for x in range() - loop a certain number of times
 
-# for x in range() - used to loop a certain number of times
-# list() - typecasting function for lists. Convert to list
-# print(list(range(10))) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# range(stop) - return a range of numbers from 0 to stop-1
 
-# range(stop) - start default to 0, stop is omitted
-for x in range(10):
-    output = f'x: {x}'
-    # print(output)
 
-# len(sequence) return the length of the sequence
-number_of_colors = len(colors)
-# loop over the indices of the list
-for index in range(number_of_colors):
-    color = colors[index] # use the index variable to get the current color
-
-    output = f'{index}: {color}'
-    # print(output)
+# --------------------------------------------------------------------- #
 
 # range(start, stop)
-for x in range(10, 21): # loop from 10 to 20, because 21 is omitted
-    output = f'x: {x}'
-    # print(output)
+
+# ----------------------------------------------------------------------- #
 
 # range(start, stop, step)
-for x in range(0, 11, 2): # count 0 - 10 by 2s
-    output = f'x: {x}'
-    # print(output)
 
-# range(start, stop, step)
-for x in range(10, -1, -1): # count down from 10 to 0 by 1
-    output = f'x: {x}'
-    # print(output)
 
+
+
+
+
+
+
+
+
+
+
+
+
+# ---------------------------------------------------------------------- #
+
+# loop through the indices of a list
+
+# -------------------------------------------------------------------- #
