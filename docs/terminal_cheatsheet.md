@@ -29,4 +29,6 @@ Each operating system has a different shortcut for running Python's `.py` files 
 
 When these commands are run without a `filename`, the **Python** **_interpreter_** will run in the terminal.
 
+Also, the terminal will need to be navigated to the folder containing the file before the file will be able to be run. Use the `ls` command to list the contents of the current directory and use `cd` to change into the directory where the file lives.
+
 [Back to Syllabus](/README.md)
