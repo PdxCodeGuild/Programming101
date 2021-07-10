@@ -3,10 +3,23 @@
 
 Let's play rock-paper-scissors with the computer.
 
-   
-1. The computer will ask the user for their choice (rock, paper, scissors). Use a `for` loop to display the possible choices.
-2. The computer will randomly choose rock, paper or scissors.
-3. Compare the players' choices and determine who won and tell the user.
+1. Greet the user and use a `for` loop to display their possible choices.   
+
+```
+Welcome to Rock, Paper, Scissors!
+
+Your options are:
+
+- Rock
+- Paper
+- Scissors
+
+Enter your selection:  
+```
+
+2. The computer will ask the user for their choice (rock, paper, scissors). 
+3. The computer will randomly choose rock, paper or scissors.
+4. Compare the players' choices and determine who won and tell the user.
 
 ## Possible Combinations
 | Human | Computer | Winner
