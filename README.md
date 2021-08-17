@@ -26,6 +26,7 @@ While we don't expect you to complete all the advance versions of the labs, we e
 Below is a list of helpful links.
 | Resource | Link | Note |
 | ---------- | -------- | --------- |
+| How To Learn | [Strategic Learning](/docs/how_to_learn/) | A short course outlining simple strategies for more effective learning |
 | Lab Submissions |[How to Submit Labs in Slack](/docs/slack.md) | For enrolled Intro students only |
 | Terminal Cheatsheet | [Terminal Cheatsheet](/docs/terminal_cheatsheet.md) | Command Prompt/Terminal/Powershell |
 |Flowcharts|[Flowcharts](/docs/flowcharts/)|Example flowcharts with corresponding code|
