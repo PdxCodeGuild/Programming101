@@ -1,0 +1,41 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="541px" height="161px" viewBox="-0.5 -0.5 541 161" content="&lt;mxfile&gt;&lt;diagram id=&quot;j90oYe0yd35qK4GEQ354&quot; name=&quot;Page-1&quot;&gt;zZbBjpswEIafhmNXYAMlx0120172xKFnFztgyWaQMYXs09fGTghLVttKkeCC7H/GY883IzEBPsjhhyJN9QaUiQCFdAjwS4DQLsPma4WzE5I4dUKpOHVSNAk5f2deDL3accramaMGEJo3c7GAumaFnmlEKejnbicQ81sbUrKFkBdELNVfnOrKqVkSTvpPxsvqcnMUeoskF2cvtBWh0N9I+DXABwWg3UoOByYsuwsXd+74ifX6MMVq/S8HkDvwh4jO5+bfpc+XZBV0NWXWPwrwvq+4ZnlDCmvtTXWNVmkpvNmHY0qz4dMnRddETYMwkEyrs3HxB65V9s2x89t+Ip3EXqtuKadeJL665TX0BMAsPIP7PPDXPL4gQNrGtdyJD5baI5BgNEcSod2CSXYHSfYAIvEmicThekTSTRJJ0vWIfN8kkTRej0i2SSJxth6RaJtNglZskmjZJXkFSn/TTEmjvzEJPuItJZOs/gBG8LI268IkzZQRLBJu5pVnb5CcUnt8r1jL38nvMVRo9g3wWo8pJPsgebGxOg2tm7hs6BPU+kgkF5aPMhNQT85ezqFTY6Uqrc3ghRL8bD4mefuxDu1TCVAKRhrePhUgR0PRjq7Hkwtqlh/DustR+KB/525eYBQuC4zCOxXG/19hs51Gt9F2M//i178=&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs>
+        <style type="text/css">
+            @import url("https://fonts.googleapis.com/css?family=raleway");
+        </style>
+    </defs>
+    <g>
+        <rect x="0" y="0" width="540" height="160" rx="24" ry="24" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <rect x="110" y="39" width="80" height="80" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <rect x="190" y="39" width="80" height="80" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <rect x="350" y="39" width="80" height="80" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <rect x="430" y="39" width="80" height="80" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <rect x="270" y="39" width="80" height="80" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <rect x="30" y="39" width="80" height="80" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <rect x="180" y="119" width="200" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 134px; margin-left: 280px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 20px; font-family: raleway; color: #000000; line-height: 1.2; pointer-events: all; white-space: nowrap; ">
+                                Short-term Memory
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="280" y="140" fill="#000000" font-family="raleway" font-size="20px" text-anchor="middle">
+                    Short-term Memory
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>
