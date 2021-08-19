@@ -46,7 +46,7 @@ state = input("State: ")
 zip_code = input('Zip: ')
 
 street = street.title()
-city = street.title()
+city = city.title()
 
 # format address using an f-string
 print(f'''
