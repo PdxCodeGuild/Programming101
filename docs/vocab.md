@@ -51,6 +51,8 @@ See "Mutable"
 - An item's position in a sequence (list, string, etc.)
 
 - Indices are always integers and must correspond to an existing item in the sequence, otherwise an `IndexError` will be raised.
+## Iteration
+A single pass through a loop's code block. A loop is made of one or more iterations.
 
 ## Loop
 
