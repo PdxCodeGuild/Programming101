@@ -76,11 +76,6 @@ Comments
 # .title() - return a lowercased string with the first letter of each word capitalized
 # print('pOrTlAnD, oReGoN'.title()) # Portland, Oregon
 
-# ------------------------------------------------------------------------------------- #
-
-# OOPS! Forgot parentheses on the method call
-# print('wxyz'.upper) # <built-in method upper of str object at 0x000002571CCE7770>
-
 # -------------------------------------------------------------------------------------- #
 
 # Escape Characters
@@ -94,14 +89,14 @@ Comments
 # "Hello "world"" # Error! Double quotes cancel each other
 # 'Hello 'world''  # Error! Single quotes cancel each other
 
-# Solution 1: mismatmached sets of quotes
-# print('hello "world"') # hello "world"
-# print("hello 'world'") # hello 'world'
+# Solution 1: mismatmached sets of quotes (fix quotes when presenting)
+# print("Hello "world"") # hello "world"
+# print('Hello 'world'') # hello 'world'
 
-# Solution 2: escape characters
-# print("Hello \"world\"") # Hello "world" - \" escape character
-# print('Hello \'world\'') # Hello 'world' - \' escape characters
+# Solution 2: escape characters (add escape characters when presenting)
+# print("Hello "world"") # Hello "world" - \" escape character
+# print('Hello 'world'') # Hello 'world' - \' escape characters
 
-# escape characters can also format strings
-# print("A\nB\nC") # \n - new line character
-# print("A\tB\tC") # \t - horizontal tab character
+# escape characters can also format strings (add escape characters when presenting)
+# print("ABC") # \n - new line character
+# print("ABC") # \t - horizontal tab character

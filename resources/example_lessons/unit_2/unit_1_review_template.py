@@ -62,6 +62,8 @@ Comments
 # methods can be chained
 # each subsequent method will operate on the return value of the previous
 
+# call .upper() on the string returned by .replace()
+
 # -------------------------------------------------------------------------------------------- #
 
 # Escape Characters

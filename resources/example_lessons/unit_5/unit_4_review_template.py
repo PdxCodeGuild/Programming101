@@ -7,8 +7,9 @@ Unit 4 Review
 datatype: list (list)
 
 'Ordered' and 'changeable' sequences of items.
-Items are separated with commas ,
+
 Lists are defined using square brackets []
+Items are separated with commas ,
 
 Since lists are 'ordered', their items can be retrieved using their positions in the list.
 An item's position in the list is called its 'index' (indices plural)
@@ -17,6 +18,7 @@ An item's position in the list is called its 'index' (indices plural)
 # define a list of strings
 
 # organized vertically
+
 
 # ------------------------------------------------------------------------------------ #
 
@@ -29,6 +31,8 @@ An item's position in the list is called its 'index' (indices plural)
 
 # last index of a list is one less than the list's length
 # len(sequence) - return the length of the sequence as an integer
+
+# calculate the last index using the list's length
 
 # ----------------------------------------------------------------------------------- #
 
@@ -66,8 +70,6 @@ An item's position in the list is called its 'index' (indices plural)
 
 # .pop(index) - remove the item at the index and return it. index is -1 if not provided
 
-# fruits.pop(1) # remove the item at index 1
-
 # -------------------------------------------------------------------------------------- #
 
 # .index(item) - return the index of the first occurrence of the item, if it exists
@@ -77,7 +79,6 @@ An item's position in the list is called its 'index' (indices plural)
 # --------------------------------------------------------------------------------------- #
 
 # .sort() - sort a list in ascending order in place (returns None)
-
 
 # use reverse=True to sort in descending order
 
@@ -90,18 +91,21 @@ An item's position in the list is called its 'index' (indices plural)
 
 # string methods that deal with lists
 
+
 # .split(separator) - split the string into a list at each instance of the separator character
 
 # glue_string.join(list_of_strings) - join all the string in the list into a single string
-#                                     by placing the 'glue_string' between each pair
+
 
 # ----------------------------------------------------------------------------------------- #
 
 # 'nested' lists
 
+
 # -------------------------------------------------------------------------------------------- #
 
 # for item in sequence - loop through each item in a sequence
+
 
 # --------------------------------------------------------------------------------------------- #
 
@@ -123,20 +127,10 @@ An item's position in the list is called its 'index' (indices plural)
 # range(start, stop, step)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 # ---------------------------------------------------------------------- #
 
 # loop through the indices of a list
 
 # -------------------------------------------------------------------- #
+
+# nested loop

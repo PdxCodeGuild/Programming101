@@ -3,7 +3,7 @@ Programming 101
 Unit 3
 '''
 
-# datatype: boolean (bool)
+# Datatype: boolean (bool)
 # True / False
 
 a = True
@@ -12,16 +12,17 @@ b = False
 # print(a, type(a)) # True <class 'bool'>
 # print(b, type(b)) # False <class 'bool'>
 
-# in Python, booleans are Capitalized
-# b = true  # NameError: name 'true' is not defined
+# in Python, booleans are capitalized
+# b = true # NameError: name 'true' is not defined
 
-# ----------------------------------------------------------------------------- #
+# --------------------------------------------------------------------------------------------------- #
 
-# Comparison operators - compare two pieces of data and result in a boolean
-# all comparisons need TWO sides
+# Comparison Operators - compare two pieces of data and result in a boolean
 
 x = 5
 y = 5
+
+# = is the assignment operator
 
 # print(x == y) # == check equality - True
 # print(x != y) # != check inequality - False
@@ -32,82 +33,94 @@ y = 5
 # print(x > y)  # > 'strictly' greater than - False
 # print(x >= y) # >= greater than or equal to - True
 
-# --------------------------------------------------------------------------- #
+# check the result of some math
+# print(x / 2 == 2.5) # True
+
+# check for a particular value in a variable
+# print(x == 5) # True
+# print(x == 99) # False
+
+# ----------------------------------------------------------------------- #
 
 # other datatypes can be compared as well
+# can't compare unlike datatypes
 
-word_1 = 'cat'
-word_2 = 'cat'
+word_1 = 'catt'
+word_2 = 'catt'
 
 # print(word_1 == word_2) # True
+# print(word_1 == 'cat') # False
 
-# -------------------------------------------------------------------------- #
+# ----------------------------------------------------------------------- #
 
-# Logical operators - combine two comparisons and resuilt in single boolean
+# Logical Operators - combine the results of two comparisons into a single boolean
 # and, or, not
 
 x = 5
+y = 3
 
-# and - True only if BOTH comparisons are True
-# print(x == 5 and x < 10) # True - both comparisons are True
-# print(x == 2 and x < 10)  # False - left comparison (x == 2) is False
+# and - True only if BOTH comparisons result in True
+# print(x == 5 and y == 3) # True - both comparisons result in True
+# print(x == 5 and x == y) # False - right comparison (x == y) results in False
 
 # or - True if at least ONE comparison is True
-# print(x == 2 or x < 10) # True - right comparison (x < 10) is True
-# print(x == 2 or x > 10) # False - both comparisons are False
+# print(x == 5 or x == y) # True - left comparison (x == 5) results in True
+# print(x == 1 or x == y) # False - both comparisons result in False
 
 # not - flip a boolean
-# print(x > 0) # True
-# print(not x > 0) # False
+# print(x < 0) # False
+# print(not x < 0) # True
 
-# print(not False) # True
+# ------------------------------------------------------------------------------------ #
 
-# 'not' is often used with the keyword 'in' to determine if an item is 'in' a sequence
-# 'in' will result in a boolean
+# 'not' is often used with the keyword 'in' to determine if an item is 'in' a sequence (list, string, etc...)
 
-# print('k' in 'book') # True
-# print('z' not in 'book') # True
+word = 'book'
 
-# -------------------------------------------------------------------------------- #
+# print('k' in word) # True
+# print('z' not in word) # True
 
-# Conditional Statements - run different 'code blocks' based on the outcome of comparisons
-# keywords: if, elif, else
+# ------------------------------------------------------------------------------------ #
 
 '''
-Code block - a section of code that executes together.
-             In Python, code blocks are defined using horizontal indentation
+Conditional Statements - if / elif / else
+
+Run different code blocks based on the outcome of comparisons.
+
+Code Block
+----------
+A section of code that executed together.
+In Python, code blocks are defined using horizontal indentation
 
 
--------------------------------------------------------------------------------
-
-Conditional Statements:
-
-- must start with an if
-- every single if will be checked
+- must start with if
+- every single if statement will be checked
 - elif will only be checked if the preceding if and other elifs were False
-- else will run if all other conditions were False
-
 - if/elif will only be checked until a True condition is found
+- else will be run if all other conditions were False
+
 '''
 
-# -------------------------------------------------------------------------- #
+# ------------------------------------------------------------------------------------- #
 
-light_switch = "DIM"
+light_switch = 'ON'
 
-if light_switch == "ON": # colon signifies the start of a code block
-    # first line of a code block sets the indentation for the block
-    # all other lines in the code block must match the first line's indentation
-    message = "I can see!"
+if light_switch == 'ON': # colon signifies the beginning of a code block
+    # first line in a code block determines the indentation for the block
+    message = 'I can see!'
 
-elif light_switch == "DIM":
-    message = "The light is dim."
-
-elif light_switch == "OFF":
+elif light_switch == 'OFF':
     message = "It's dark in here!"
+
+elif light_switch == 'DIM':
+    message = 'The light is dim...'
+
+else:
+    message = 'The light is broken...'
 
 # print(message)
 
-# -------------------------------------------------------------------------------- #
+# -------------------------------------------------------------------------------------- # 
 
 x = 10
 y = 10
@@ -121,33 +134,34 @@ elif x == 14:
 elif x > y:
     output = f"{x} is greater than {y}"
 
-else: # else doesn't require a condition because it catches all other cases
+else:
     output = f"x and y are both {x}"
 
 # print(output)
 
-# --------------------------------------------------------------------------------------- #
+# ---------------------------------------------------------------------------------- #
 
+# PRETEND THIS IS LINE 1 OF THE FILE
 import random
 
-# Guess the Number 1 - 10
-
-# set a secret number
+# set the secret number 1-10
 # secret = 5
-secret = random.randint(1, 10) # generate a random integer between 1 and 10
 
-# ask the user for a guess
-guess = input("Please guess a number 1 - 10: ")
+# generate a secret number 1-10
+secret = random.randint(1, 10)
 
-# convert guess to integer
+# ask the user to guess a number
+guess = input('Guess a number between 1 and 10: ')
+
+# convert the guess to an integer
 guess = int(guess)
 
-# check the guess
+# compare the guess to the secret
 if guess == secret:
     print(f"Congratulations! You guessed the secret number: {secret}!")
 
-elif guess < secret: 
-    print(f"Oops! Your guess of {guess} was too low! The secret was {secret}...")
+elif guess < secret:
+    print(f"Oops! Your guess of {guess} was too low! The secret number was {secret}...")
 
 elif guess > secret:
-    print(f"Oops! Your guess of {guess} was too high! The secret was {secret}...")
+    print(f"Oops! Your guess of {guess} was too high! The secret number was {secret}...")

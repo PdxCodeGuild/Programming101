@@ -98,9 +98,11 @@ Multi-line comments
 # .replace(old_str, new_str) - replace all occurrences of the old_str with the new_str
 # print('hello'.replace('h', 'j'))
 
-# methods can be chained
+# methods can be chained 
 # each subsequent method will operate on the return value of the previous
-# print('hello'.replace('h', 'j').title()) # Jello
+
+# call .upper() on the string returned by .replace()
+# print('hello'.replace('h', 'j').upper()) # JELLO
 
 # -------------------------------------------------------------------------------------------- #
 
