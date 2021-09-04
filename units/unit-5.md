@@ -90,6 +90,6 @@ else: # the moment, i is 6, the while statement goes from True to False
   print("i is no longer less than 6") # this will now print
 ```
 
-## Lab 5 - [Password Generator](https://github.com/PdxCodeGuild/IntroToProgramming/blob/master/labs/lab08-password_generator.md)
+## Lab 5 - [Password Generator](/labs/password_generator.md)
 
 [Back to top](#top)
