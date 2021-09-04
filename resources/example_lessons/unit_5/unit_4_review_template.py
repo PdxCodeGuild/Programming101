@@ -56,17 +56,17 @@ An item's position in the list is called its 'index' (indices plural)
 # --------------------------------------------------------------------------------------------- #
 
 # use list methods to add items to a list
-# .append(item) - add the item to the end of the list
+# .append(item) - add the item to the end of the list and return None 
 
-# .insert(index, item) - add the item at the index
+# .insert(index, item) - add the item at the index and return None
 
-# .extend(sequence) - add the items from the sequence to the end of the list
+# .extend(sequence) - add the items from the sequence to the end of the list and return None
 
 # ----------------------------------------------------------------------------------------- #
 
 # delete items with list methods
 
-# .remove(item) - remove the first occurrence of the item from the list
+# .remove(item) - remove the first occurrence of the item from the list and return None
 
 # .pop(index) - remove the item at the index and return it. index is -1 if not provided
 
@@ -78,7 +78,7 @@ An item's position in the list is called its 'index' (indices plural)
 
 # --------------------------------------------------------------------------------------- #
 
-# .sort() - sort a list in ascending order in place (returns None)
+# .sort() - sort a list in ascending order in place and return None
 
 # use reverse=True to sort in descending order
 
