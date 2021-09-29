@@ -141,7 +141,9 @@ else:
 
 # ---------------------------------------------------------------------------------- #
 
-# PRETEND THIS IS LINE 1 OF THE FILE
+### TALK ABOUT FLOWCHARTS, IF TIME ALLOWS
+
+# pretend this is line 1 of the file (imports are always at the top)
 import random
 
 # set the secret number 1-10

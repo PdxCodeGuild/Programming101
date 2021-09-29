@@ -3,6 +3,36 @@ Programming 101
 Unit 2
 '''
 
+# ---------------------------------------------------------------------------- #
+
+# EXPLAIN THATIF WE WANT TO PRINT THE COLOR 5 TIMES, 
+# WE NEED TO CREATE 5 INDIVIDUAL STRINGS THE WAY WE'VE SEEN IT SO FAR
+print('purple') # purple 
+print('purple') # purple
+print('purple') # purple
+print('purple') # purple
+print('purple') # purple
+
+# SHOW THAT IF WE CHANGE ONE, IT DOESN'T CHANGE ALL THE REST
+print('green') # green
+print('purple') # purple
+print('purple') # purple
+print('purple') # purple
+print('purple') # purple
+
+# THIS IS WHY WE USE VARIABLES
+color = 'purple'
+
+# NOW WE CAN PRINT THE color VARIABLE 5 TIMES TO REFER BACK TO THE SAME STRING
+print(color) # purple
+print(color) # purple
+print(color) # purple
+print(color) # purple
+print(color) # purple
+
+# CHANGE THE VALUE OF color AND SHOW THE OUTPUT AGAIN
+# ---------------------------------------------------------------------------- #
+
 '''
 Variables
 
@@ -99,9 +129,16 @@ user_string = input('prompt message')
 - Once the user hits Enter, anything they typed in the terminal will be returned from input()
 - The returned string can be stored in a variable such as 'user_string' above
 
-color = input('Enter a color: ')
-print(f"Favorite color: {color}")
 '''
+
+### 1. RUN CODE WITHOUT input() TO SHOW THAT IT RUNS ALL THE WAY THROUGH
+### 2. RUN input() AND SHOW THAT THE CODE IS WAITING (BLINKING CURSOR) AND WE CAN TYPE IN THE TERMINAL
+### 3. WRITE A prompt_message STRING WITHOUT COLON/SPACE AND RUN AGAIN TO SHOW OUTPUT
+### 4. ADD A COLON/SPACE FOR FORMATTING
+### 5. CATCH THE RETURN VALUE IN A VARIABLE AND PRINT IN AN F-STRING
+
+# color = input('Enter a color: ')
+# print(f"Favorite color: {color}")
 
 # ------------------------------------------------------------------------------------------------ #
 

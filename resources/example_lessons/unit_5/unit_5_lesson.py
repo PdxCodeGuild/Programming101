@@ -20,8 +20,12 @@ all_characters = letters + digits + punctuation
 
 # --------------------------------------------------------------------------------------------------- #
 
-# while loop
+### A LOOP IS A CODE BLOCK THAT REPEATS UNTIL A CERTAIN CONDITION IS MET
+### IN A for LOOP, THE CONDITION IS BASED ON THE SEQUENCE OVER WHICH WE'RE LOOPING
+### IN A WHILE LOOP, WE SET THE CONDITION OVER WHICH WE LOOP
+### IT IS UP TO US TO CHANGE A VALUE WITHIN THE 
 
+# while loop
 '''
 while some_condition == True:
     # loop this code block
@@ -29,8 +33,8 @@ while some_condition == True:
     # becomes False
 '''
 
-# "for x in range(10)" with a while loop
 
+# "for x in range(10)" with a while loop
 x = 0
 
 while x < 10:
@@ -56,6 +60,10 @@ while len(numbers) < 10:
 # print(numbers) # [90, 3, 61, 23, 22, 94, 75, 9, 17, 48]
 
 # ------------------------------------------------------------------------------ #
+
+### THIS EXAMPLE CAN BE CONFUSING TO STUDENTS, 
+### BUT I COULDN'T THINK OF A GOOD EXAMPLE TO BUILD A STRING 
+### THAT WASN'T EXACTLY LIKE THE PASSWORD LAB, LOL
 
 # string pattern builder - run a loop to create an alternating pattern of string characters
 

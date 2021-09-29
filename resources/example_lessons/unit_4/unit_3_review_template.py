@@ -11,6 +11,8 @@ Unit 3 Review
 
 # ---------------------------------------------------------------------------------- #
 
+### THIS SECTION CAN BE SKIPPED, IF NEEDED AS WELL AS ALL FURTHER REFERENCES TO TRUTHY/FALSEY
+
 # all datatypes have typecasting functions
 # str(), int(), float()
 
@@ -50,7 +52,7 @@ Unit 3 Review
 
 # other datatypes can be compared
 
-
+### THIS SECTION CAN BE SKIPPED, IF NEEDED ###
 # avoid < and > with datatypes other than numbers (at least for now)
 
 # checking for alphabetical order
@@ -60,7 +62,6 @@ Unit 3 Review
 # and, or, not
 
 # all logical statements needs two comparisons
-
 
 
 # and - True only if BOTH comparisons are True
@@ -77,6 +78,7 @@ Unit 3 Review
 
 # ----------------------------------------------------------------------------------------- #
 
+### THIS SECTION CAN BE SKIPPED, IF NEEDED
 # 'not' with Truthy/Falsey
 
 # ------------------------------------------------------------------------------------------------ #

@@ -66,12 +66,13 @@ colors = [
 
 # ----------------------------------------------------------------------------------------------- #
 
-# variable to represent the index
+# often, a variable will be used to represent an index
 index = 2
 # print(colors[index]) # blue
 
 # ---------------------------------------------------------------------------------------------- #
 
+### THIS SECTION CAN BE SKIPPED, IF NEEDED
 # strings are also 'ordered' sequences, which means
 # indices can be used to retrieve each character in a string
 
@@ -174,6 +175,12 @@ for color in colors:
 
 # ------------------------------------------------------------------------------------- #
 
+### 1. BUILD LOOP, PRINT EACH color
+### 2. INTRODUCE COUNTER VARIABLE. EXPLAIN DESIRED OUTPUT STRING "1. red"
+### 3. REPLACE THE COLOR WITH THE color VARIABLE, SHOW OUTPUT OF DIFFERENT COLORS WITH SAME NUMBER LABEL
+### 4. REPLACE THE NUMBER WITH THE counter VARIABLE, SHOW OUTPUT OF DIFFERENT COLORS WITH SAME NUMBER LABEL
+### 5. INCREASE counter TO CHANGE NUMBER LABEL
+
 counter = 1 # to label each color
 
 for color in colors:
@@ -186,8 +193,12 @@ for color in colors:
 
 # ------------------------------------------------------------------------------------- #
 
-# use a string as a sequence for looping
+### 1. COPY ABCs VARIABLE FROM random.choice() EXAMPLE ABOVE
+### 2. LOOP THROUGH ABCs, PRINT EACH letter
+### 3. DEFINE vowels LIST
+### 4. CHECK IF letter IS IN vowels LIST AND PRINT APPROPRIATE output
 
+# use a string as a sequence for looping
 ABCs = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 vowels = ['A', 'E', 'I', 'O', 'U']
@@ -205,10 +216,13 @@ for letter in ABCs:
 
 # ------------------------------------------------------------------------------------------ #
 
-# for x in range()
+# for x in range() - loop a certain number of times
 
 # range(stop_value) - return a range of numbers from 0 to stop_value-1
 
+# print(range(10)) # range(0, 10)
+
+# convert the range object to a list
 # print(list(range(10))) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 '''

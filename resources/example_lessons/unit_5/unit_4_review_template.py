@@ -28,6 +28,7 @@ An item's position in the list is called its 'index' (indices plural)
 # step off the right edge of the list
 
 # ---------------------------------------------------------------------- #
+### THIS SECTION CAN BE SKIPPED, IF NEEDED
 
 # last index of a list is one less than the list's length
 # len(sequence) - return the length of the sequence as an integer
@@ -42,6 +43,7 @@ An item's position in the list is called its 'index' (indices plural)
 # step off the left edge of the list
 
 # ------------------------------------------------------------------------------------------ #
+### THIS SECTION CAN BE SKIPPED, IF NEEDED
 
 # strings are also 'ordered' sequences
 
@@ -89,6 +91,8 @@ An item's position in the list is called its 'index' (indices plural)
 
 # ----------------------------------------------------------------------------------- #
 
+### THIS SECTION CAN BE SKIPPED, IF NEEDED
+
 # string methods that deal with lists
 
 
@@ -98,6 +102,7 @@ An item's position in the list is called its 'index' (indices plural)
 
 
 # ----------------------------------------------------------------------------------------- #
+### THIS SECTION CAN BE SKIPPED, IF NEEDED
 
 # 'nested' lists
 
@@ -119,18 +124,22 @@ An item's position in the list is called its 'index' (indices plural)
 
 
 # --------------------------------------------------------------------- #
+### THIS SECTION CAN BE SKIPPED, IF NEEDED
 
 # range(start, stop)
 
 # ----------------------------------------------------------------------- #
+### THIS SECTION CAN BE SKIPPED, IF NEEDED
 
 # range(start, stop, step)
 
 
 # ---------------------------------------------------------------------- #
+### THIS SECTION CAN BE SKIPPED, IF NEEDED
 
 # loop through the indices of a list
 
 # -------------------------------------------------------------------- #
+### THIS SECTION CAN BE SKIPPED, IF NEEDED
 
 # nested loop

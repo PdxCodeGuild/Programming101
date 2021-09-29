@@ -76,6 +76,8 @@ The returned string can be stored in a variable such as 'user_string' above
 
 # value passed to int() and float() must LOOK like numbers
 
+### USE PREVIOUS EXAMPLE'S input() TO PRODUCE ERROR ###
+
 # ----------------------------------------------------------------------------------------- #
 
 # arithmetic operators
@@ -98,5 +100,10 @@ The returned string can be stored in a variable such as 'user_string' above
 # ------------------------------------------------------------------------------------ #
 
 # ReAssignment Operators - combine the arithmetic and assignment operators
+
+# x = 4
+
+### SHOW HOW x + 2 DOESN'T CHANGE x
+### SHOW HOW WE NEED TO DO x + 2 AND THEN USE THE RESULT TO REDEFINE x
 
 # ---------------------------------------------------------------------------------------- #
