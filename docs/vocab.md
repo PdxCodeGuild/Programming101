@@ -80,7 +80,7 @@ See "Immutable"
 
 - A collection of variables and methods that act on those variables. 
 
-- A class is a blueprint for an object.
+- A class is a blueprint for an object. Multiple objects can be created from the same class.
 
 - The variables and methods contained in an object are called its 'attributes'
 
