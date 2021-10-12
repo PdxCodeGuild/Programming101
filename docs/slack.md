@@ -32,7 +32,7 @@ Click the icon shaped like a **lightning bolt** on the bottom left of the chat b
 
 ![shortcuts icon](/resources/slack/shortcuts_icon.png)
 
-Select **Create code or text snippet**
+Select **Create code or text snippet**. You may need to search for "snippet" in the dropup menu that appears after clicking the lightning bolt icon.
 
 ![create snippet](/resources/slack/create_code_snippet.png)
 
