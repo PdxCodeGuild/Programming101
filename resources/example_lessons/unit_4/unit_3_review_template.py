@@ -100,14 +100,10 @@ Conditional Statements
 '''
 
 '''
-if/elif combos
---------------
-if
-if / else
-if / elif
-if / elif / else
-if / elif / elif / ... / elif
-if / elif / elif / ... / else
+Conditional statements will always have:
+- 1 if 
+- 0 to infinity elifs
+- 0 or 1 else
 '''
 # ------------------------------------------------------------------------------- #
 

@@ -156,7 +156,7 @@ loop - a code block that repeats until a certain condition is met
 'for' loop
 -----------
 
-for item in sequence - visit each item in a list
+for item in sequence - visit each item in a sequence (list, string, etc.)
 for x in range() - loop a certain number of times
 
 for/in - Python operators
@@ -193,6 +193,7 @@ for color in colors:
 
 # ------------------------------------------------------------------------------------- #
 
+### SUGGESTED PRESENTATION
 ### 1. COPY ABCs VARIABLE FROM random.choice() EXAMPLE ABOVE
 ### 2. LOOP THROUGH ABCs, PRINT EACH letter
 ### 3. DEFINE vowels LIST
