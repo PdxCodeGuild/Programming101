@@ -100,13 +100,6 @@ An item's position in the list is called its 'index' (indices plural)
 
 # glue_string.join(list_of_strings) - join all the string in the list into a single string
 
-
-# ----------------------------------------------------------------------------------------- #
-### THIS SECTION CAN BE SKIPPED, IF NEEDED
-
-# 'nested' lists
-
-
 # -------------------------------------------------------------------------------------------- #
 
 # for item in sequence - loop through each item in a sequence
