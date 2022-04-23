@@ -66,34 +66,6 @@ while len(numbers) < 10:
 
 # ------------------------------------------------------------------------------ #
 
-### THIS EXAMPLE CAN BE CONFUSING TO STUDENTS, 
-### BUT I COULDN'T THINK OF A GOOD EXAMPLE TO BUILD A STRING 
-### THAT WASN'T EXACTLY LIKE THE PASSWORD LAB, LOL
-
-### 1. INTRODUCE EMPTY STRING
-### 2. BUILD LOOP, CONCAT ANY SINGLE CHARACTER TO STRING UNTIL len(pattern) == 10
-### 3. EXPLAIN THAT WE WANT AN ALTERNATING PATTERN, SO MODULUS CAN BE USED
-### 4. BUILD CONDITIONALS, SHOW OUTPUT
-
-# string pattern builder - run a loop to create an alternating pattern of string characters
-
-# blank string to hold the pattern
-pattern = ''
-
-while len(pattern) <= 10:
-
-    # check if the pattern's length is even
-    if len(pattern) % 2 == 0:
-        pattern += '*'
-
-    # check if the pattern's length is odd
-    elif len(pattern) % 2 == 1:
-        pattern += '-'
-
-# print(pattern) # *-*-*-*-*-*
-
-# ------------------------------------------------------------------------------ #
-
 ### 1. USE THE LIST OF numbers GENERATED USING THE LOOP ON LINE 61
 ### 2. REMOVE ONE NUMBER AT A TIME AND PRINT THE LIST AFTER EACH
 ### 3. WALK THROUGH THE OUTPUT IN THE TERMINAL
