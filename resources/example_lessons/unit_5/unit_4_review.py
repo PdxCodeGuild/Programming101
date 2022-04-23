@@ -159,12 +159,12 @@ colors = colors.split(', ')
 # print(colors) # ['red', 'green', 'blue']
 
 
-# glue_string.join(list_of_strings) - join all the string in the list into a single string
-#                                     by placing the 'glue_string' between each pair
-# print(''.join(letters_list)) # ABCDEFG
-# print(', '.join(fruits)) # strawberry, lingonberry, lime, lemon, kiwi, guava, gooseberry
+# ''.join() - joins all items in a sequence, using the string value as a seperator
+# letter_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
 
-# print(' _-^-_ '.join(letters_list)) # A _-^-_ B _-^-_ C _-^-_ D _-^-_ E _-^-_ F _-^-_ G
+# new_string = ', '.join(letter_list)
+
+# print(new_string) # A, B, C, D, E, F, G
 
 
 # ----------------------------------------------------------------------------------------- #
