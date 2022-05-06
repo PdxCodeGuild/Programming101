@@ -21,6 +21,8 @@ Enter your selection:
 3. The computer will randomly choose rock, paper or scissors.
 4. Compare the players' choices and determine who won and tell the user.
 
+NOTE: Do not use index positions during the lab to target any values
+
 ## Possible Combinations
 | Human | Computer | Winner
 |-|-|-|
