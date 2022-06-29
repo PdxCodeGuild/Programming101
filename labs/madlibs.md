@@ -38,7 +38,7 @@ Key responsibilities:
 
 
 ## Extra Challenge 1
-* Make a solution that utilizes lists. For example, ask the user for three adjectives, separated by commas, then use the `.split() `string method to create a list containing each adjective
+* Make a solution that asks for a number and does a mathematical operation printing out the result of the math
 
 ## Extra Challenge 2
 * Make it a repeatable game using a `while` loop
