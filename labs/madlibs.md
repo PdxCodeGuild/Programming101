@@ -38,7 +38,7 @@ Key responsibilities:
 
 
 ## Extra Challenge 1
-* Make a solution that asks for a number and does a mathematical operation printing out the result of the math
+* Make a solution that asks for a number or numbers, and does a mathematical operation printing out the result of the math
 
 ## Extra Challenge 2
 * Make it a repeatable game using a `while` loop
