@@ -59,7 +59,6 @@ Comments
 
 # .replace(old_str, new_str) - replace all occurrences of the old_str with the new_str
 
-### THIS CAN BE SKIPPED, IF NEEDED
 # methods can be chained
 # each subsequent method will operate on the return value of the previous
 
