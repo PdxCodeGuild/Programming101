@@ -3,7 +3,7 @@ Programming 101
 Unit 2
 '''
 
-# ---------------------------------------------------------------------------- #
+# ------------------------------------Variables---------------------------------------- #
 
 # EXPLAIN THATIF WE WANT TO PRINT THE COLOR 5 TIMES, 
 # WE NEED TO CREATE 5 INDIVIDUAL STRINGS THE WAY WE'VE SEEN IT SO FAR
@@ -131,11 +131,7 @@ user_string = input('prompt message')
 
 '''
 
-### 1. RUN CODE WITHOUT input() TO SHOW THAT IT RUNS ALL THE WAY THROUGH
-### 2. RUN input() AND SHOW THAT THE CODE IS WAITING (BLINKING CURSOR) AND WE CAN TYPE IN THE TERMINAL
-### 3. WRITE A prompt_message STRING WITHOUT COLON/SPACE AND RUN AGAIN TO SHOW OUTPUT
-### 4. ADD A COLON/SPACE FOR FORMATTING
-### 5. CATCH THE RETURN VALUE IN A VARIABLE AND PRINT IN AN F-STRING
+
 
 # color = input('Enter a color: ')
 # print(f"Favorite color: {color}")
