@@ -43,7 +43,6 @@ An item's position in the list is called its 'index' (indices plural)
 # step off the left edge of the list
 
 # ------------------------------------------------------------------------------------------ #
-### THIS SECTION CAN BE SKIPPED, IF NEEDED
 
 # strings are also 'ordered' sequences
 
