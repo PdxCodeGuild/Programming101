@@ -156,14 +156,16 @@ float(object) - return a float representation of the object, if possible
 '''
 number = input('Please enter a number: ')
 
-print(number, type(number)) # 9 <class 'str'>
 print(number + number) # '99'
+print(number, type(number)) # 9 <class 'str'>
+
 
 # redefine the string number as a float
 number = float(number)
 
-print(number, type(number)) # 9.0 <class 'float'>
 print(number + number) # 18.0
+print(number, type(number)) # 9.0 <class 'float'>
+
 '''
 
 # ---------------------------------------------------------------------------------- #
