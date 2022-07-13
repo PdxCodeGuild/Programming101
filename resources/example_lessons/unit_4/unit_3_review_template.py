@@ -75,12 +75,6 @@ Unit 3 Review
 # 'not' works in front of any code that produces a boolean
 # .isnumeric() - string method which returns a boolean indicating if the string is all numbers or not
 
-
-# ----------------------------------------------------------------------------------------- #
-
-### THIS SECTION CAN BE SKIPPED, IF NEEDED
-# 'not' with Truthy/Falsey
-
 # ------------------------------------------------------------------------------------------------ #
 
 # Conditional Statements - run different 'code blocks' based on the outcome of comparisons
@@ -106,10 +100,6 @@ Conditional statements will always have:
 - 0 or 1 else
 '''
 # ------------------------------------------------------------------------------- #
-
-
-
-# ----------------------------------------------------------------------------------- #
 
 # 'nested conditionals' - conditionals within the code block of other conditionals
 
