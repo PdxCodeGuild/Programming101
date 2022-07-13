@@ -59,6 +59,10 @@ Comments
 '' # empty string
 "" # empty string
 
+' ' # symbol of a space
+" " # symbol of a space
+
+
 # ---------------------------------------------------------------------------------------- #
 
 # type(object) - return the datatype of the object
@@ -66,6 +70,7 @@ Comments
 
 # print(type('')) # <class 'str'>
 # print(type('3.14')) # <class 'str'>
+print(type(3)) # <class 'int'>
 
 # ------------------------------------------------------------------------------------------ #
 
