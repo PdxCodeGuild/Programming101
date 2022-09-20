@@ -58,7 +58,7 @@ Comments
 
 # print('pdx'+'code') # pdxcode
 
-# print three words the space between
+# print three words with spaces between
 
 # print('pdx'+ ' ' + 'code' + ' ' + 'guild') # pdx code guild
 
