@@ -97,7 +97,7 @@ An item's position in the list is called its 'index' (indices plural)
 
 # .split(separator) - split the string into a list at each instance of the separator character
 
-# glue_string.join(list_of_strings) - join all the string in the list into a single string
+# ''.join() - joins all items in a sequence, using the string value as a seperator
 
 # -------------------------------------------------------------------------------------------- #
 
