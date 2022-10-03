@@ -1,177 +1,210 @@
 '''
 Programming 101
-Unit 3
+Unit 2 Variables, Input Function
 '''
 
-# Datatype: boolean (bool)
+# ------------------------------------Variables---------------------------------------- #
 
-# True / False
-
-a = True
-b = False
-
-# print(a, type(a)) # True <class 'bool'>
-# print(b, type(b)) # False <class 'bool'>
-
-# in Python, booleans are capitalized
-# b = true # NameError: name 'true' is not defined
-# --------------------------------------------------------------------------------------------------- #
+# print('purple') # purple 
+# print('purple') # purple
+# print('purple') # purple
+# print('purple') # purple
+# print('purple') # purple
 
 
-# Comparison Operators - compare two pieces of data and result in a boolean
+# print('green') # green 
+# print('purple') # purple
+# print('purple') # purple
+# print('purple') # purple
+# print('purple') # purple
+
+color = 'purple'
 
 
-x = 5
-y = 5
+# print(color) # purple
+# print(color) # purple
+# print(color) # purple
+# print(color) # purple
+# print(color) # purple
+# ---------------------------------------------------------------------------- #
+
+'''
+Variables
+
+- are used to store data that the program will use later
+- can store objects of ANY datatype
+- BECOME the datatype of the object they store
+- can be given new values (be 'redefined')
+'''
 
 # = is the assignment operator
+# it assigns the value on the right to the variable on the left
 
-# print(x == y) # == check equality - True
-# print(x != y) # != check inequality - False
+color = 'pink'
+# print(color) # pink
+# ---------------------------------------------------------------------------- #
+
+# variable 'color' IS a string because it CONTAINS a string
+# print(type(color)) # <class 'str'>
+
+# since 'color' contains a string, it can be used in string operations
+# print(color.upper()) # PINK
+# print(color) # pink
+
+# redefine the value within 'color'
+color = 'purple'
+# print(color) # purple
+
+# redefine the 'color' variable using the return value from .upper()
+color = color.upper()
+# print(color) # PURPLE
+# ---------------------------------------------------------------------------- #
+
+first_name = 'James'
+
+# concatenate the values within the variables
+
+output = 'My name is ' + first_name + ' and my favorite color is ' + color.lower() + '.'
+# print(output) # My name is James and my favorite color is purple.
+
+# ---------------------------------------------------------------------------- #
+
+'''
+Python Variable Names
+
+- must start with a letter or underscore
+- cannot start with a number
+- can only contain alphanumeric characters and underscores (A-z, 0-9, and _)
+- are case sensitive (age, Age, AGE are 3 different variables)
+'''
+
+# user_name_1 = 'Athena' # valid variable name
+# 1u$ern@me = 'Hades' # invalid variable name
+
+# python_variable_and_function_names_use_snake_case
+# all lowercase words separated with underscores
+
+# variable names should aim to describe the data they contain
+phone_number = '7674352647' # good
+p = '8768562323' # bad
+
+# ---------------------------------------------------------------------------- #
+
+city = 'Portland'
+temp = 70 # integer - int
 
 
-# print(x < y) # < 'strictly' less than - False
-# print(x <= y) # <= less than or equal to - True
+# concatenation only works between strings
+# other datatypes wil lneed to be 'typecast' as strings using str()
+# str(object) - return a string representation of the object
+
+message = 'Welcome to ' + city + '! The temp today was ' + str(temp) + ' degrees!'
+# print(message) # Welcome to Portland! The temp today was 70 degrees!
+
+'''
+f-string
+
+- 'f' stands for 'formatted'
+- begin with and 'f' before the opening quote
+- Python expressions (code) can be placed within the f-string using curly brackets {}
+- don't care about datatype
+'''
+
+message = f'Welcome to {city}! The temp today was {temp} degrees!'
+# print(message) # Welcome to Portland! The temp today was 70 degrees!
+# ---------------------------------------------------------------------------- #
+
+# input() - allow the user to interact with the code from the terminal
+
+'''
+user_string = input('prompt message')
+
+- Print the 'prompt message' and wait for the user to hit Enter
+- Once the user hits Enter, anything they typed in the terminal will be returned from input()
+- The returned string can be stored in a variable such as 'user_string' above
+'''
+
+# color = input('Enter a color: ')
+# print(f'Favorite color: {color}')
+# ---------------------------------------------------------------------------- #
 
 
-# print(x > y) # > 'strictly' greater than - False
-# print(x >= y)  # >= greater than or equal to - True
+
+'''
+input() always returns a string
+
+In order to use input() for datatypes other than strings,
+the return value will need to be typecast
+
+Integer (int) - whole numbers
+Float (float) - decimal numbers
+
+Typecasting functions
+str(object) - return a string representation of the object, if possible
+int(object) - return a integer representation of the object, if possible
+float(object) - return a float representation of the object, if possible
+'''
+'''
+number = input('Please enter a number: ')
+
+print(number + number) # '99'
+print(number, type(number)) # 9 <class 'str'>
+
+# redefine the string number as a float
+number = float(number)
+
+print(number + number) # 18.0
+print(number, type(number)) # 9.0 <class 'float'>
+'''
+# ---------------------------------------------------------------------------- #
+"""
+# Find the area of a rectangle with user-defined sides
+
+# have the user define the height and width of the rectangle
+height = input('Enter the height of the rectangle: ')
+width = input('Enter the width of the rectangle: ')
+
+# convert the height and width from strings to floats
+height = float(height)
+width = float(width)
 
 
-# check the result of some math
-# print (x / 2 == 2.5) # True
+# calculate the area
+area = height * width # * is multiplication
 
-# check for a particular value in a variable
+# display the result
+result = f'''
+Area of a Rectangle
+-------------------
+height ... {height}
+width .... {width}
+area ..... {area}'''
 
-# print(x == 5) # True
+# print(result)
+"""
 
-# print(x == 99) # False
-# ----------------------------------------------------------------------- #
-
-# other datatypes can be compared as well
-# can't compare unlike datatypes
-
-word_1 = 'catt'
-word_2 = 'catt'
-
-# print(word_1 == word_2) # True
-# print(word_1 == 'cat') # False
-
-# ----------------------------------------------------------------------- #
-
-# logical Operators - combine the results of two comparisons into a single boolean 
-# and, or, not
+# ---------------------------------------------------------------------------- #
 
 
-x = 5 
+# arithmetic operators (math)
+
+x = 5
 y = 3
 
-# and = True only if BOTH comparisons result in True
 
-# print(x == 5 and y == 3) # True - both comparisons result in True
+# print(x + y) # addition +
+# print(x - y) # subtraction -
 
-# print(x == 5 and x == y) # False - right comparison (x == y) results in False
+# print(x * y) # multiplication *
+# print(x ** y) # exponentiation ** (x^y)
 
-# or - True if at least ONE comparison is True
-# print(x == 5 or x == y) # True - left comparison (x == 5) results in True
-# print(x == 1 or x == y) # False - both comparisons result in False
+# print(x / y) # 'regular' division / (results in a float)
+# print(x // y) # 'floor' division // (always rounds down to the nearest integer)
 
+# print(x % y) # modulus % (remainder after division)
+# ---------------------------------------------------------------------------- #
 
-# not - flip a boolean
-# print(x < 0)
-# print(not x < 0) # True
-
-# ------------------------------------------------------------------------------------ #
-
-# 'not' is often used with the keyword 'in' to determine if an item is 'in' a sequence (list, string, etc..)
-
-word = 'book'
-
-# print('k' in word) # True
-# print('z' not in word) # True
-
-# ------------------------------------------------------------------------------------ #
-
-'''
-Conditional statements - if / elif / else
-
-
-Run different code blocks based on the outcome of comparisons.
-
-Code Block
-----------
-
-A section of code that executes together.
-In Python, code blocks are defined using horizontal indentation
-
-- must start with if
-- every single if statement will be checked
-- elif will only be checked if the preceding if and other elifs were False
-- if/elif will only be checked until a True condition is found
-- else will be run if all other conditions were False
-
-'''
-
-# ------------------------------------------------------------------------------------- #
-
-
-light_switch = 'ON'
-
-if light_switch == 'ON': # colon signifies the beginning of a code block
-    # first line in a code block determines the indentation for the block
-    message = 'I can see!'
-    
-elif light_switch == 'OFF':
-    
-    message = "It's dark in here!"
-elif light_switch == 'DIM':
-    
-    message = 'The light is dim...'
-else:
-    
-    message = 'The light is broken...'
-    
-# print(message)
-
-# -------------------------------------------------------------------------------------- # 
-
-x = 10
-y = 10
-
-if x < y:
-    output = f'{x} is less than {y}'
-    
-elif x == 14:
-    output = 'x is 14'
-    
-elif x > y:
-    output = f'{x} is greater than {y}'
-    
-else:
-    output = f'x and y are both {x}'
-    
-# print(output)
-# ---------------------------------------------------------------------------------- #
-# pretend this is line 1 of the file (imports are always at the top)
-import random
-
-# set the secret 1-10
-# secret = 5
-
-secret = random.randint(1, 100000)
-
-# ask the user to guess a number
-guess = input('Guess a number between 1 and 10: ')
-
-# convert the guess to an integer
-guess = int(guess)
-
-
-if guess == secret:
-    print(f'Congratulations! you guess the secret number: {secret}')
-    
-elif guess < secret:
-    print(f'Oops! Your guess of {guess} was too low! The secret number was {secret}...')
-    
-elif guess > secret:
-    print(f'Oops! Your guess of {guess} was too high! The secret number was {secret}...')
+# // and % are compliments
+# print(75 / 10) # 7.5
+# print(75 // 10) # 7
+# print(75 % 10) # 5
