@@ -4,7 +4,7 @@
 - [Back to Unit 2](https://github.com/PdxCodeGuild/Programming101/blob/master/units/unit-2.md)
 - [Back to Syllabus](https://github.com/PdxCodeGuild/Programming101)
 
-Write a simple program that prompts the user for several inputs then
+Write a simple program that prompts the user for seven inputs then
 prints a [Mad Lib](https://en.wikipedia.org/wiki/Mad_Libs) as the result.
 
 It can be a little tricky to find a plain-text Mad Lib that's easy to copy and paste. Instead, choose some song lyrics, a poem or quote, or create your own story.
