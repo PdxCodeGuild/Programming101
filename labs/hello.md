@@ -1,4 +1,4 @@
-## **Hello World!**
+## **Lab 1**
 
 [Back to Unit 1](https://github.com/PdxCodeGuild/Programming101/blob/master/units/unit-1.md)
 
