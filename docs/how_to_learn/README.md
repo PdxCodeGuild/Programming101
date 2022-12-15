@@ -5,7 +5,7 @@
 
 <h2 align="center">Strategic Learning</h2>
 
-<h3 align="center">A Practical Approach to Conitued Education</h3>
+<h3 align="center">A Practical Approach to Continued Education</h3>
 
 
 ---
