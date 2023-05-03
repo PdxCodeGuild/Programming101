@@ -1,6 +1,6 @@
 '''
 Programming 101
-Unit 2 Variables, Input Function
+Unit 2
 '''
 
 # ------------------------------------Variables---------------------------------------- #
