@@ -31,8 +31,8 @@ while awake: # same as awake == True
     if sheep == sheep_to_sleep:
         awake = False
 
-    # sweet dreams
-    print('\n...zZzZzZzZ...')
+# sweet dreams
+print('\n...zZzZzZzZ...')
 ```
 
 **Output**
