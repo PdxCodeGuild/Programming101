@@ -28,8 +28,8 @@ while awake: # same as awake == True
     sheep += 1
 
     # fall asleep
-if sheep == sheep_to_sleep:
-    awake = False
+    if sheep == sheep_to_sleep:
+        awake = False
 
     # sweet dreams
     print('\n...zZzZzZzZ...')
