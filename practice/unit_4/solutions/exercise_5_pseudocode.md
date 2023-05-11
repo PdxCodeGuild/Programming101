@@ -8,10 +8,10 @@
         set 'swap' variable to False
 
         loop: j = 0 -> (length of list - 1)
-            if list[j] is less than list[j+1]
+            if list[j] is greater than list[j+1]
                 place list[j] in a 'bubble' variable
 
-                put list[j+1] at list[j]
+                put list[j] at list[j+1]
 
                 put bubble at list[j+1]
 
