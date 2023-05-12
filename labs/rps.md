@@ -47,6 +47,6 @@ Ask the user if they want to play again, using a while loop.
 
 ## Extra Challenge 3
 
-Use a dictionary where each key is one of the choices, and the value is what the key loses to.
+We can catch all the win conditions for a Rock, Paper, Scissors game with three conditional statements. To do this, we will need to make a dictionary with three key-value pairs. Each key will represent either Rock, Paper, or Scissors, and the corresponding value for each key will indicate what that key loses to. For example, if the key is Rock, the value will be Paper.
 
 [//]: # (instructor note: write the tie case, the first case, have them write the others using elif)
